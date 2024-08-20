@@ -1,0 +1,14 @@
+{
+  "name": "HWIIRON",
+  "short_name": "HWIIRON",
+  "icons": [{
+    "src": "images/pwa/icon-152x152.png",
+    "sizes": "152x152",
+    "type": "image/png"
+  }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#fff"
+}

@@ -1,0 +1,607 @@
+/* pc 시작 */
+
+/* header 시작 */
+header{
+  border: 0px solid red;
+  width: 100%;
+  height: 100px;
+}
+
+header div.inner{
+  border: 0px solid blue;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+header div.inner div#cate_btn{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 999;
+}
+
+header div.inner div#cate_btn img:hover{
+  opacity: 0.5;
+}
+
+header div.inner div.cate_layer{
+  z-index: 99;
+  position: relative;
+  background-color: #fff;
+}
+
+header div.inner div.cate_layer ul li{
+  margin: 0 auto;
+  text-align: center;
+  padding: 45px;
+}
+
+header div.inner div.cate_layer ul li:first-child{
+  border: 0px solid red;
+  padding-top: 100px;
+}
+
+header div.inner div.cate_layer ul li a{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+}
+
+header div.inner div.cate_layer ul li a:hover{
+  color: red;
+}
+
+header div.inner nav{
+  border: 0px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+
+header div.inner nav ul{
+  border: 0px solid green;
+  width: 79%;
+  height: 100%;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+
+header div.inner nav ul li{
+  border: 0px solid black;
+  display: table-cell;
+  text-align: center;
+  width: 14%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+header div.inner nav ul li a{
+  border: 0px solid red;
+  /* background-color: yellow; */
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header div.inner nav ul li:nth-child(4) a{
+  border: 0px solid green;
+  margin-top: 0;
+}
+
+header div.inner nav ul li a:hover{
+  color: #db0008;
+}
+
+header div.inner div#SG{
+  border: 0px solid black;
+  position: absolute;
+  right: 0;
+  top: 37px;
+}
+
+header div.inner div#SG div#SEARCH{
+  border: 0px solid red;
+  float: left;
+  margin-right: 30px;
+  margin-top: 2px;
+}
+
+header div.inner div#SG div#SEARCH:hover{
+  opacity: 0.5;
+}
+
+header div.inner div#SG div#GLOBAL{
+  float: left;
+}
+
+header div.inner div#SG div#GLOBAL:hover{
+  opacity: 0.5;
+}
+/* header 종료 */
+
+
+
+
+
+/* footer 시작 */
+footer{
+  border-top: 1px solid #acacac;
+}
+
+footer div.inner{
+  border: 0px solid red;
+  width: 76%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+
+
+
+/* left 시작 */
+footer div.inner div.left{
+  border: 0px solid orange;
+  float: left;
+}
+
+footer div.inner div.left h2{
+  border: 0px solid green;
+  padding: 20px 0 20px 0;
+}
+
+footer div.inner div.left p{
+  border: 0px solid red;
+  display: inline-block;
+  padding-bottom: 32px;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 14px; */
+  font-size: 0.73vw;
+  font-weight: 400;
+}
+
+footer div.inner div.left p:nth-child(2){
+  border: 0px solid black;
+  display: block;
+  padding-bottom: 10px;
+}
+/* left 종료 */
+
+
+
+
+
+/* right-nav 시작 */
+footer div.inner div.right{
+  border: 0px solid blue;
+  float: right;
+}
+
+footer div.inner div.right ul#nav li{
+  border: 0px solid red;
+  display: inline-block;
+  padding: 30px 6px 0 6px;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 14px; */
+  font-size: 0.73vw;
+  font-weight: 400;
+}
+
+footer div.inner div.right ul#nav li:last-child{
+  padding-right: 0;
+}
+/* right-nav 종료 */
+
+
+
+
+
+/* right-sns 시작 */
+footer div.inner div.right ul#sns{
+  border: 0px solid red;
+  overflow: hidden;
+  float: right;
+}
+
+footer div.inner div.right ul#sns li{
+  border: 0px solid green;
+  float: left;
+  padding: 28px 6px 0 6px;
+}
+/* right-sns 종료 */
+
+/* footer 종료 */
+
+/* pc 종료 */
+
+
+
+
+
+/* 고해상도 미디어쿼리 시작 */
+@media all and (min-width:1921px){
+  header div.inner{
+    width: 1820px;
+  }
+
+  footer div.inner{
+    width: 1820px;
+  }
+}
+/* 고해상도 미디어쿼리 종료 */
+
+
+
+
+
+/* pc형에서 태블릿, 모바일 가리기 */
+header div.inner h1.logo_t{
+  display: none;
+}
+
+footer div.inner h2.logo_t{
+  display: none;
+}
+
+header div.inner h2.logo_m{
+  display: none;
+}
+
+header div.inner div#QNB_m{
+  display: none;
+}
+
+header div.inner div#cate_btn_m{
+  display: none;
+}
+
+footer div.inner div.right ul#sns-tm{
+  display: none;
+}
+
+footer div.inner div.right p{
+  display: none;
+}
+
+
+
+
+
+/* 태블릿 시작 */
+@media all and (min-width: 600px) and (max-width: 1200px){
+  /* header 시작 */
+  header{
+    border: 0px solid red;
+    height: 70px;
+  }
+
+  header div.inner{
+    border: 0px solid blue;
+  }
+
+  header div.inner h1.logo_t{
+    border: 0px solid orange;
+    display: block;
+    text-align: center;
+    padding-top: 16px;
+  }
+
+  header div.inner div#cate_btn{
+    top: 24px;
+  }
+
+  header div.inner div.cate_layer{
+    width: 25vw;
+    height: 100vh;
+  }
+  
+  header div.inner div.cate_layer ul li{
+    padding: 30px;
+  }
+  
+  header div.inner div.cate_layer ul li:first-child{
+    padding-top: 100px;
+  }
+  
+  header div.inner div.cate_layer ul li a{
+    font-size: 18px;
+  }
+
+  header div.inner nav{
+    display: none;
+  }
+
+  header div.inner div#SG{
+    top: 21px;
+  }
+
+  header div.inner div#SG div#SEARCH{
+    display: none;
+  }
+  /* header 종료 */
+
+
+
+
+
+  /* footer 시작 */
+  footer div.inner{
+    border: 0px solid red;
+    width: 81%;
+    position: relative;
+  }
+
+  footer div.inner div.left{
+    display: none;
+  }
+
+  footer div.inner h2.logo_t{
+    border: 0px solid orange;
+    display: block;
+    text-align: center;
+    /* padding-top: 25px; */
+    padding-top: 3.13vh;
+  }
+
+  footer div.inner div.right{
+    width: 100%;
+    text-align: center;
+  }
+
+  footer div.inner div.right p{
+    border: 0px solid red;
+    display: block;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    font-weight: 400;
+    color: #a2a2a2;
+    float: left;
+    padding: 3.13vh 0 3.25vh 7.5vw;
+  }
+
+  footer div.inner div.right ul{
+    border: 0px solid yellow;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  footer div.inner div.right ul#nav li{
+    border: 0px solid red;
+    /* padding: 0 4px 0 4px; */
+    padding: 0 0.5vw 0 0.5vw;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    font-weight: 500;
+    color: #333;
+  }
+
+  footer div.inner div.right ul#nav li:nth-child(9){
+    display: none;
+  }
+
+  footer div.inner div.right ul#sns{
+    display: none;
+  }
+
+  footer div.inner div.right ul#sns-tm{
+    border: 0px solid orange;
+    width: 50%;
+    float: right;
+    display: block;
+    overflow: hidden;
+    padding: 3.13vh 7.5vw 3.25vh 0;
+  }
+
+  footer div.inner div.right ul#sns-tm li{
+    border: 0px solid yellow;
+    float: right;
+    padding: 0 5px 0 5px;
+  }
+
+  footer div.inner div.right ul#sns-tm li img{
+    border: 0px solid blue;
+  }
+  /* footer 종료 */
+}
+/* 태블릿 종료 */
+
+
+
+
+
+/* 태블릿 footer 700~750 시작 */
+@media all and (min-width: 700px) and (max-width: 750px){
+  footer div.inner{
+    width: 68%;
+  }
+
+  footer div.inner div.right p{
+    padding: 3.13vh 0 3.25vh 0;
+  }
+
+  footer div.inner div.right ul#sns-tm{
+    padding: 3.13vh 0 3.25vh 0;
+  }
+}
+/* 태블릿 footer 700~750 종료 */
+
+
+
+
+
+/* 태블릿 footer 600~700 시작 */
+@media all and (min-width: 600px) and (max-width: 700px){
+  footer div.inner div.right p{
+    width: 100%;
+    padding: 30px 0 30px 0;
+  }
+
+  footer div.inner div.right ul#sns-tm{
+    display: none;
+  }
+}
+/* 태블릿 footer 600~700 종료 */
+
+
+
+
+
+/* 모바일 시작 */
+@media all and (max-width: 599px){
+  /* header 시작 */
+  header{
+    border: 0px solid red;
+    width: 100%;
+    height: 60px;
+  }
+
+  header div.inner nav{
+    border: 0px solid orange;
+    display: none;
+  }
+
+  header div.inner div#SG{
+    display: none;
+  }
+
+  header div.inner div#cate_btn{
+    display: none;
+  }
+
+  header div.inner h1.logo_t{
+    display: none;
+  }
+
+  header div.inner h2.logo_m{
+    border: 0px solid orange;
+    display: block;
+    height: 100%;
+    text-align: center;
+    padding-top: 12px;
+  }
+
+  header div.inner div#cate_btn_m{
+    border: 0px solid yellow;
+    display: block;
+    position: absolute;
+    top: 23px;
+  }
+
+  header div.inner div.cate_layer{
+    width: 40vw;
+    height: 100vh;
+  }
+  
+  header div.inner div.cate_layer ul li{
+    padding: 20px;
+  }
+  
+  header div.inner div.cate_layer ul li:first-child{
+    padding-top: 100px;
+  }
+  
+  header div.inner div.cate_layer ul li a{
+    font-size: 16px;
+  }
+  /* header 종료 */
+
+
+
+
+
+  /* footer 시작 */
+  footer{
+    border: 0px solid orange;
+    border-top: 1px solid #d1d1d1;
+    padding-bottom: 25px;
+  }
+
+  footer div.inner h2.logo_t{
+    border: 0px solid red;
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  footer div.inner div.right ul#nav{
+    display: none;
+  }
+
+  footer div.inner div.right ul#sns{
+    display: none;
+  }
+
+  footer div.inner div.right{
+    border: 0px solid red;
+    width: 100%;
+  }
+
+  footer div.inner div.right ul#sns-tm{
+    border: 0px solid blue;
+    display: block;
+    text-align: center;
+  }
+
+  footer div.inner div.right ul#sns-tm li{
+    border: 0px solid orange;
+    display: inline-block;
+    padding: 20px 7px 0 7px;
+  }
+
+  footer div.inner div.left h2{
+    display: none;
+  }
+
+  footer div.inner div.left{
+    width: 100%;
+  }
+
+  footer div.inner div.left p:nth-child(2){
+    border: 0px solid blue;
+    font-size: 11px;
+    /* font-size: 1.83vw; */
+    color: #a2a2a2;
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+
+  footer div.inner div.left p:nth-child(3) {
+    display: none;
+  }
+  
+  footer div.inner div.left p:nth-child(4) {
+    display: none;
+  }
+  
+  footer div.inner div.left p:nth-child(5) {
+    display: none;
+  }
+  /* footer 종료 */
+}
+/* 모바일 종료 */
+
+
+
+
+
+/* 모바일 footer 320~450 시작 */
+@media all and (min-width: 320px) and (max-width: 450px){
+  footer div.inner{
+    width: 100%;
+  }
+
+  footer div.inner div.left p:nth-child(2){
+    font-size: 11px;
+  }
+}
+/* 모바일 footer 320~450 종료 */

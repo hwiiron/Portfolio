@@ -1,0 +1,8831 @@
+/* pc 시작 */
+
+/* visual 시작 */
+#visual{
+  /* width: 100%;
+  height: 90%; */
+  border: 0px solid red;
+  width: 100%;
+  height: 92.5%;
+}
+
+#visual div.swiper-container{
+  border: 0px solid blue;
+  width: 95%;
+  height: 95%;
+  margin: 0 auto;
+}
+
+#visual div.swiper-container div.swiper-slide.main_bg01{
+  border: 0px solid red;
+  width: 100%;
+  height: 100%;
+  background: url(../images/main/visual_img1.png) no-repeat top center;
+  background-size: cover;
+}
+
+#visual div.swiper-container div.swiper-slide.main_bg02{
+  border: 0px solid red;
+  width: 100%;
+  height: 100%;
+  background: url(../images/main/visual_img2.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#visual div.swiper-container div.swiper-slide.main_bg03{
+  border: 0px solid red;
+  width: 100%;
+  height: 100%;
+  background: url(../images/main/visual_img3.png) no-repeat center center;
+  background-size: cover;
+}
+
+#visual div.swiper-container div.swiper-slide.main_bg04{
+  width: 100%;
+  height: 100%;
+  background: url(../images/main/visual_img4.png) no-repeat center center;
+  background-size: cover;
+}
+/* visual 종료 */
+
+
+
+
+
+/* contents_1 시작*/
+
+/* content_1 상단 text 시작 */
+#c01{
+  border: 0px solid red;
+  width: 100%;
+  height: auto;
+}
+
+#c01 div.inner{
+  border: 0px solid blue;
+  width: 53%;
+  margin: 0 auto;
+}
+
+#c01 div.inner h3{
+  border: 0px solid red;
+  text-align: center;
+  padding-top: 100px;
+  /* padding-top: 9.26vh; */
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 120px; */
+  font-size: 6.25vw;
+  font-weight: 700;
+  color: #c2c2c2;
+}
+
+#c01 div.inner p{
+  border: 0px solid orange;
+  text-align: center;
+  padding-top: 20px;
+  /* padding-top: 1.85vh; */
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 20px; */
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: #c2c2c2;
+}
+/* contents_1 상단 text 종료 */
+
+
+
+
+
+/* left img 시작 */
+#c01 div.inner div.ib{
+  border: 0px solid yellow;
+  padding-top: 60px;
+  /* padding-top: 5.56vh; */
+  overflow: hidden;
+}
+
+#c01 div.inner div.ib ul.left{
+  border: 0px solid red;
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+
+#c01 div.inner div.ib ul.left li{
+  border: 0px solid yellow;
+  position: relative;
+}
+
+#c01 div.inner div.ib ul.left li:nth-child(1) img{
+  border: 0px solid red;
+  margin-bottom: 40px;
+  /* margin-bottom: 3.7vh; */
+}
+
+#c01 div.inner div.ib ul.left div.text{
+  border: 0px solid red;
+  position: absolute;
+  top: 45px;
+  left: 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#c01 div.inner div.ib ul.left div.text h4{
+  border: 0px solid yellow;
+  /* font-size: 20px; */
+  font-size: 1.04vw;
+  font-weight: 500;
+  color: #fff;
+}
+
+#c01 div.inner div.ib ul.left div.text p{
+  /* font-size: 100px; */
+  font-size: 5.21vw;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 0;
+  text-align: left;
+}
+
+#c01 div.inner div.ib ul.left div.text span{
+  /* font-size: 20px; */
+  font-size: 1.04vw;
+  font-weight: 500;
+  line-height: 9;
+}
+/* left img 종료 */
+
+
+
+
+
+/* right img 시작 */
+#c01 div.inner div.ib ul.right{
+  border: 0px solid green;
+  width: 48%;
+  margin-left: 2%;
+  float: left;
+  padding-top: 100px;
+  /* padding-top: 9.26%; */
+}
+
+#c01 div.inner div.ib ul.right li{
+  border: 0px solid yellow;
+  position: relative;
+}
+
+#c01 div.inner div.ib ul.right li:nth-child(1) img{
+  border: 0px solid red;
+  margin-bottom: 40px;
+  /* margin-bottom: 3.7vh; */
+}
+
+#c01 div.inner div.ib ul.right div.text{
+  border: 0px solid red;
+  position: absolute;
+  top: 45px;
+  left: 30px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#c01 div.inner div.ib ul.right div.text h4{
+  border: 0px solid yellow;
+  /* font-size: 20px; */
+  font-size: 1.04vw;
+  font-weight: 500;
+  color: #fff;
+}
+
+#c01 div.inner div.ib ul.right div.text p{
+  border: 0px solid red;
+  /* font-size: 100px; */
+  font-size: 5.21vw;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 0;
+  text-align: left;
+}
+
+#c01 div.inner div.ib ul.right div.text span{
+  /* font-size: 20px; */
+  font-size: 1.04vw;
+  font-weight: 500;
+  line-height: 9;
+}
+/* rigit img 종료 */
+
+/* contents_1 종료*/
+
+
+
+
+
+/* contents_2 시작*/
+
+/* content_2 상단 text 시작 */
+#c02{
+  border: 0px solid red;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#c02 div.inner{
+  border: 0px solid blue;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#c02 div.inner h3{
+  border: 0px solid black;
+  text-align: center;
+  padding-top: 150px;
+  /* padding-top: 13.89vh; */
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 120px; */
+  font-size: 6.25vw;
+  font-weight: 700;
+  color: #c2c2c2;
+}
+
+#c02 div.inner p{
+  border: 0px solid pink;
+  text-align: center;
+  /* padding-top: 20px; */
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 20px; */
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: #c2c2c2;
+}
+/* content_2 상단 text 종료 */
+
+
+
+
+
+/* up시작 */
+#c02 div.inner div.up{
+  border: 0px solid red;
+  overflow: hidden;
+  margin-top: 60px;
+  /* padding-top: 5.56vh; */
+}
+
+#c02 div.inner div.up div.a{
+  border: 0px solid red;
+  width: 39%;
+  overflow: hidden;
+  float: left;
+}
+
+#c02 div.inner div.up p.box01{
+  border: 0px solid red;
+  background: url(../images/main/contents2_bg_1.png) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  /* height: 420px; */
+  height: 38.89vh;
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+#c02 div.inner div.up p.box01:hover{
+  transform: scale(1.05);
+}
+
+#c02 div.inner div.up p.box01 img.a{
+  border: 0px solid red;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#c02 div.inner div.up div.b{
+  border: 0px solid red;
+  width: 24%;
+  overflow: hidden;
+  float: left;
+  margin-left: 2%;
+}
+
+#c02 div.inner div.up p.box02{
+  border: 0px solid orange;
+  background: url(../images/main/contents2_bg_2.png) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  /* height: 420px; */
+  height: 38.89vh;
+  padding-top: 0;
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+#c02 div.inner div.up p.box02:hover{
+  transform: scale(1.05);
+}
+
+#c02 div.inner div.up p.box02 img.b{
+  border: 0px solid red;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#c02 div.inner div.up div.c{
+  border: 0px solid red;
+  width: 24%;
+  overflow: hidden;
+  float: left;
+  margin-left: 2%;
+}
+
+#c02 div.inner div.up p.box03{
+  border: 0px solid yellow;
+  background: url(../images/main/contents2_bg_3.png) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  /* height: 420px; */
+  height: 38.89vh;
+  padding-top: 0;
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+#c02 div.inner div.up p.box03:hover{
+  transform: scale(1.05);
+}
+
+#c02 div.inner div.up p.box03 img.c{
+  border: 0px solid red;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* up종료 */
+
+
+
+
+
+/* down시작 */
+#c02 div.inner div.down{
+  border: 0px solid red;
+  overflow: hidden;
+  margin-top: 40px;
+  /* padding-top: 3.7vh; */
+}
+
+#c02 div.inner div.down div.d{
+  border: 0px solid red;
+  width: 39%;
+  overflow: hidden;
+  float: right;
+  margin-left: 2%;
+}
+
+#c02 div.inner div.down p.box04{
+  border: 0px solid green;
+  background: url(../images/main/contents2_bg_4.png) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  /* height: 420px; */
+  height: 38.89vh;
+  padding-top: 0;
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+#c02 div.inner div.down p.box04:hover{
+  transform: scale(1.05);
+}
+
+#c02 div.inner div.down p.box04 img.d{
+  border: 0px solid red;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#c02 div.inner div.down div.e{
+  border: 0px solid red;
+  width: 24%;
+  overflow: hidden;
+  float: right;
+  margin-left: 2%;
+}
+
+#c02 div.inner div.down p.box05{
+  border: 0px solid blue;
+  background: url(../images/main/contents2_bg_5.png) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  /* height: 420px; */
+  height: 38.89vh;
+  padding-top: 0;
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+#c02 div.inner div.down p.box05:hover{
+  transform: scale(1.05);
+}
+
+#c02 div.inner div.down p.box05 img.e{
+  border: 0px solid red;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#c02 div.inner div.down div.f{
+  border: 0px solid red;
+  width: 24%;
+  overflow: hidden;
+  float: right;
+  margin-left: 2%;
+}
+
+#c02 div.inner div.down p.box06{
+  border: 0px solid purple;
+  background: url(../images/main/contents2_bg_6.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  /* height: 420px; */
+  height: 38.89vh;
+  padding-top: 0;
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+#c02 div.inner div.down p.box06:hover{
+  transform: scale(1.05);
+}
+
+#c02 div.inner div.down p.box06 img.f{
+  border: 0px solid red;
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* down종료 */
+
+/* contents_2 종료*/
+
+
+
+
+
+/* contents_3 시작 */
+
+/* content_3 상단 text 시작 */
+#c03{
+  border: 0px solid red;
+  width: 100%;
+  height: auto;
+}
+
+#c03 div.inner{
+  border: 0px solid blue;
+  width: 76%;
+  margin: 0 auto;
+}
+
+#c03 div.inner h3{
+  border: 0px solid black;
+  text-align: center;
+  padding-top: 150px;
+  /* padding-top: 13.89vh; */
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 120px; */
+  font-size: 6.25vw;
+  font-weight: 700;
+  color: #c2c2c2;
+}
+
+#c03 div.inner p{
+  border: 0px solid pink;
+  text-align: center;
+  padding-top: 20px;
+  /* padding-top: 1.85vh; */
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 20px; */
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: #c2c2c2;
+}
+/* contents_3 상단 text 종료 */
+
+
+
+
+
+/* up 시작 */
+#c03 div.inner article.up{
+  border: 0px solid purple;
+  overflow: hidden;
+  padding-top: 60px;
+  /* padding-top: 5.56vh; */
+}
+
+#c03 div.inner article.up p{
+  padding-top: 0;
+}
+
+#c03 div.inner article.up p img{
+  border: 0px solid blue;
+  float: left;
+  width: 61%;
+}
+
+#c03 div.inner article.up div{
+  border: 0px solid yellow;
+  width: 39%;
+  float: left;
+}
+
+#c03 div.inner article.up div h4{
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 24px; */
+  font-size: 1.25vw;
+  font-weight: 700;
+  color: #333;
+  text-align: left;
+  /* padding: 40px 0 30px 20px; */
+  /* padding: 3.7vh 0 2.78vh 1.04vw; */
+  padding: 40px 0 30px 1.04vw;
+}
+
+#c03 div.inner article.up div h4 span{
+  color: #e61d2b;
+}
+
+#c03 div.inner article.up div p{
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  color: #525252;
+  font-weight: 700;
+  line-height: 33px;
+  /* line-height: 3.06vh; */
+  text-align: left;
+  /* padding: 12px 0 12px 20px; */
+  /* padding: 1.11vh 0 1.11vh 1.04vw; */
+  padding: 12px 0 12px 1.04vw;
+}
+
+#c03 div.inner article.up div p span{
+  color: #e61d2b;
+}
+
+#c03 div.inner article.up div p:nth-child(4){
+  padding-bottom: 0;
+}
+
+#c03 div.inner article.up div p:nth-child(5){
+  border: 0px solid black;
+  text-align: center;
+  padding: 0;
+  padding-top: 30px;
+  /* padding-top: 2.78vh; */
+}
+
+#c03 div.inner article.up div p a{
+  border: 0px solid black;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 20px; */
+  font-size: 1.04vw;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+/* up 종료 */
+
+
+
+
+
+/* down 시작 */
+#c03 div.inner article.down{
+  border: 0px solid purple;
+  overflow: hidden;
+  padding-top: 40px;
+  /* padding-top: 3.7vh; */
+}
+
+#c03 div.inner article.down p{
+  padding-top: 0;
+}
+
+#c03 div.inner article.down p img{
+  border: 0px solid blue;
+  float: right;
+  width: 61%;
+}
+
+#c03 div.inner article.down div{
+  border: 0px solid yellow;
+  width: 39%;
+  float: left;
+}
+
+#c03 div.inner article.down div h4{
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 24px; */
+  font-size: 1.25vw;
+  font-weight: 700;
+  color: #333;
+  /* padding: 40px 0 30px 0; */
+  /* padding: 3.7vh 0 2.78vh 0; */
+  padding: 40px 0 30px 0;
+}
+
+#c03 div.inner article.down div h4 span{
+  color: #e61d2b;
+}
+
+#c03 div.inner article.down div p{
+  border: 0px solid red;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  color: #525252;
+  font-weight: 700;
+  line-height: 33px;
+  /* line-height: 3.06vh; */
+  text-align: left;
+  /* padding: 12px 20px 12px 0; */
+  /* padding: 1.11vh 1.04vw 1.11vh 0; */
+  padding: 12px 1.04vw 12px 0;
+}
+
+#c03 div.inner article.down div p span{
+  color: #e61d2b;
+}
+
+#c03 div.inner article.down div p:nth-child(4){
+  padding-bottom: 0;
+}
+
+#c03 div.inner article.down div p:nth-child(5){
+  border: 0px solid black;
+  text-align: center;
+  padding: 0;
+  padding-top: 30px;
+  /* padding-top: 2.78vh; */
+}
+
+#c03 div.inner article.down div p a{
+  border: 0px solid black;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 20px; */
+  font-size: 1.04vw;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+/* down 종료 */
+
+/* contents_3 종료 */
+
+
+
+
+
+/* contents_4 시작 */
+.swiper-container2.gallery-top h3{
+  border: 0px solid black;
+  text-align: center;
+  padding-top: 150px;
+  /* padding-top: 13.89vh; */
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 120px; */
+  font-size: 6.25vw;
+  font-weight: 700;
+  color: #c2c2c2;
+}
+
+.swiper-container2.gallery-top p{
+  border: 0px solid pink;
+  text-align: center;
+  /* padding-top: 20px; */
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 20px; */
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: #c2c2c2;
+}
+
+.swiper-container2.gallery-top {
+  border: 0px solid red;
+  width: 76%;
+  margin: 0 auto;
+  float: none;
+}
+
+.swiper-container2.gallery-top .swiper-slide {
+  background-size: cover;
+  background-position: center;
+  background: white;
+  padding-top: 60px;
+  /* padding-bottom: 30px; */
+}
+
+.swiper-container2.gallery-thumbs .swiper-slide{
+  padding-top: 30px;
+}
+
+.swiper-slide video{
+  border: 0px solid red;
+  width: 61%;
+  float: left;
+}
+
+.swiper-slide dl{
+  border: 0px solid black;
+  width: 39%;
+  float: left;
+}
+
+.swiper-container2.gallery-thumbs{
+  border: 0px solid red;
+  float: none;
+  width: 76%;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  overflow: hidden;
+}
+
+.swiper-container2.gallery-thumbs .swiper-wrapper .swiper-slide dd{
+  border: 0px solid blue;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  font-weight: 700;
+  color: #453c3c;
+  padding: 8px 0 0 10px;
+}
+
+.swiper-container2.gallery-top .swiper-slide dl dt{
+  border: 0px solid red;
+  padding: 70px 0 0 3.13vw;
+  width: 39%;
+}
+
+.swiper-container2.gallery-top .swiper-slide dl dd{
+  border: 0px solid orange;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  font-weight: 500;
+  color: #453c3c;
+  padding: 18px 0 0 3.13vw;
+}
+
+.swiper-container2.gallery-top .swiper-slide dl dd:nth-child(2){
+  border: 0px solid yellow;
+  color: #999;
+  padding: 30px 0 50px 3.13vw;
+}
+
+.swiper-container2.gallery-top .swiper-slide dl dd:nth-child(6){
+  border: 0px solid green;
+  padding-top: 40px;
+  padding-left: 0;
+  text-align: center;
+}
+
+.swiper-container2.gallery-top .swiper-slide dl dd:nth-child(6) a{
+  border: 0px solid blue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.04vw;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+
+
+
+/* contents_4 모바일 이미지 가리기 */
+.video-m{
+  display: none;
+}
+/* contents_4 종료 */
+
+
+
+
+
+/* pc contents_3 text 1500~1700 시작 */
+@media all and (min-width: 1500px) and (max-width: 1700px){
+  #c03 div.inner article.up div p{
+    border: 0px solid red;
+    line-height: 27px;
+  }
+
+  #c03 div.inner article.down div p{
+    border: 0px solid red;
+    line-height: 27px;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dt{
+    padding-top: 50px;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(2){
+    padding-bottom: 20px;
+  }
+}
+/* pc contents_3 text 1500~1700 종료 */
+
+
+
+
+
+/* pc contents_3 text 1350~1500 시작 */
+@media all and (min-width: 1350px) and (max-width: 1500px){
+  #c03 div.inner article.up div p{
+    border: 0px solid red;
+    line-height: 23px;
+  }
+
+  #c03 div.inner article.down div p{
+    border: 0px solid red;
+    line-height: 23px;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dt{
+    padding-top: 45px;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(2){
+    padding-bottom: 15px;
+  }
+}
+/* pc contents_3 text 1300~1500 종료 */
+
+
+
+
+
+/* pc contents_3 text 1200~1350 시작 */
+@media all and (min-width: 1200px) and (max-width: 1350px){
+  #c03 div.inner article.up div h4{
+    padding-top: 30px;
+  }
+
+  #c03 div.inner article.up div p{
+    border: 0px solid red;
+    line-height: 20px;
+  }
+
+  #c03 div.inner article.up div p:nth-child(2){
+    padding-top: 0;
+  }
+
+  #c03 div.inner article.down div h4{
+    padding-top: 30px;
+  }
+
+  #c03 div.inner article.down div p{
+    border: 0px solid red;
+    line-height: 20px;
+  }
+
+  #c03 div.inner article.down div p:nth-child(2){
+    padding-top: 0;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dt{
+    padding-top: 50px;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(2){
+    padding-bottom: 20px;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(6){
+    padding-top: 30px;
+  }
+}
+/* pc contents_3 text 1200~1300 종료 */
+
+/* pc 종료 */
+
+
+
+
+
+/* 모바일 content_1 pc, t에서 가리기 */
+#c01 div.inner ul.box_m{
+  display: none;
+}
+
+#c02 div.inner div.container_m{
+  display: none;
+}
+
+/* 태블릿 contents_3 pc에서 가리기 */
+#c03 div.inner article.up-t{
+  display: none;
+}
+
+#c03 div.inner article.down-t{
+  display: none;
+}
+
+
+
+
+
+/* main 고해상도 미디어쿼리 시작 */
+@media all and (min-width: 1921px) and (max-width: 2560px){
+  /* contents_1 시작 */
+  #c01 div.inner{
+    /* width: 53%; */
+    width: 1024px;
+  }
+
+
+
+
+
+  /* left img 시작 */
+  #c01 div.inner div.ib ul.left div.text h4{
+    font-size: 20px;
+    /* font-size: 1.04vw; */
+  }
+
+  #c01 div.inner div.ib ul.left div.text p{
+    font-size: 100px;
+    /* font-size: 5.21vw; */
+  }
+
+  #c01 div.inner div.ib ul.left div.text span{
+    font-size: 20px;
+    /* font-size: 1.04vw; */
+  }
+  /* left img 종료 */
+
+
+
+
+
+  /* right img 시작 */
+
+  #c01 div.inner div.ib ul.right div.text h4{
+    font-size: 20px;
+    /* font-size: 1.04vw; */
+  }
+
+  #c01 div.inner div.ib ul.right div.text p{
+    font-size: 100px;
+    /* font-size: 5.21vw; */
+  }
+
+  #c01 div.inner div.ib ul.right div.text span{
+    font-size: 20px;
+    /* font-size: 1.04vw; */
+  }
+  /* rigit img 종료 */
+
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  #c02 div.inner{
+    border: 0px solid blue;
+    /* width: 90%; */
+    width: 1720px;
+    margin: 0 auto;
+  }
+
+
+
+
+
+  /* up시작 */
+  #c02 div.inner div.up p.box01{
+    height: 420px;
+    /* height: 38.89vh; */
+  }
+
+  #c02 div.inner div.up p.box02{
+    height: 420px;
+    /* height: 38.89vh; */
+  }
+
+  #c02 div.inner div.up p.box03{
+    height: 420px;
+    /* height: 38.89vh; */
+  }
+  /* up종료 */
+
+
+
+
+
+  /* down시작 */
+
+  #c02 div.inner div.down p.box04{
+    height: 420px;
+    /* height: 38.89vh; */
+  }
+
+  #c02 div.inner div.down p.box05{
+    height: 420px;
+    /* height: 38.89vh; */
+  }
+
+  #c02 div.inner div.down p.box06{
+    height: 420px;
+    /* height: 38.89vh; */
+  }
+  /* down종료 */
+
+  /* contents_2 종료 */
+
+
+
+
+
+  /* contents_3 시작 */
+  #c03 div.inner{
+    /* width: 76%; */
+    width: 1460px;
+  }
+
+
+
+
+
+  /* up 시작 */
+  #c03 div.inner article.up div h4{
+    font-size: 24px;
+    /* font-size: 1.25vw; */
+    padding: 55px 0 38px 20px;
+    /* padding: 5.09vh 0 3.52vh 1.04vw; */
+  }
+
+  #c03 div.inner article.up div p{
+    font-size: 16px;
+    /* font-size: 0.83vw; */
+    line-height: 33px;
+    /* line-height: 3.06vh; */
+    padding: 16px 0 17px 20px;
+    /* padding: 1.48vh 0 1.57vh 1.04vw; */
+  }
+
+  #c03 div.inner article.up div p:nth-child(5){
+    padding-top: 40px;
+    /* padding-top: 3.7vh; */
+  }
+
+  #c03 div.inner article.up div p a{
+    font-size: 20px;
+    /* font-size: 1.04vw; */
+  }
+  /* up 종료 */
+
+
+
+
+
+  /* down 시작 */
+  #c03 div.inner article.down div h4{
+    font-size: 24px;
+    /* font-size: 1.25vw; */
+    padding: 55px 0 38px 0;
+    /* padding: 5.09vh 0 3.52vh 0; */
+  }
+
+  #c03 div.inner article.down div p{
+    font-size: 16px;
+    /* font-size: 0.83vw; */
+    line-height: 33px;
+    /* line-height: 3.06vh; */
+    padding: 16px 20px 17px 0;
+    /* padding: 1.48vh 1.04vw 1.57vh 0; */
+  }
+
+  #c03 div.inner article.down div p:nth-child(5){
+    padding-top: 40px;
+    /* padding-top: 3.7vh; */
+  }
+
+  #c03 div.inner article.down div p a{
+    font-size: 20px;
+    /* font-size: 1.04vw; */
+  }
+  /* down 종료 */
+
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  .swiper-container2.gallery-top{
+    border: 0px solid blue;
+    /* width: 76%; */
+    width: 1460px;
+    margin: 0 auto;
+  }
+
+  .swiper-container2.gallery-thumbs{
+    border: 0px solid red;
+    width: 1460px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+  }
+  /* contents_4 종료 */
+}
+/* main 고해상도 미디어쿼리 종료 */
+
+
+
+
+
+/* 태블릿 600~1200 시작 */
+@media all and (min-width: 600px) and (max-width: 1200px){
+  /* contents_1 시작*/
+
+  /* content_1 상단 text 시작 */
+  #c01 div.inner{
+    border: 0px solid blue;
+    width: 64%;
+    margin: 0 auto;
+  }
+
+  #c01 div.inner h3{
+    border: 0px solid red;
+    padding-top: 70px;
+    /* font-size: 100px; */
+    font-size: 12.5vw;
+  }
+
+  #c01 div.inner p{
+    border: 0px solid orange;
+    padding-top: 20px;
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+  }
+  /* contents_1 상단 text 종료 */
+
+
+
+
+
+  /* left img 시작 */
+  #c01 div.inner div.ib{
+    border: 0px solid yellow;
+    padding-top: 60px;
+    /* padding-top: 7.5vh; */
+  }
+
+  #c01 div.inner div.ib ul.left li:nth-child(1) img{
+    border: 0px solid red;
+    margin-bottom: 20px;
+    /* margin-bottom: 2.5vh; */
+  }
+
+  #c01 div.inner div.ib ul.left{
+    border: 0px solid red;
+    width: 49%;
+    margin-right: 1%;
+  }
+
+  #c01 div.inner div.ib ul.left div.text{
+    border: 0px solid red;
+    top: 30px;
+    left: 20px;
+  }
+
+  #c01 div.inner div.ib ul.left div.text h4{
+    border: 0px solid yellow;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+  }
+
+  #c01 div.inner div.ib ul.left div.text p{
+    /* font-size: 50px; */
+    font-size: 6.25vw;
+  }
+
+  #c01 div.inner div.ib ul.left div.text span{
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    line-height: 12vw;
+  }
+  /* left img 종료 */
+
+
+
+
+
+  /* right img 시작 */
+  #c01 div.inner div.ib ul.right{
+    border: 0px solid green;
+    width: 49%;
+    margin-left: 1%;
+    padding-top: 9.26%;
+  }
+
+  #c01 div.inner div.ib ul.right li:nth-child(1) img{
+    border: 0px solid red;
+    margin-bottom: 20px;
+    /* margin-bottom: 2.5vh; */
+  }
+
+  #c01 div.inner div.ib ul.right div.text{
+    border: 0px solid red;
+    top: 30px;
+    left: 20px;
+  }
+
+  #c01 div.inner div.ib ul.right div.text h4{
+    border: 0px solid yellow;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+  }
+
+  #c01 div.inner div.ib ul.right div.text p{
+    border: 0px solid red;
+    /* font-size: 50px; */
+    font-size: 6.25vw;
+  }
+
+  #c01 div.inner div.ib ul.right div.text span{
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    line-height: 12vw;
+  }
+  /* rigit img 종료 */
+
+  /* contents_1 종료*/
+
+
+
+
+
+  /* contents_2 시작*/
+
+  /* content_2 상단 text 시작 */
+  #c02 div.inner{
+    border: 0px solid blue;
+    width: 95%;
+  }
+
+  #c02 div.inner h3{
+    border: 0px solid black;
+    padding-top: 100px;
+    /* font-size: 100px; */
+    font-size: 12.5vw;
+  }
+
+  #c02 div.inner p{
+    border: 0px solid pink;
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+  }
+  /* content_2 상단 text 종료 */
+
+
+
+
+
+  /* up시작 */
+  #c02 div.inner div.up{
+    border: 0px solid red;
+    padding-top: 5.56vh;
+  }
+
+
+  #c02 div.inner div.up p.box01{
+    border: 0px solid red;
+    width: 100%;
+    /* height: 23.25vh; */
+    height: 186px;
+  }
+
+  #c02 div.inner div.up p.box02{
+    border: 0px solid orange;
+    width: 100%;
+    /* height: 23.25vh; */
+    height: 186px;
+    margin-left: 2%;
+  }
+
+  #c02 div.inner div.up p.box03{
+    border: 0px solid yellow;
+    width: 100%;
+    /* height: 23.25vh; */
+    height: 186px;
+    margin-left: 2%;
+  }
+  /* up종료 */
+
+
+
+
+
+  /* down시작 */
+  #c02 div.inner div.down{
+    border: 0px solid red;
+    padding-top: 20px;
+    margin-top: 0;
+  }
+
+
+  #c02 div.inner div.down p.box04{
+    border: 0px solid green;
+    width: 100%;
+    /* height: 23.25vh; */
+    height: 186px;
+  }
+
+  #c02 div.inner div.down p.box05{
+    border: 0px solid blue;
+    width: 100%;
+    /* height: 23.25vh; */
+    height: 186px;
+    margin-right: 2%;
+  }
+
+  #c02 div.inner div.down p.box06{
+    border: 0px solid purple;
+    width: 100%;
+    /* height: 23.25vh; */
+    height: 186px;
+    margin-right: 2%;
+  }
+  /* down종료 */
+
+  /* contents_2 종료*/
+
+
+
+
+
+  /* contents_3 시작 */
+
+  /* content_3 상단 text 시작 */
+  #c03 div.inner{
+    border: 0px solid blue;
+    width: 81%;
+  }
+
+  #c03 div.inner h3{
+    border: 0px solid black;
+    padding-top: 100px;
+    /* font-size: 100px; */
+    font-size: 12.5vw;
+  }
+
+  #c03 div.inner p{
+    border: 0px solid pink;
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+  }
+  /* contents_3 상단 text 종료 */
+
+
+
+
+
+  /* pc contents_3 가리기 */
+  #c03 div.inner article.up{
+    display: none;
+  }
+
+  #c03 div.inner article.down{
+    display: none;
+  }
+
+
+
+
+
+  /* up-t 시작 */
+  #c03 div.inner article.up-t{
+    border: 0px solid red;
+    padding-top: 40px;
+    overflow: hidden;
+    display: block;
+  }
+
+  #c03 div.inner article.up-t p img{
+    border: 0px solid blue;
+    width: 50%;
+    float: left;
+  }
+
+  #c03 div.inner article.up-t div{
+    border: 0px solid yellow;
+    width: 50%;
+    float: left;
+  }
+
+  #c03 div.inner article.up-t div h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    font-weight: 500;
+    color: #333;
+    /* padding: 15px 0 0 19px; */
+    /* padding: 1.88vh 0 0 2.38vw; */
+    padding: 15px 0 0 2.38vw;
+  }
+
+  #c03 div.inner article.up-t div h4 span{
+    color: #e61d2b;
+  }
+
+  #c03 div.inner article.up-t div p{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    font-weight: 500;
+    color: #818181;
+    text-align: left;
+    /* padding: 20px 0 15px 19px; */
+    /* padding: 2.5vh 0 1.88vh 2.38vw; */
+    padding: 20px 0 15px 2.38vw;
+    line-height: 18px;
+  }
+
+  #c03 div.inner article.up-t div p a{
+    border: 0px solid black;
+    color: #a2a2a2;
+  }
+
+  #c03 div.inner article.up-t div p:nth-child(3){
+    text-align: center;
+    padding: 0;
+  }
+  /* up-t 종료 */
+
+
+
+
+
+  /* down-t 시작 */
+  #c03 div.inner article.down-t{
+    border: 0px solid red;
+    padding-top: 18px;
+    overflow: hidden;
+    display: block;
+  }
+
+  #c03 div.inner article.down-t p img{
+    border: 0px solid blue;
+    width: 50%;
+    float: right;
+  }
+
+  #c03 div.inner article.down-t div{
+    border: 0px solid yellow;
+    width: 50%;
+    float: right;
+  }
+
+  #c03 div.inner article.down-t div h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    font-weight: 500;
+    color: #333;
+    /* padding: 15px 0 0 20px; */
+    /* padding: 1.88vh 0 0 2.5vw; */
+    padding: 15px 0 0 2.5vw;
+  }
+
+  #c03 div.inner article.down-t div h4 span{
+    color: #e61d2b;
+  }
+
+  #c03 div.inner article.down-t div p{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    font-weight: 500;
+    color: #818181;
+    text-align: left;
+    /* padding: 20px 0 15px 20px; */
+    /* padding: 2.5vh 0 1.88vh 2.5vw; */
+    padding: 20px 0 15px 2.5vw;
+    line-height: 18px;
+  }
+
+  #c03 div.inner article.down-t div p a{
+    border: 0px solid black;
+    color: #a2a2a2;
+  }
+
+  #c03 div.inner article.down-t div p:nth-child(3){
+    text-align: center;
+    padding: 0;
+  }
+  /* down-t 종료 */
+
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+
+  /* content_4 상단 text 시작 */
+  #c04{
+    border: 0px solid red;
+    padding-bottom: 70px;
+    /* padding-bottom: 8.75vh; */
+  }
+
+  #c04 div.inner{
+    border: 0px solid blue;
+    width: 81%;
+  }
+
+  #c04 div.inner h3{
+    border: 0px solid black;
+    padding-top: 100px;
+    /* font-size: 100px; */
+    font-size: 12.5vw;
+  }
+
+  #c04 div.inner p{
+    border: 0px solid pink;
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+  }
+  /* contents_4 상단 text 종료 */
+
+
+
+
+
+/* vdieo 시작 */
+  #c04 div.inner div.video{
+    border: 0px solid orange;
+    /* padding-top: 40px; */
+    padding-top: 5vh;
+  }
+
+  #c04 div.inner div.video p img{
+    border: 0px solid red;
+    width: 61%;
+  }
+
+  #c04 div.inner div.video dt{
+    border: 0px solid red;
+    padding: 0;
+    /* padding: 20px 0 0 25px; */
+    /* padding: 2.5vh 0 0 3.13vw; */
+    padding: 20px 0 0 3.13vw;
+  }
+
+  #c04 div.inner div.video dl dd{
+    border: 0px solid orange;
+    padding: 5px 0 5px 25px;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+  }
+
+  #c04 div.inner div.video dl dd span{
+    border: 0px solid red;
+    display: none;
+  }
+
+  #c04 div.inner div.video dl dd:nth-child(2){
+    border: 0px solid yellow;
+    /* padding: 15px 0 15px 25px; */
+    /* padding: 1.88vh 0 1.88vh 3.13vw; */
+    padding: 15px 0 15px 3.13vw;
+  }
+
+  #c04 div.inner div.video dl dd:nth-child(6){
+    border: 0px solid black;
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+
+  #c04 div.inner div.video dl dd:nth-child(6) a{
+    border: 0px solid red;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+  }
+  /* video 종료 */
+
+
+
+
+
+  /* list 시작 */
+  #c04 div.inner div.list{
+    border: 0px solid purple;
+    padding-top: 18px;
+    overflow: hidden;
+  }
+
+  #c04 div.inner div.list dl{
+    border: 0px solid green;
+    width: 24%;
+    float: left;
+    margin-right: 1.33%;
+  }
+
+  #c04 div.inner div.list dl:nth-child(4){
+    margin-right: 0;
+  }
+
+  #c04 div.inner div.list dl dd{
+    border: 0px solid blue;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    font-weight: 400;
+    color: #453c3c;
+    padding: 5px 0 0 5px;
+  }
+  /* list 종료 */
+
+  /* contents_4 종료 */  
+}
+/* 태블릿 600~1200 종료 */
+
+
+
+
+
+/* 태블릿 800~1200 시작 */
+@media all and (min-width: 800px) and (max-width: 1200px){
+  /* contents_1 시작*/
+
+  /* content_1 상단 text 시작 */
+  #c01 div.inner h3{
+    font-size: 80px;
+  }
+
+  #c01 div.inner p{
+    font-size: 14px;
+  }
+  /* content_1 상단 text 종료 */
+
+
+
+
+
+  /* contents_2 시작*/
+
+  /* content_2 상단 text 시작 */
+  #c02 div.inner h3{
+    font-size: 80px;
+  }
+
+  #c02 div.inner p{
+    font-size: 14px;
+  }
+  /* content_2 상단 text 종료 */
+
+
+
+
+
+  /* up시작 */
+  #c02 div.inner div.up p.box01{
+    height: 278px;
+  }
+
+  #c02 div.inner div.up p.box02{
+    height: 278px;
+  }
+
+  #c02 div.inner div.up p.box03{
+    height: 278px;
+  }
+  /* up종료 */
+
+
+
+
+
+  /* down시작 */
+  #c02 div.inner div.down p.box04{
+    height: 278px;
+  }
+
+  #c02 div.inner div.down p.box05{
+    height: 278px;
+  }
+
+  #c02 div.inner div.down p.box06{
+    height: 278px;
+  }
+  /* down종료 */
+
+  /* contents_2 종료*/
+
+
+
+
+
+  /* contents_3 시작*/
+
+  /* content_2 상단 text 시작 */
+  #c03 div.inner h3{
+    font-size: 80px;
+  }
+
+  #c03 div.inner p{
+    font-size: 14px;
+  }
+  /* content_3 상단 text 종료 */
+
+
+
+
+
+  /* up-t 시작 */
+  #c03 div.inner article.up-t div h4{
+    /* font-size: 20px; */
+    font-size: 1.67vw;
+    /* padding: 25px 0 0 30px; */
+    /* padding: 3.13vh 0 0 2.5vw; */
+    padding: 25px 0 0 2.5vw;
+  }
+
+  #c03 div.inner article.up-t div p{
+    /* font-size: 16px; */
+    font-size: 1.33vw;
+    /* padding: 20px 0 20px 30px; */
+    /* padding: 2.5vh 0 2.5vh 2.5vw; */
+    padding: 20px 0 20px 2.5vw;
+    line-height: 25px;
+    /* line-height: 3.13vh; */
+  }
+  /* up-t 종료 */
+
+
+
+
+
+  /* down-t 시작 */
+  #c03 div.inner article.down-t div h4{
+    /* font-size: 20px; */
+    font-size: 1.67vw;
+    /* padding: 25px 0 0 30px; */
+    /* padding: 3.13vh 0 0 2.5vw; */
+    padding: 25px 0 0 2.5vw;
+  }
+
+  #c03 div.inner article.down-t div p{
+    /* font-size: 16px; */
+    font-size: 1.33vw;
+    /* padding: 20px 0 20px 30px; */
+    /* padding: 2.5vh 0 2.5vh 2.5vw; */
+    padding: 20px 0 20px 2.5vw;
+    line-height: 25px;
+    /* line-height: 3.13vh; */
+  }
+  /* down-t 종료 */
+
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+
+  /* content_4 상단 text 시작 */
+  .swiper-container2.gallery-top h3{
+    font-size: 80px;
+  }
+
+  .swiper-container2.gallery-top p{
+    font-size: 14px;
+  }
+  /* contents_4 상단 text 종료 */
+
+
+
+
+
+  /* vdieo 시작 */
+  .swiper-container2.gallery-top .swiper-slide dl dt{
+    padding: 0;
+    padding: 35px 0 20px 4.38vw;
+  }
+
+  .swiper-container2.gallery-top .swiper-wrapper .swiper-slide dd{
+    padding: 5px 0 15px 4.38vw;
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(2){
+    /* padding: 15px 0 20px 35px; */
+    /* padding: 1.88vh 0 1.67vh 4.38vh; */
+    padding: 15px 0 20px 4.38vw;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(6){
+    /* padding-top: 15px; */
+    padding-top: 1.88vh;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(6) a{
+    /* font-size: 16px; */
+    font-size: 1.33vw;
+  }
+  /* video 종료 */
+
+
+
+
+
+  /* list 시작 */
+  .swiper-container2.gallery-thumbs .swiper-wrapper .swiper-slide dd{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+  }
+  /* list 종료 */
+
+  /* contents_4 종료 */  
+}
+/* 태블릿 800~1200 종료 */
+
+
+
+
+
+/* 태블릿 800~1000 contents_3~4 시작 */
+@media all and (min-width: 800px) and (max-width: 1000px){
+  /* contents_3 시작 */
+  #c01 div.inner p {
+    font-size: 14px;
+  }
+
+  #c01 div.inner p {
+    /* font-size: 14px; */
+    font-size: 2vw;
+  }
+
+  /* up-t 시작 */
+  #c03 div.inner article.up-t div h4{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+  }
+
+  #c03 div.inner article.up-t div p{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+  /* up-t 종료 */
+
+
+
+
+
+  /* down-t 시작 */
+  #c03 div.inner article.down-t div h4{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+  }
+
+  #c03 div.inner article.down-t div p{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+  /* down-t 종료 */
+
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+
+  /* vdieo 시작 */
+  .swiper-container2.gallery-top .swiper-slide dl dt{
+    padding: 20px 0 10px 4.38vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-wrapper .swiper-slide dd{
+    padding: 5px 0 5px 4.38vw;
+    /* font-size: 14px; */
+    font-size: 1.4vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(2){
+    padding: 15px 0 20px 4.38vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(6){
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(6) a{
+    /* font-size: 16px; */
+    font-size: 1.6vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dd span{
+    display: none;
+  }
+  /* video 종료 */
+  
+  
+  
+  
+  
+  /* list 시작 */
+  .swiper-container2.gallery-thumbs .swiper-wrapper .swiper-slide dd{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+  }
+  /* list 종료 */
+  
+  /* contents_4 종료 */
+}
+/* 태블릿 800~1000 contents_3~4 종료 */
+
+
+
+
+/* 태블릿 700~800 시작 */
+@media all and (min-width: 700px) and (max-width: 800px){
+  #c01 div.inner p {
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+  }
+
+  #c02 div.inner p {
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+  }
+
+  #c03 div.inner p {
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+  }
+
+  /* contents_4 시작 */
+
+  /* vdieo 시작 */
+  .swiper-container2.gallery-top p{
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dt{
+    padding: 20px 0 10px 4.38vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-wrapper .swiper-slide dd{
+    padding: 5px 0 5px 4.38vw;
+    /* font-size: 14px; */
+    font-size: 1.4vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(2){
+    padding: 10px 0 20px 4.38vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(6){
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(6) a{
+    /* font-size: 16px; */
+    font-size: 1.6vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dd span{
+    display: none;
+  }
+  /* video 종료 */
+  
+  
+  
+  
+  
+  /* list 시작 */
+  .swiper-container2.gallery-thumbs .swiper-wrapper .swiper-slide dd{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+  }
+  /* list 종료 */
+  
+  /* contents_4 종료 */
+}
+/* 태블릿 700~800 종료 */
+
+
+
+
+
+/* 태블릿 600~700 contents_3~4 시작 */
+@media all and (min-width: 600px) and (max-width: 700px){
+  /* contents_3 시작 */
+  #c01 div.inner p {
+    /* font-size: 14px; */
+    font-size: 2vw;
+  }
+
+  #c02 div.inner p {
+    /* font-size: 14px; */
+    font-size: 2vw;
+  }
+
+  /* up-t 시작 */
+  #c03 div.inner p {
+    /* font-size: 14px; */
+    font-size: 2vw;
+  }
+
+
+  #c03 div.inner article.up-t div h4{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+  }
+
+  #c03 div.inner article.up-t div p{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    line-height: 15px;
+    padding-bottom: 10px;
+  }
+  /* up-t 종료 */
+
+
+
+
+
+  /* down-t 시작 */
+  #c03 div.inner article.down-t div h4{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+  }
+
+  #c03 div.inner article.down-t div p{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    line-height: 15px;
+    padding-bottom: 10px;
+  }
+  /* down-t 종료 */
+
+  /* contents_3 종료 */
+
+
+
+
+
+  /* vdieo 시작 */
+  .swiper-container2.gallery-top p {
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 2vw;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dt{
+    padding: 10px 0 10px 2.86vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-wrapper .swiper-slide dd{
+    /* padding: 4px 0 4px 20px; */
+    padding: 4px 0 4px 2.86vw;
+    /* font-size: 12px; */
+    font-size: 1.71vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(2){
+    padding: 15px 0 10px 2.86vw;
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(6){
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+  
+  .swiper-container2.gallery-top .swiper-slide dl dd:nth-child(6) a{
+    /* font-size: 12px; */
+    font-size: 1.71vw;
+  }
+
+  .swiper-container2.gallery-top .swiper-slide dl dd span{
+    display: none;
+  }
+  /* video 종료 */
+  
+  
+  
+  
+  
+  /* list 시작 */
+  .swiper-container2.gallery-thumbs .swiper-wrapper .swiper-slide dd{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+  }
+  /* list 종료 */
+  
+  /* contents_4 종료 */
+}
+/* 태블릿 600~700 contents_3~4 종료 */
+
+
+
+
+
+/* 모바일 시작 */
+@media all and (max-width: 599px){
+  /* visual 시작 */
+  #visual{
+    border: 0px solid red;
+    width: 100%;
+    background: url(../images/main/visual_img-m.png) no-repeat center bottom;
+    background-size: cover;
+  }
+
+  #visual div.inner{
+    display: none;
+  }
+
+  #visual div.swiper-container div.swiper-slide{
+    display: none;
+  }
+
+  #visual div.swiper-container div.swiper-pagination{
+    display: none;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작 */
+  #c01{
+    border: 0px solid red;
+    width: 100%;
+    height: auto;
+  }
+  
+  #c01 div.inner{
+    border: 0px solid blue;
+    width: 92%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  #c01 div.inner h3{
+    border: 0px solid red;
+    text-align: center;
+    padding-top: 80px;
+    /* padding-top: 10vh; */
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 72px; */
+    font-size: 12vw;
+    font-weight: 700;
+    color: #c2c2c2;
+  }
+  
+  #c01 div.inner p{
+    border: 0px solid blue;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.83vw;
+    font-weight: 500;
+    color: #c2c2c2;
+  }
+
+  #c01 div.inner div.ib{
+    display: none;
+  }
+
+  #c01 div.inner ul.box_m{
+    border: 0px solid red;
+    padding-top: 30px;
+    overflow: hidden;
+    display: block;
+  }
+
+  #c01 div.inner ul.box_m div.text h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.83vw;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  #c01 div.inner ul.box_m div.text p{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 50px; */
+    font-size: 8.33vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    padding-top: 0;
+  }
+
+  #c01 div.inner ul.box_m div.text p span{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.83vw;
+    font-weight: 500;
+    color: #fff;
+    line-height: 23px;
+    vertical-align: bottom;
+    padding-left: 5px;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(1){
+    border: 0px solid black;
+    width: 56%;
+    position: relative;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(1) img{
+    border: 0px solid orange;
+    width: 100%;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(1) div.text{
+    border: 0px solid yellow;
+    position: absolute;
+    left: 15px;
+    top: 30px;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(2){
+    border: 0px solid gray;
+    width: 56%;
+    position: relative;
+    float: right;
+    margin-top: -30px;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(2) img{
+    border: 0px solid orange;
+    width: 100%;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(2) div.text{
+    border: 0px solid yellow;
+    position: absolute;
+    left: 15px;
+    top: 30px;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(3){
+    border: 0px solid red;
+    width: 56%;
+    position: relative;
+    overflow: hidden;
+    display: inline-block; /* 마진 상쇄 경우 떄문에 적용시킴 */
+    margin-top: -30px;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(3) img{
+    width: 100%;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(3) div.text{
+    border: 0px solid yellow;
+    position: absolute;
+    left: 15px;
+    top: 30px;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(4){
+    border: 0px solid orange;
+    width: 56%;
+    position: relative;
+    float: right;
+    margin-top: -30px;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(4) img{
+    width: 100%;
+  }
+
+  #c01 div.inner ul.box_m li:nth-child(4) div.text{
+    border: 0px solid yellow;
+    position: absolute;
+    left: 15px;
+    top: 30px;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contetns_2 시작 */
+  #c02{
+    border: 0px solid red;
+    width: 100%;
+    height: auto;
+  }
+  
+  #c02 div.inner{
+    border: 0px solid blue;
+    width: 92%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  #c02 div.inner h3{
+    border: 0px solid red;
+    text-align: center;
+    padding-top: 80px;
+    /* padding-top: 10vh; */
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 72px; */
+    font-size: 12vw;
+    font-weight: 700;
+    color: #c2c2c2;
+  }
+  
+  #c02 div.inner p{
+    border: 0px solid blue;
+    text-align: center;
+    padding-top: 7px;
+    /* padding-top: 0.88vh; */
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.83vw;
+    font-weight: 500;
+    color: #c2c2c2;
+  }
+
+  #c02 div.inner div.container{
+    display: none;
+  }
+
+  #c02 div.inner div.container_m{
+    display: block;
+    padding-top: 30px;
+  }
+
+  #c02 div.inner div.container_m div.top{
+    border: 0px solid red;
+    width: 100%;
+    height: 163px;
+  }
+
+  #c02 div.inner div.container_m div.top p.box01{
+    border: 0px solid pink;
+    background: url(../images/main/contents2_bg_1-m.png) no-repeat center top;
+    background-size: cover;
+    width: 60%;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+
+  #c02 div.inner div.container_m div.top p.box01 img.a{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #c02 div.inner div.container_m div.top p.box02{
+    background: url(../images/main/contents2_bg_2-m.png) no-repeat center top;
+    background-size: cover;
+    width: 38%;
+    height: 100%;
+    float: right;
+    position: relative;
+  }
+
+  #c02 div.inner div.container_m div.top p.box02 img.b{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #c02 div.inner div.container_m div.center{
+    border: 0px solid orange;
+    overflow: hidden;
+    width: 100%;
+    height: 163px;
+    padding-top: 10px;
+  }
+
+  #c02 div.inner div.container_m div.center p.box03{
+    border: 0px solid pink;
+    background: url(../images/main/contents2_bg_3-m.png) no-repeat center top;
+    background-size: cover;
+    width: 38%;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+
+  #c02 div.inner div.container_m div.center p.box03 img.c{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #c02 div.inner div.container_m div.center p.box04{
+    background: url(../images/main/contents2_bg_4-m.png) no-repeat center top;
+    background-size: cover;
+    width: 60%;
+    height: 100%;
+    float: right;
+    position: relative;
+  }
+
+  #c02 div.inner div.container_m div.center p.box04 img.d{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #c02 div.inner div.container_m div.bottom{
+    border: 0px solid yellow;
+    width: 100%;
+    height: 163px;
+    padding-top: 10px;
+  }
+
+  #c02 div.inner div.container_m div.bottom p.box05{
+    border: 0px solid pink;
+    background: url(../images/main/contents2_bg_5-m.png) no-repeat center center;
+    background-size: cover;
+    width: 60%;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+
+  #c02 div.inner div.container_m div.bottom p.box05 img.e{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #c02 div.inner div.container_m div.bottom p.box06{
+    background: url(../images/main/contents2_bg_6-m.png) no-repeat center top;
+    background-size: cover;
+    width: 38%;
+    height: 100%;
+    float: right;
+    position: relative;
+  }
+
+  #c02 div.inner div.container_m div.bottom p.box06 img.f{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* content_2 종료 */
+
+
+
+
+
+  /* 태블릿 contents_3 모바일에서 가리기 */
+  #c03 div.inner article.up-t{
+    display: none;
+  }
+
+  #c03 div.inner article.down-t{
+    display: none;
+  }
+
+
+
+
+
+  /* contents_3 시작 */
+  #c03{
+    border: 0px solid red;
+    width: 100%;
+    height: auto;
+  }
+  
+  #c03 div.inner{
+    border: 0px solid blue;
+    width: 92%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  #c03 div.inner h3{
+    border: 0px solid red;
+    text-align: center;
+    padding-top: 80px;
+    /* padding-top: 10vh; */
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 72px; */
+    font-size: 12vw;
+    font-weight: 700;
+    color: #c2c2c2;
+  }
+  
+  #c03 div.inner p{
+    border: 0px solid blue;
+    text-align: center;
+    /* padding-top: 15px; */
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.83vw;
+    font-weight: 500;
+    color: #c2c2c2;
+  }
+
+
+
+
+
+  /* up 시작 */
+  #c03 div.inner article.up{
+    padding-top: 30px;
+  }
+
+  #c03 div.inner article.up p img{
+    border: 0px solid black;
+    width: 100%;
+    float: none;
+  }
+
+  #c03 div.inner article.up div{
+    border: 0px solid orange;
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+
+  #c03 div.inner article.up div h4{
+    padding: 30px 0 0 0;
+    text-align: center;
+    /* font-size: 14px; */
+    font-size: 2.92vw;
+  }
+
+  #c03 div.inner article.up div p{
+    padding: 20px 0 0 0;
+    line-height: 18px;
+    text-align: center;
+    /* font-size: 11px; */
+    font-size: 2.29vw;
+  }
+
+  #c03 div.inner article.up div p span{
+    border: 0px solid red;
+    color: #525252;
+  }
+
+  #c03 div.inner article.up div p:nth-child(3){
+    padding: 10px 0 0 0;
+  }
+
+  #c03 div.inner article.up div p:nth-child(4){
+    display: none;
+  }
+
+  #c03 div.inner article.up div p:nth-child(5){
+    padding: 15px 0 0 0;
+  }
+
+  #c03 div.inner article.up div p:nth-child(5) a{
+    font-size: 14px;
+  }
+  /* up 종료 */
+
+
+
+  /* down 시작 */
+  #c03 div.inner article.down{
+    padding-top: 50px;
+  }
+
+  #c03 div.inner article.down p img{
+    border: 0px solid black;
+    width: 100%;
+    float: none;
+  }
+
+  #c03 div.inner article.down div{
+    border: 0px solid orange;
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+
+  #c03 div.inner article.down div h4{
+    padding: 30px 0 0 0;
+    text-align: center;
+    /* font-size: 14px; */
+    font-size: 2.92vw;
+  }
+
+  #c03 div.inner article.down div p{
+    padding: 20px 0 0 0;
+    line-height: 18px;
+    text-align: center;
+    /* font-size: 11px; */
+    font-size: 2.29vw;
+  }
+
+  #c03 div.inner article.down div p span{
+    border: 0px solid red;
+    color: #525252;
+  }
+
+  #c03 div.inner article.down div p:nth-child(3){
+    padding: 10px 0 0 0;
+  }
+
+  #c03 div.inner article.down div p:nth-child(4){
+    display: none;
+  }
+
+  #c03 div.inner article.down div p:nth-child(5){
+    padding: 15px 0 0 0;
+  }
+
+  #c03 div.inner article.down div p:nth-child(5) a{
+    font-size: 14px;
+  }
+  /* down 종료 */
+
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  .swiper-container2.gallery-top{
+    border: 0px solid red;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+  }
+  
+  .swiper-container2.gallery-top .swiper-wrapper{  
+    display: none;
+  }
+  
+  .swiper-container2.gallery-top h3{
+    border: 0px solid red;
+    text-align: center;
+    padding-top: 80px;
+    /* padding-top: 10vh; */
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 72px; */
+    font-size: 12vw;
+    font-weight: 700;
+    color: #c2c2c2;
+  }
+  
+  .swiper-container2.gallery-top p{
+    border: 0px solid blue;
+    text-align: center;
+    padding-top: 7px;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.83vw;
+    font-weight: 500;
+    color: #c2c2c2;
+  }
+
+  .swiper-container2.gallery-top .swiper-wrapper dl{
+    display: none;
+  }
+
+  .swiper-container2.gallery-thumbs{
+    display: none;
+  }
+
+  .video-m{
+    border: 0px solid red;
+    width: 92%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .video-m img{
+    width: 100%;
+  }
+  /* contents_4 종료 */
+}
+/* 모바일 종료 */
+
+
+
+
+
+/* 모바일 content_3 320~450 시작 */
+@media all and (min-width: 320px) and (max-width: 450px){
+  /* contents_1 시작 */
+  #c01 div.inner ul.box_m div.text h4{
+    /* font-size: 11px; */
+    font-size: 2.44vw;
+  }
+
+  #c01 div.inner ul.box_m div.text p{
+    font-size: 35px;
+    /* font-size: 8.33vw; */
+  }
+
+  #c01 div.inner ul.box_m div.text p span{
+    /* font-size: 11px; */
+    font-size: 2.44vw;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_3 시작 */
+  #c03 div.inner p.text span{
+    border: 0px solid red;
+    display: none;
+  }
+
+  /* up 시작 */
+  #c03 div.inner article.up p br{
+    display: none;
+  }
+
+  #c03 div.inner article.up div h4{
+    font-size: 12px;
+  }
+
+  #c03 div.inner article.up div p{
+    font-size: 11px;
+  }
+  #c03 div.inner article.up div p:nth-child(5) a{
+    font-size: 12px;
+  }
+  /* up 종료 */
+
+
+
+
+
+  /* down 시작 */
+  #c03 div.inner article.down p br{
+    display: none;
+  }
+
+  #c03 div.inner article.down div h4{
+    font-size: 12px;
+  }
+
+  #c03 div.inner article.down div p{
+    font-size: 11px;
+  }
+  #c03 div.inner article.down div p:nth-child(5) a{
+    font-size: 12px;
+  }
+  /* down 종료 */
+  
+  /* contents_3 종료 */
+}
+/* 모바일 content_3 320~450 종료 */
+
+
+
+
+
+/* product-info(pc) 시작 */
+
+/* visual 시작 */
+#visual-product{
+  border: 0px solid red;
+  width: 100%;
+  height: 46%;
+  min-height: 500px;
+  background: url(../images/product-main/visual_img.png) no-repeat center center;
+  background-size: cover;
+}
+/* visual 종료 */
+
+
+
+
+
+/* contents_1 시작*/
+#cp01{
+  border: 0px solid red;
+  margin-top: -100px;
+}
+
+#cp01 div.outer{
+  border: 0px solid orange;
+  width: 84%;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#cp01 div.outer div.inner{
+  border: 0px solid yellow;
+  width: 83%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#cp01 div.outer div.inner h3{
+  border: 0px solid blue;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 80px; */
+  font-size: 4.17vw;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  padding-top: 80px;
+  /* padding-top: 7.41vh; */
+}
+  
+#cp01 div.outer div.inner p{
+  border: 0px solid green;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #6f6f6f;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#cp01 div.outer div.inner div.box{
+  border: 0px solid black;
+  overflow: hidden;
+  padding-top: 80px;
+  /* padding-top: 7.41vh; */
+}
+
+#cp01 div.outer div.inner div.box div.swiper-container.gallery-top h4{
+  border: 0px solid red;
+  width: 34%;
+  padding: 55px 0 0 2.6vw;
+}
+
+#cp01 div.outer div.inner div.box div.swiper-container.gallery-top article h5{
+  border: 0px solid blue;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 24px; */
+  font-size: 1.25vw;
+  font-weight: 700;
+  color: #333;
+  padding: 45px 0 0 2.6vw;
+}
+
+#cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p{
+  border: 0px solid red;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  font-weight: 500;
+  color: #606060;
+  text-align: left;
+  line-height: 25px;
+  padding: 40px 0 0 2.6vw;
+}
+
+#cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p:nth-child(3){
+  border: 0px solid black;
+  padding: 30px 0 30px 11.98vw;
+}
+
+#cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p a{
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 20px; */
+  font-size: 1.04vw;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+
+.swiper-container{
+  border: 0px solid red;
+  width: 90%;
+  padding-bottom: 70px;
+}
+
+.swiper-container.gallery-top .swiper-wrapper{
+  border: 0px solid red;
+  padding-bottom: 30px;
+}
+
+.swiper-slide {
+  width:400px;
+  height:auto;
+}
+
+.gallery-top {
+  float:right;
+  width:48%;
+  height: auto;
+}
+
+.gallery-thumbs {
+  float:left;
+  width:50%;
+}
+/* contents_1 종료*/
+
+
+
+
+
+/* 모바일 img pc에서 가리기 */
+#cp01 div.outer div.inner div.box div.left-m{
+  display: none;
+}
+
+
+
+
+
+/* contents_1 1500~17750 미디어쿼리 시작 */
+@media all and (min-width: 1500px) and (max-width: 1750px){
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top h4{
+    padding: 30px 0 0 3.33vw;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article h5{
+    padding: 30px 0 0 3.33vw;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p{
+    padding: 25px 0 0 3.33vw;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p:nth-child(3){
+    padding: 25px 0 40px 13.33vw;
+  }
+}
+
+
+
+
+
+/* contents_1 1400~1500 미디어쿼리 시작 */
+@media all and (min-width: 1400px) and (max-width: 1500px){
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top h4{
+    padding: 30px 0 0 3.33vw;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article h5{
+    /* font-size: 20px; */
+    font-size: 1.33vw;
+    padding: 30px 0 0 3.33vw;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p{
+    /* font-size: 14px; */
+    font-size: 0.93vw;
+    padding: 25px 0 0 3.33vw;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p:nth-child(3){
+    padding: 25px 0 30px 13.33vw;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p a{
+    /* font-size: 16px; */
+    font-size: 1.07vw;
+  }
+}
+/* contents_1 1400~1500 미디어쿼리 종료 */
+
+
+
+
+
+/* contents_1 1300~1400 미디어쿼리 시작 */
+@media all and (min-width: 1300px) and (max-width: 1400px){
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top h4{
+    padding: 30px 0 0 50px;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article h5{
+    /* font-size: 20px; */
+    font-size: 1.33vw;
+    padding: 20px 0 0 50px;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p{
+    /* font-size: 14px; */
+    font-size: 0.93vw;
+    padding: 20px 0 0 50px;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p:nth-child(3){
+    padding: 20px 0 20px 200px;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p a{
+    /* font-size: 16px; */
+    font-size: 1.07vw;
+  }
+}
+/* contents_1 1300~1400 미디어쿼리 종료 */
+
+
+
+
+
+/* contents_1 1200~1300 미디어쿼리 시작 */
+@media all and (min-width: 1200px) and (max-width: 1300px){
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top h4{
+    padding: 20px 0 0 50px;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article h5{
+    /* font-size: 20px; */
+    font-size: 1.33vw;
+    padding: 15px 0 0 50px;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p{
+    /* font-size: 14px; */
+    font-size: 0.93vw;
+    padding: 15px 0 0 50px;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p:nth-child(3){
+    padding: 15px 0 20px 200px;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p a{
+    /* font-size: 16px; */
+    font-size: 1.07vw;
+  }
+}
+/* contents_1 1200~1300 미디어쿼리 종료 */
+
+
+
+
+
+/* contents_2 시작 */
+#cp02{
+  border: 0px solid red;
+}
+
+#cp02 div.inner{
+  border: 0px solid orange;
+  width: 58%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#cp02 div.inner h3{
+  border: 0px solid blue;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 80px; */
+  font-size: 4.17vw;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  padding-top: 200px;
+  /* padding-top: 18.52vh; */
+}
+
+#cp02 div.inner p{
+  border: 0px solid purple;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #6f6f6f;
+  text-align: center;
+  padding-top: 15px;
+  /* padding-top: 1.39vh; */
+}
+
+#cp02 div.inner div.pk{
+  border: 0px solid pink;
+  overflow: hidden;
+  padding-top: 80px;
+  /* padding-top: 7.41vh; */
+  text-align: center;
+}
+
+#cp02 div.inner div.pk h4{
+  border: 0px solid green;
+  padding: 30px 0 40px 0;
+  /* padding: 2.78vh 0 3.7vh 0; */
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 36px; */
+  font-size: 1.88vw;
+  font-weight: 500;
+  color: #333;
+  /* background: url(../images/product-main/contents2_line.png) no-repeat 170px 85px; */
+  background: url(../images/product-main/contents2_line.png) no-repeat 9vw 85px;
+}
+
+
+
+
+
+@media all and (min-width: 1200px) and (max-width: 1400px){
+  #cp02 div.inner div.pk h4{
+    padding: 30px 0 50px 0;
+    background: url(../images/product-main/contents2_line.png) no-repeat 9vw 80px;
+  }
+}
+
+
+
+
+
+#cp02 div.inner div.pk p{
+  border: 0px solid blue;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #333;
+  padding: 12px 0 12px 0;
+  /* padding: 1.11vh 0 1.11vh 0; */
+}
+
+#cp02 div.inner div.pk div.can{
+  border: 0px solid red;
+  width: 31%;
+  margin-right: 3.5%;
+  float: left;
+}
+
+#cp02 div.inner div.pk div.can p span{
+  border: 0px solid red;
+  display: block;
+  padding: 12px 0 12px 0;
+  /* padding: 1.11vh 0 1.11vh 0; */
+}
+
+#cp02 div.inner div.pk div.can p span:nth-child(1){
+  padding-top: 20px;
+  /* padding-top: 1.85vh; */
+}
+
+#cp02 div.inner div.pk div.can p:nth-child(1){
+  border: 0px solid red;
+  padding: 0;
+}
+
+#cp02 div.inner div.pk div.can p:nth-child(3){
+  border: 0px solid yellow;
+  padding: 0;
+}
+
+#cp02 div.inner div.pk div.bottle{
+  border: 0px solid orange;
+  width: 31%;
+  margin-right: 3.5%;
+  float: left;
+}
+
+#cp02 div.inner div.pk div.bottle p:nth-child(1){
+  border: 0px solid black;
+  padding: 0;
+}
+
+#cp02 div.inner div.pk div.bottle p:nth-child(3){
+  border: 0px solid yellow;
+  padding: 0;
+}
+
+#cp02 div.inner div.pk div.bottle p span{
+  border: 0px solid black;
+  display: block;
+  padding: 12px 0 12px 0;
+  /* padding: 1.11vh 0 1.11vh 0; */
+}
+
+#cp02 div.inner div.pk div.bottle p span:nth-child(1){
+  padding-top: 20px;
+}
+
+#cp02 div.inner div.pk div.pet{
+  border: 0px solid yellow;
+  width: 31%;
+  float: left;
+}
+
+#cp02 div.inner div.pk div.pet p:nth-child(1){
+  border: 0px solid blue;
+  padding: 0;
+}
+
+#cp02 div.inner div.pk div.pet p:nth-child(3){
+  border: 0px solid yellow;
+  padding: 0;
+}
+
+#cp02 div.inner div.pk div.pet p span{
+  border: 0px solid red;
+  display: block;
+  padding: 12px 0 12px 0;
+  /* padding: 1.11vh 0 1.11vh 0; */
+}
+
+#cp02 div.inner div.pk div.pet p span:nth-child(1){
+  padding-top: 20px;
+  /* padding-top: 1.85vh; */
+}
+/* contents_2 종료 */
+
+
+
+
+
+/* contents_3 시작 */
+#cp03{
+  border: 0px solid red;
+  padding-bottom: 150px;
+  /* padding-bottom: 13.89vh; */
+}
+
+#cp03 div.inner{
+  border: 0px solid orange;
+  width: 84%;
+  margin: 0 auto;
+}
+
+#cp03 div.inner h3{
+  border: 0px solid blue;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 80px; */
+  font-size: 4.17vw;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  padding-top: 200px;
+  /* padding-top: 18.52vh; */
+}
+
+#cp03 div.inner p{
+  border: 0px solid purple;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #6f6f6f;
+  text-align: center;
+  padding-top: 15px;
+  /* padding-top: 1.39vh; */
+}
+
+#cp03 div.inner div.swiper-container2{
+  border: 0px solid red;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#cp03 div.inner div.swiper-container2 div.swiper-wrapper{
+  padding: 0;
+}
+
+#cp03 div.inner div.swiper-container2 dd:nth-child(2){
+  border: 0px solid red;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 28px; */
+  font-size: 1.46vw;
+  font-weight: 700;
+  color: #595858;
+  padding-top: 40px;
+}
+
+#cp03 div.inner div.swiper-container2 dd:nth-child(3){
+  border: 0px solid blue;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 14px; */
+  font-size: 0.73vw;
+  font-weight: 700;
+  color: #747474;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  line-height: 23px;
+}
+/* contents_3 종료 */
+
+
+
+
+
+/* 태블릿 contenst_3 가리기 */
+#cp03 div.inner div.ph-t{
+  display: none;
+}
+
+
+
+
+
+/* contents_4 시작 */
+#cp04{
+  border: 0px solid red;
+  width: 100%;
+  height: 255px;
+  /* height: 23.61vh; */
+  overflow: hidden;
+}
+
+#cp04 div.container{
+  border: 0px solid red;
+  height: 100%;
+}
+
+#cp04 div.container div.left{
+  border: 0px solid orange;
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: url(../images/product-main/contents4_left.png) no-repeat right top;
+  background-size: cover;
+}
+
+#cp04 div.container div.left h5{
+  border: 0px solid red;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 30px; */
+  font-size: 1.56vw;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 100px;
+  /* padding-top: 9.26vh; */
+}
+
+#cp04 div.container div.left p{
+  border: 0px solid orange;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 20px;
+  /* padding-top: 1.85vh; */
+}
+
+#cp04 div.container div.right{
+  border: 0px solid green;
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: url(../images/product-main/contents4_right.png)no-repeat left top;
+  background-size: cover;
+}
+
+#cp04 div.container div.right h5{
+  border: 0px solid red;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 30px; */
+  font-size: 1.56vw;
+  font-weight: 700;
+  color: #443a3a;
+  padding-top: 100px;
+  /* padding-top: 9.26vh; */
+}
+
+#cp04 div.container div.right p{
+  border: 0px solid orange;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 700;
+  color: #443a3a;
+  padding-top: 20px;
+  /* padding-top: 1.85vh; */
+}
+/* contents_4 종료 */
+
+/* product-info(pc) 종료 */
+
+
+
+
+
+/* product-info 고해상도 미디어쿼리 시작 */
+@media all and (min-width: 1921px) and (max-width: 2560px){
+  /* contents_1 시작 */
+  #cp01 div.outer div.inner{
+    width: 1340px;
+  }
+
+  #cp01 div.outer div.inner h3{
+    font-size: 80px;
+  }
+
+  #cp01 div.outer div.inner p{
+    font-size: 18px;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article h5{
+    font-size: 24px;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p{
+    font-size: 16px;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p:nth-child(3){
+    padding-left: 250px;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p a{
+    font-size: 20px;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  #cp02 div.inner{
+    width: 1340px;
+  }
+
+  #cp02 div.inner h3{
+    font-size: 80px;
+  }
+  
+  #cp02 div.inner p{
+    font-size: 18px;
+  }
+
+  #cp02 div.inner div.pk h4{
+    font-size: 36px;
+    background: url(../images/product-main/contents2_line.png) no-repeat 208px 85px;
+  }
+
+  #cp02 div.inner div.pk p{
+    font-size: 18px;
+  }
+  /* contents_2 종료 */
+
+
+
+
+
+  /* contents_3 시작 */
+  #cp03 div.inner{
+    width: 80%;
+  }
+
+  #cp03 div.inner h3{
+    font-size: 80px;
+  }
+  
+  #cp03 div.inner p{
+    font-size: 18px;
+  }
+
+  #cp03 div.inner div.swiper-container2 dd:nth-child(2){
+    font-size: 28px;
+  }
+  
+  #cp03 div.inner div.swiper-container2 dd:nth-child(3){
+    font-size: 14px;
+  }
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  #cp04 div.container div.left h5{
+    font-size: 30px;
+  }
+  
+  #cp04 div.container div.left p{
+    font-size: 18px;
+  }
+
+  #cp04 div.container div.right h5{
+    font-size: 30px;
+  }
+  
+  #cp04 div.container div.right p{
+    font-size: 18px;
+  }
+  /* contents_4 종료 */
+}
+/* product-info 고해상도 미디어쿼리 종료 */
+
+
+
+
+
+/* product-info(태블릿) 800~1200 시작 */
+  @media all and (min-width: 800px) and (max-width: 1200px){
+  /* visual 시작 */
+  #visual-product{
+    min-height: 420px;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작*/
+  #cp01{
+    margin-top: -75px;
+  }
+
+  #cp01 div.outer{
+    width: 95%;
+  }
+
+  #cp01 div.outer div.inner{
+    width: 91%;
+  }
+
+  #cp01 div.outer div.inner h3{
+    /* font-size: 60px; */
+    font-size: 5vw;
+    padding-top: 70px;
+    /* padding-top: 8.75vh; */
+  }
+    
+  #cp01 div.outer div.inner p{
+    border: 0px solid red;
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+  }
+
+  #cp01 div.outer div.inner div.box{
+    border: 0px solid black;
+    height: 550px;
+    padding-top: 50px;
+    /* padding-top: 6.25vh; */
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top h4{
+    border: 0px solid red;
+    /* padding: 30px 0 0 40px; */
+    /* padding: 3.75vh 0 0 3.33vw; */
+    padding: 30px 0 0 3.33vw;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article h5{
+    border: 0px solid blue;
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    /* padding: 20px 0 0 40px; */
+    /* padding: 2.5vh 0 0 3.33vw; */
+    padding: 20px 0 0 3.33vw;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    line-height: 23px;
+    /* line-height: 2.88vh; */
+    /* padding: 30px 0 0 40px; */
+    /* padding: 3.75vh 0 0 3.33vw; */
+    padding: 30px 0 0 3.33vw;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p:nth-child(3){
+    border: 0px solid black;
+    /* padding: 30px 0 20px 200px; */
+    /* padding: 3.75vh 0 2.5vh 16.67vw; */
+    padding: 30px 0 20px 16.67vw;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p a{
+    /* font-size: 16px; */
+    font-size: 1.33vw;
+  }
+  /* contents_1 종료*/
+
+
+
+
+
+  /* contents_2 시작 */
+  #cp02 div.inner{
+    width: 75%;
+  }
+  
+  #cp02 div.inner h3{
+    /* font-size: 60px; */
+    font-size: 5vw;
+    padding-top: 120px;
+    /* padding-top: 15vh; */
+  }
+  
+  #cp02 div.inner p{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+  }
+  
+  #cp02 div.inner div.pk{
+    padding-top: 50px;
+    /* padding-top: 6.25vh; */
+  }
+  
+  #cp02 div.inner div.pk h4{
+    border: 0px solid green;
+    padding: 30px 0 50px 0;
+    /* padding: 3.75vh 0 6.25vh 0; */
+    /* font-size: 30px; */
+    font-size: 2.5vw;
+    /* background: url(../images/product-main/contents2_line.png) no-repeat 140px 80px; */
+    background: url(../images/product-main/contents2_line.png) no-repeat 11.67vw 80px;
+  }
+  
+  #cp02 div.inner div.pk p{
+    border: 0px solid blue;
+    /* font-size: 16px; */
+    font-size: 1.33vw;
+    padding: 12px 0 12px 0;
+    /* padding: 1.5vh 0 1.5vh 0; */
+  }
+  
+  #cp02 div.inner div.pk div.can p span{
+    border: 0px solid red;
+    display: block;
+    padding: 12px 0 12px 0;
+    /* padding: 1.5vh 0 1.5vh 0; */
+  }
+  
+  #cp02 div.inner div.pk div.can p span:nth-child(1){
+    padding-top: 20px;
+    /* padding-top: 2.5vh; */
+  }
+  
+  #cp02 div.inner div.pk div.can p:nth-child(3){
+    border: 0px solid yellow;
+    padding: 0;
+  }
+  
+  #cp02 div.inner div.pk div.bottle p span{
+    border: 0px solid black;
+    display: block;
+    padding: 12px 0 12px 0;
+    /* padding: 1.5vh 0 1.5vh 0; */
+  }
+  
+  #cp02 div.inner div.pk div.bottle p span:nth-child(1){
+    padding-top: 20px;
+    /* padding-top: 2.5vh; */
+  }
+  
+  #cp02 div.inner div.pk div.pet p span{
+    border: 0px solid red;
+    display: block;
+    padding: 12px 0 12px 0;
+    /* padding: 1.5vh 0 1.5vh 0; */
+  }
+  
+  #cp02 div.inner div.pk div.pet p span:nth-child(1){
+    padding-top: 20px;
+    /* padding-top: 2.5vh; */
+  }
+  /* contents_2 종료 */
+
+
+
+
+
+  /* contents_3 시작 */
+  #cp03{
+    border: 0px solid red;
+    padding-bottom: 70px;
+    /* padding-bottom: 8.75vh; */
+  }
+  
+  #cp03 div.inner{
+    border: 0px solid orange;
+    width: 87%;
+    margin: 0 auto;
+  }
+  
+  #cp03 div.inner h3{
+    /* font-size: 60px; */
+    font-size: 6vw;
+    padding-top: 120px;
+    /* padding-top: 15vh; */
+  }
+  
+  #cp03 div.inner p{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+  }
+  
+  #cp03 div.inner div.swiper-container2{
+    border: 0px solid red;
+    padding-top: 50px;
+    /* padding-top: 6.25vh; */
+  }
+  
+  #cp03 div.inner div.swiper-container2 dd:nth-child(2){
+    border: 0px solid red;
+    /* font-size: 28px; */
+    font-size: 2.33vw;
+    padding-top: 40px;
+    /* padding-top: 5vh; */
+  }
+  
+  #cp03 div.inner div.swiper-container2 dd:nth-child(3){
+    border: 0px solid blue;
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    padding-top: 20px;
+    /* padding-top: 2.5vh; */
+    padding-bottom: 70px;
+    /* padding-bottom: 8.75vh; */
+    line-height: 23px;
+    /* line-height: 2.88vh; */
+  }
+
+  #cp03 div.inner div.swiper-container2{
+    border: 0px solid orange;
+    display: block;
+    overflow: hidden;
+    padding-top: 50px;
+    /* padding-top: 6.25vh; */
+    padding-bottom: 60px;
+    /* padding-bottom: 7.5vh; */
+  }
+
+  #cp03 div.inner div.swiper-container2 dl dd:nth-child(2){
+    border: 0px solid red;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 24px; */
+    font-size: 2vw;
+    font-weight: 700;
+    color: #595858;
+    padding-top: 20px;
+    /* padding-top: 2.5vh; */
+  }
+
+  #cp03 div.inner div.swiper-container2 dl dd:nth-child(3){
+    border: 0px solid orange;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 13px; */
+    font-size: 1.08vw;
+    line-height: 18px;
+    /* line-height: 2.25vh; */
+    font-weight: 500;
+    color: #747474;
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  #cp04{
+    border: 0px solid red;
+    max-height: 140px;
+  }
+  
+  #cp04 div.container div.left h5{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    padding-top: 50px;
+    /* padding-top: 6.25vh; */
+  }
+  
+  #cp04 div.container div.left p{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+  
+  #cp04 div.container div.right h5{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    padding-top: 50px;
+    /* padding-top: 6.25vh; */
+  }
+  
+  #cp04 div.container div.right p{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+  /* contents_4 종료 */
+}
+/* product-info(태블릿) 800~1200 종료 */
+
+
+
+
+
+/* prodect-info contents_1 text 950~1070 미디어쿼리 시작 */
+@media all and (min-width: 950px) and (max-width: 1070px){
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top h4{
+    border: 0px solid red;
+    /* padding: 25px 0 0 40px; */
+    /* padding: 3.13vh 0 0 3.74vw; */
+    padding: 25px 0 0 3.74vw;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article h5{
+    border: 0px solid blue;
+    /* font-size: 16px; */
+    font-size: 1.5vw;
+    /* padding: 15px 0 0 40px; */
+    /* padding: 1.88vh 0 0 3.74vw; */
+    padding: 15px 0 0 3.74vw;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p{
+    border: 0px solid red;
+    /* font-size: 12px; */
+    font-size: 1.12vw;
+    line-height: 23px;
+    /* line-height: 2.88vh; */
+    /* padding: 20px 0 0 40px; */
+    /* padding: 2.5vw 0 0 3.74vw; */
+    padding: 20px 0 0 3.74vw;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p:nth-child(3){
+    border: 0px solid black;
+    /* padding: 25px 0 15px 200px; */
+    /* padding: 3.13vh 0 1.88vh 18.69vw; */
+    padding: 25px 0 15px 18.69vw;
+  }
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p a{
+    /* font-size: 14px; */
+    font-size: 1.31vw;
+  }
+}
+/* prodect-info contents_1 text 950~1070 미디어쿼리 종료 */
+
+
+
+
+
+/* prodect-info contents_1 text 800~950 미디어쿼리 시작 */
+@media all and (min-width: 800px) and (max-width: 950px){
+  
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top h4{
+    border: 0px solid red;
+    padding: 80px 0 0 0;
+    margin: 0 auto;
+    }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article h5{
+    border: 0px solid blue;
+    /* font-size: 16px; */
+    font-size: 1.68vw;
+    /* padding: 25px 0 0 40px; */
+    /* padding: 3.13vh 0 0 4.21vw; */
+    padding: 25px 0 0 4.21vw;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p{
+    border: 0px solid red;
+    /* font-size: 12px; */
+    font-size: 1.26vw;
+    line-height: 23px;
+    /* padding: 25px 0 0 40px; */
+    /* padding: 3.13vh 0 0 4.21vw; */
+    padding: 25px 0 0 4.21vw;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p:nth-child(3){
+    border: 0px solid black;
+    text-align: center;
+    padding: 25px 0 0 0;
+    /* padding: 3.13vh 0 0 0; */
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p a{
+    /* font-size: 14px; */
+    font-size: 1.47vw;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top .swiper-wrapper{
+    display: none;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top .swiper-button-next{
+    display: none;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top .swiper-button-prev{
+    display: none;
+  }
+}
+/* prodect-info contents_1 text 800~950 미디어쿼리 종료 */
+
+
+
+
+
+/* product-info(태블릿) 600~800 시작 */
+@media all and (min-width: 600px) and (max-width: 800px){
+  /* visual 시작 */
+  #visual-product{
+    border: 0px solid red;
+    width: 100%;
+    height: 46%;
+    min-height: 280px;
+    background: url(../images/product-main/visual_img.png) no-repeat center center;
+    background-size: cover;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작*/
+  #cp01{
+    border: 0px solid red;
+    margin-top: -50px;
+  }
+
+  #cp01 div.outer{
+    border: 0px solid orange;
+    width: 95%;
+  }
+
+  #cp01 div.outer div.inner{
+    border: 0px solid yellow;
+    width: 89%;
+  }
+
+  #cp01 div.outer div.inner h3{
+    /* font-size: 48px; */
+    font-size: 6vw;
+    padding-top: 40px;
+    /* padding-top: 5vh; */
+  }
+    
+  #cp01 div.outer div.inner p{
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding-top: 0;
+  }
+
+  #cp01 div.outer div.inner div.box{
+    border: 0px solid black;
+    padding-top: 40px;
+    /* padding-top: 5vh; */
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top h4{
+    border: 0px solid red;
+    margin: 0 auto;
+    /* padding: 10vh 0 0 0; */
+    padding: 40px 0 0 0;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article h5{
+    border: 0px solid blue;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    /* padding: 20px 0 0 25px; */
+    /* padding: 2.5vh 0 0 3.13vw; */
+    padding: 20px 0 0 3.13vw;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p{
+    border: 0px solid red;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    line-height: 17px;
+    /* line-height: 2.13vh; */
+    /* padding: 20px 0 0 25px; */
+    padding: 20px 0 0 3.13vw;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p:nth-child(3){
+    border: 00px solid black;
+    padding: 15px 0 0 0;
+    text-align: center;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p a{
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top .swiper-wrapper{
+    display: none;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top .swiper-button-next{
+    display: none;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top .swiper-button-prev{
+    display: none;
+  }
+  /* contents_1 종료*/
+
+
+
+
+
+  /* contents_2 시작 */
+  #cp02 div.inner{
+    border: 0px solid orange;
+    width: 85%;
+  }
+  
+  #cp02 div.inner h3{
+    /* font-size: 48px; */
+    font-size: 6vw;
+    padding-top: 100px;
+    /* padding-top: 8vh; */
+  }
+  
+  #cp02 div.inner p{
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding-top: 5px;
+    /* padding-top: 0.63vh; */
+  }
+  
+  #cp02 div.inner div.pk{
+    border: 0px solid pink;
+    padding-top: 40px;
+    /* padding-top: 5vh; */
+  }
+  
+  #cp02 div.inner div.pk h4{
+    border: 0px solid green;
+    padding: 20px 0 30px 0;
+    /* padding: 2.5vh 0 3.75vh 0; */
+    /* font-size: 24px; */
+    font-size: 3vw;
+    /* background: url(../images/product-main/contents2_line-t.png) no-repeat 105px 58px; */
+    background: url(../images/product-main/contents2_line-t.png) no-repeat 13.13vw 58px;
+  }
+  
+  #cp02 div.inner div.pk p{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding: 10px 0 10px 0;
+    /* padding: 1.25vh 0 1.25vh 0; */
+  }
+  
+  #cp02 div.inner div.pk div.can p span{
+    border: 0px solid red;
+    display: block;
+    padding: 10px 0 10px 0;
+    /* padding: 1.25vh 0 1.25vh 0; */
+  }
+
+  #cp02 div.inner div.pk div.can p span:nth-child(1){
+    border: 0px solid red;
+    padding-top: 20px;
+    /* padding-top: 3.08vh; */
+  }
+  
+  #cp02 div.inner div.pk div.bottle p span{
+    border: 0px solid black;
+    display: block;
+    padding: 10px 0 10px 0;
+    /* padding: 1.25vh 0 1.25vh 0; */
+  }
+  
+  #cp02 div.inner div.pk div.pet p span{
+    border: 0px solid red;
+    display: block;
+    padding: 10px 0 10px 0;
+    /* padding: 1.25vh 0 1.25vh 0; */
+  }
+
+  #cp02 div.inner div.pk div.pet p span:nth-child(1){
+    border: 0px solid red;
+    padding-top: 20px;
+    /* padding-top: 3.08vh; */
+  }
+  /* contents_2 종료 */
+
+
+
+
+
+  /* contents_3 시작 */
+  #cp03{
+    padding-bottom: 80px;
+    /* padding-bottom: 10vh; */
+  }
+
+  #cp03 div.inner{
+    border: 0px solid red;
+    width: 95%;
+  }
+
+  #cp03 div.inner h3{
+    /* font-size: 48px; */
+    font-size: 6vw;
+    padding-top: 100px;
+    /* padding-top: 8vh; */
+  }
+    
+  #cp03 div.inner p{
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding-top: 5px;
+    /* padding-top: 0.63vh; */
+  }
+
+  #cp03 div.inner div.swiper-container2{
+    border: 0px solid orange;
+    display: block;
+    overflow: hidden;
+    padding-top: 40px;
+    /* padding-top: 5vh; */
+    padding-bottom: 50px;
+    /* padding-bottom: 6.25vh; */
+  }
+
+  #cp03 div.inner div.swiper-container2 dl dd:nth-child(2){
+    border: 0px solid red;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 18px; */
+    font-size: 2.25vw;
+    font-weight: 700;
+    color: #595858;
+    padding-top: 20px;
+    /* padding-top: 2.5vh; */
+  }
+
+  #cp03 div.inner div.swiper-container2 dl dd:nth-child(3){
+    border: 0px solid orange;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    font-weight: 500;
+    color: #747474;
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  #cp04{
+    height: 95px;
+    /* height: 11.88vh; */
+  }
+  
+  #cp04 div.container div.left h5{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding-top: 28px;
+    /* padding-top: 3.5vh; */
+  }
+  
+  #cp04 div.container div.left p{
+    border: 0px solid orange;
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+  
+  #cp04 div.container div.right h5{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding-top: 28px;
+    /* padding-top: 3.5vh; */
+  }
+  
+  #cp04 div.container div.right p{
+    border: 0px solid orange;
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+  /* contents_4 종료 */
+}
+/* product-info(태블릿) 600~800 종료 */
+
+
+
+
+
+/* product-info 600~650 미디어쿼리 시작 */
+@media all and (min-width: 600px) and (max-width: 670px){
+  /* contents_1 시작 */
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top h4{
+    padding-top: 40px;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article br{
+    display: none;
+  }
+  /* contents_1 종료 */
+}
+/* product-info 600~650 미디어쿼리 종료 */
+
+
+
+
+
+/* product-info 모바일 시작 */
+@media all and (max-width: 599px){
+  /* visual 시작 */
+  #visual-product{
+    border: 0px solid red;
+    width: 100%;
+    height: 30%;
+    min-height: 170px;
+    background: url(../images/product-main/visual_img.png) no-repeat center center;
+    background-size: cover;
+  }
+  /* visual 종료 */
+
+
+
+
+  
+  /* contents_1 시작 */
+  #cp01{
+    margin-top: -30px;
+  }
+
+  #cp01 div.outer{
+    border: 0px solid red;
+    width: 83%;
+  }
+
+  #cp01 div.outer div.inner{
+    border: 0px solid orange;
+    width: 85%;
+  }
+
+  #cp01 div.outer div.inner h3{
+    /* font-size: 30px; */
+    font-size: 6.25vw;
+    padding-top: 30px;
+    /* padding-top: 3.75vh; */
+  }
+    
+  #cp01 div.outer div.inner p{
+    border: 0px solid red;
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+
+  #cp01 div.outer div.inner div.box{
+    border: 0px solid black;
+    height: auto;
+    padding-top: 30px;
+    /* padding-top: 3.75vh; */
+  }
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-thumbs{
+    width: 100%;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top{
+    border: 0px solid yellow;
+    width: 100%;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top h4{
+    border: 0px solid red;
+    width: 30%;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+    /* padding: 3.13vh 0 0 0; */
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article h5{
+    border: 0px solid blue;
+    /* font-size: 14px; */
+    font-size: 2.92vw;
+    padding: 30px 0 0 0;
+    /* padding: 3.75vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p{
+    border: 0px solid red;
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    line-height: 23px;
+    /* line-height: 2.88vh; */
+    padding: 20px 0 0 0;
+    /* padding: 2.5vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p br{
+    display: none;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p:nth-child(3){
+    border: 0px solid black;
+    text-align: center;
+    padding: 20px 0 0 0;
+    /* padding: 2.5vh 0 0 0; */
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top article p a{
+    /* font-size: 16px; */
+    font-size: 3.33vw;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top .swiper-wrapper{
+    display: none;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top .swiper-button-next{
+    display: none;
+  }
+
+  #cp01 div.outer div.inner div.box div.swiper-container.gallery-top .swiper-button-prev{
+    display: none;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  #cp02 div.inner{
+    width: 83%;
+  }
+  
+  #cp02 div.inner h3{
+    /* font-size: 30px; */
+    font-size: 6.25vw;
+    padding-top: 60px;
+    /* padding-top: 7.5vh; */
+  }
+  
+  #cp02 div.inner p{
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+  
+  #cp02 div.inner div.pk{
+    border: 0px solid red;
+    padding-top: 30px;
+    /* padding-top: 3.75vh; */
+  }
+  
+  #cp02 div.inner div.pk h4{
+    border: 0px solid green;
+    padding: 15px 0 0 0;
+    /* padding: 1.88vh 0 0 0; */
+    /* font-size: 18px; */
+    font-size: 3.75vw;
+    background: none;
+  }
+  
+  #cp02 div.inner div.pk div.can p span{
+    display: none;
+  }
+  
+  #cp02 div.inner div.pk div.bottle p span{
+    display: none;
+  }
+  
+  #cp02 div.inner div.pk div.pet p span{
+    display: none;
+  }
+  /* contents_2 종료 */
+
+
+
+
+
+  /* contente_3 시작 */
+  #cp03{
+    padding-bottom: 80px;
+    /* padding-bottom: 10vh; */
+  }
+
+  #cp03 div.inner{
+    border: 0px solid red;
+    width: 83%;
+  }
+
+  #cp03 div.inner h3{
+    /* font-size: 30px; */
+    font-size: 6.25vw;
+    padding-top: 60px;
+    /* padding-top: 7.5vh; */
+  }
+    
+  #cp03 div.inner p{
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+
+  #cp03 div.inner div.swiper-container2{
+    border: 0px solid orange;
+    display: block;
+    overflow: hidden;
+    padding-top: 40px;
+    /* padding-top: 5vh; */
+    padding-bottom: 35px;
+    /* padding-bottom: 4.38vh; */
+  }
+
+  #cp03 div.inner div.swiper-container2 dl dd:nth-child(2){
+    border: 0px solid red;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-size: 18px; */
+    font-size: 3.75vw;
+    font-weight: 700;
+    color: #595858;
+    padding-top: 20px;
+    /* padding-top: 2.5vh; */
+  }
+
+  #cp03 div.inner div.swiper-container2 dl dd:nth-child(3){
+    display: none;
+  }
+  /* contente_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  #cp04{
+    height: 80px;
+    /* height: 7.5vh; */
+  }
+  
+  #cp04 div.container div.left h5{
+    border: 0px solid red;
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    padding-top: 25px;
+  }
+  
+  #cp04 div.container div.left p{
+    border: 0px solid orange;
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    padding-top: 5px;
+  }
+  
+  #cp04 div.container div.right h5{
+    border: 0px solid red;
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    padding-top: 25px;
+  }
+  
+  #cp04 div.container div.right p{
+    border: 0px solid orange;
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    padding-top: 5px;
+  }
+  /* contents_4 종료 */
+}
+/* product-info 모바일 종료 */
+
+
+
+
+
+/* life-travel(pc) 시작 */
+
+/* visual 시작 */
+#visual-life{
+  border: 0px solid red;
+  width: 100%;
+  height: 46%;
+  min-height: 500px;
+  background: url(../images/life-main/visual_img.jpeg) no-repeat center center;
+  background-size: cover;
+}
+/* visual 종료 */
+
+
+
+
+
+/* contents_1 시작 */
+#cl01{
+  border: 0px solid red;
+  margin-top: -100px;
+}
+
+#cl01 div.outer{
+  border: 0px solid orange;
+  width: 84%;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#cl01 div.outer div.inner{
+  border: 0px solid yellow;
+  width: 81%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#cl01 div.outer div.inner h3{
+  border: 0px solid blue;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 80px; */
+  font-size: 4.17vw;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  padding-top: 80px;
+  /* padding-top: 7.41vh; */
+}
+  
+#cl01 div.outer div.inner p{
+  border: 0px solid purple;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #6f6f6f;
+  text-align: center;
+}
+
+#cl01 div.outer div.inner div.container{
+  border: 0px solid black;
+  overflow: hidden;
+  padding-top: 80px;
+  /* padding-top: 7.41vh; */
+}
+
+#cl01 div.outer div.inner div.container div.left{
+  border: 0px solid red;
+  width: 59%;
+  float: left;
+}
+
+#cl01 div.outer div.inner div.container div.right{
+  border: 0px solid blue;
+  width: 41%;
+  float: left;
+}
+
+#cl01 div.outer div.inner div.container div.right dl dt{
+  border: 0px solid red;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 24px; */
+  font-size: 1.25vw;
+  font-weight: 700;
+  color: #333;
+  /* padding: 80px 0 0 35px; */
+  /* padding: 7.41vh 0 0 1.82vw; */
+  padding: 80px 0 0 1.82vw;
+}
+
+#cl01 div.outer div.inner div.container div.right dl dt span{
+  border: 0px solid orange;
+  color: #e61d2b;
+}
+
+#cl01 div.outer div.inner div.container div.right dl dd{
+  border: 0px solid green;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  font-weight: 500;
+  color: #333;
+  line-height: 23px;
+  /* line-height: 2.13vh; */
+  /* padding: 40px 0 0 35px; */
+  /* padding: 3.7vh 0 0 1.82vw; */
+  padding: 40px 0 0 1.82vw;
+}
+
+#cl01 div.outer div.inner div.container div.right dl dd:nth-child(3){
+  border: 0px solid black;
+  text-align: center;
+}
+
+#cl01 div.outer div.inner div.container div.right dl dd:nth-child(3) a{
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+/* contents_1 종료 */
+
+
+
+
+
+/* contents_2 시작 */
+#cl02{
+  border: 0px solid red;
+}
+
+#cl02 div.inner{
+  border: 0px solid orange;
+  width: 69%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#cl02 div.inner div.container{
+  border: 0px solid red;
+  overflow: hidden;
+  padding-top: 90px;
+  /* padding-top: 8.33vh; */
+}
+
+#cl02 div.inner div.container div.left{
+  border: 0px solid green;
+  width: 41%;
+  float: left;
+}
+
+#cl02 div.inner div.container div.right{
+  border: 0px solid red;
+  width: 59%;
+  float: right;
+}
+
+#cl02 div.inner div.container div.left dl dt{
+  border: 0px solid red;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 24px; */
+  font-size: 1.25vw;
+  font-weight: 700;
+  color: #333;
+  /* padding: 80px 0 0 20px; */
+  /* padding: 7.41vh 0 0 1.04vw; */
+  padding: 80px 0 0 1.04vw;
+}
+
+#cl02 div.inner div.container div.left dl dt span{
+  border: 0px solid orange;
+  color: #e61d2b;
+}
+
+#cl02 div.inner div.container div.left dl dd{
+  border: 0px solid green;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  font-weight: 500;
+  color: #333;
+  line-height: 23px;
+  /* line-height: 2.13vh; */
+  /* padding: 40px 0 0 20px; */
+  /* padding: 3.7vh 0 0 1.04vw; */
+  padding: 40px 0 0 1.04vw;
+}
+
+#cl02 div.inner div.container div.left dl dd:nth-child(3){
+  border: 0px solid black;
+  text-align: center;
+}
+
+#cl02 div.inner div.container div.left dl dd:nth-child(3) a{
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+/* contents_2 종료 */
+
+
+
+
+
+/* contents_3 시작 */
+#cl03{
+  border: 0px solid orange;
+}
+
+#cl03 div.inner{
+  border: 0px solid red;
+  width: 69%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#cl03 div.inner div.container{
+  border: 0px solid yellow;
+  overflow: hidden;
+  padding-top: 90px;
+  /* padding-top: 8.33vh; */
+}
+
+#cl03 div.inner div.container div.left{
+  border: 0px solid blue;
+  width: 59%;
+  float: left;
+}
+
+#cl03 div.inner div.container div.right{
+  border: 0px solid red;
+  width: 41%;
+  float: right;
+}
+
+#cl03 div.inner div.container div.right dl dt{
+  border: 0px solid red;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 24px; */
+  font-size: 1.25vw;
+  font-weight: 700;
+  color: #333;
+  /* padding: 80px 0 0 35px; */
+  /* padding: 7.41vh 0 0 1.82vw; */
+  padding: 40px 0 0 1.82vw;
+}
+
+#cl03 div.inner div.container div.right dl dt span{
+  border: 0px solid orange;
+  color: #e61d2b;
+}
+
+#cl03 div.inner div.container div.right dl dd{
+  border: 0px solid green;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  font-weight: 500;
+  color: #333;
+  line-height: 23px;
+  /* line-height: 2.13vh; */
+  /* padding: 40px 0 0 35px; */
+  /* padding: 3.7vh 0 0 1.82vw; */
+  padding: 40px 0 0 1.82vw;
+}
+
+#cl03 div.inner div.container div.right dl dd:nth-child(3){
+  border: 0px solid black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#cl03 div.inner div.container div.right dl dd:nth-child(3) a{
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+/* contents_3 종료 */
+
+
+
+
+
+/* contents_4 시작 */
+#cl04{
+  border: 0px solid green;
+  padding-bottom: 100px;
+  /* padding-bottom: 9.26vh; */
+}
+
+#cl04 div.inner{
+  border: 0px solid red;
+  width: 69%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#cl04 div.inner div.container{
+  border: 0px solid orange;
+  overflow: hidden;
+  padding-top: 90px;
+  /* padding-top: 8.33vh; */
+}
+
+#cl04 div.inner div.container div.left{
+  border: 0px solid blue;
+  width: 41%;
+  float: left;
+}
+
+#cl04 div.inner div.container div.right{
+  border: 0px solid red;
+  width: 59%;
+  float: right;
+}
+
+#cl04 div.inner div.container div.left dl dt{
+  border: 0px solid red;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 24px; */
+  font-size: 1.25vw;
+  font-weight: 700;
+  color: #333;
+  /* padding: 80px 0 0 20px; */
+  /* padding: 7.41vh 0 0 1.04vw; */
+  padding: 80px 0 0 1.04vw;
+}
+
+#cl04 div.inner div.container div.left dl dt span{
+  border: 0px solid orange;
+  color: #e61d2b;
+}
+
+#cl04 div.inner div.container div.left dl dd{
+  border: 0px solid green;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  font-weight: 500;
+  color: #333;
+  line-height: 23px;
+  /* line-height: 2.13vh; */
+  /* padding: 40px 0 0 20px; */
+  /* padding: 3.7vh 0 0 1.04vw; */
+  padding: 40px 0 0 1.04vw;
+}
+
+#cl04 div.inner div.container div.left dl dd:nth-child(3){
+  border: 0px solid black;
+  text-align: center;
+}
+
+#cl04 div.inner div.container div.left dl dd:nth-child(3) a{
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+/* contents_4 종료 */
+
+
+
+
+
+/* contents_5 시작 */
+#cl05{
+  border: 0px solid red;
+  width: 100%;
+  height: 255px;
+  /* height: 23.61vh; */
+}
+
+#cl05 div.container{
+  border: 0px solid orange;
+  height: 100%;
+}
+
+#cl05 div.container div.left{
+  border: 0px solid green;
+  background: url(../images/life-main/contents_5_img1.png) no-repeat center top;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#cl05 div.container div.left h5{
+  border: 0px solid red;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 30px; */
+  font-size: 1.56vw;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 100px;
+  /* padding-top: 9.26vh; */
+}
+
+#cl05 div.container div.left p{
+  border: 0px solid orange;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 20px;
+  /* padding-top: 1.85vh; */
+}
+
+#cl05 div.container div.right{
+  border: 0px solid yellow;
+  background: url(../images/life-main/contents_5_img2.png) no-repeat center top;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+#cl05 div.container div.right h5{
+  border: 0px solid red;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 30px; */
+  font-size: 1.56vw;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 100px;
+  /* padding-top: 9.26vh; */
+}
+
+#cl05 div.container div.right p{
+  border: 0px solid orange;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 20px;
+  /* padding-top: 1.85vh; */
+}
+/* contents_5 종료 */
+
+/* life-travel(pc) 종료 */
+
+
+
+
+
+/* life-travel 고해상도 미디어쿼리 시작 */
+@media all and (min-width: 1921px) and (max-width: 2560px){
+  /* contents_1 시작 */
+  #cl01 div.outer{
+    width: 1800px;
+  }
+  
+  #cl01 div.outer div.inner{
+    width: 1600px;
+  }
+
+  #cl01 div.outer div.inner h3{
+    font-size: 80px;
+  }
+    
+  #cl01 div.outer div.inner p{
+    font-size: 18px;
+  }
+
+  #cl01 div.outer div.inner div.container div.left{
+    width: 50%;
+  }
+
+  #cl01 div.outer div.inner div.container div.right{
+    width: 50%;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dt{
+    font-size: 24px;
+    padding: 80px 0 0 150px;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd{
+    font-size: 16px;
+    padding: 40px 0 0 150px;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd:nth-child(3){
+    text-align: left;
+    padding-left: 330px;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd:nth-child(3) a{
+    font-size: 18px;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  #cl02 div.inner{
+    width: 1600px;
+  }
+
+  #cl02 div.inner h3{
+    font-size: 80px;
+  }
+    
+  #cl02 div.inner p{
+    font-size: 18px;
+  }
+
+  #cl02 div.inner div.container div.left{
+    width: 50%;
+  }
+
+  #cl02 div.inner div.container div.right{
+    width: 50%;
+  }
+
+  #cl02 div.inner div.container div.left dl dt{
+    font-size: 24px;
+    padding: 60px 0 0 150px;
+  }
+
+  #cl02 div.inner div.container div.left dl dd{
+    font-size: 16px;
+    padding: 40px 0 0 150px;
+  }
+
+  #cl02 div.inner div.container div.left dl dd:nth-child(3){
+    text-align: left;
+    padding-left: 330px;
+  }
+
+  #cl02 div.inner div.container div.left dl dd:nth-child(3) a{
+    font-size: 18px;
+  }
+  /* contents_2 종료 */
+
+
+
+
+
+  /* contents_3 시작 */
+  #cl03 div.inner{
+    width: 1600px;
+  }
+
+  #cl03 div.inner h3{
+    font-size: 80px;
+  }
+    
+  #cl03 div.inner p{
+    font-size: 18px;
+  }
+
+  #cl03 div.inner div.container div.left{
+    width: 50%;
+  }
+
+  #cl03 div.inner div.container div.right{
+    width: 50%;
+  }
+
+  #cl03 div.inner div.container div.right dl dt{
+    font-size: 24px;
+    padding: 60px 0 0 150px;
+  }
+
+  #cl03 div.inner div.container div.right dl dd{
+    font-size: 16px;
+    padding: 40px 0 0 150px;
+  }
+
+  #cl03 div.inner div.container div.right dl dd:nth-child(3){
+    text-align: left;
+    padding-left: 330px;
+  }
+
+  #cl03 div.inner div.container div.right dl dd:nth-child(3) a{
+    font-size: 18px;
+  }
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  #cl04 div.inner{
+    width: 1600px;
+  }
+
+  #cl04 div.inner h3{
+    font-size: 80px;
+  }
+    
+  #cl04 div.inner p{
+    font-size: 18px;
+  }
+
+  #cl04 div.inner div.container div.left{
+    width: 50%;
+  }
+
+  #cl04 div.inner div.container div.right{
+    width: 50%;
+  }
+
+  #cl04 div.inner div.container div.left dl dt{
+    font-size: 24px;
+    padding: 60px 0 0 150px;
+  }
+
+  #cl04 div.inner div.container div.left dl dd{
+    font-size: 16px;
+    padding: 40px 0 0 150px;
+  }
+
+  #cl04 div.inner div.container div.left dl dd:nth-child(3){
+    text-align: left;
+    padding-left: 330px;
+  }
+
+  #cl04 div.inner div.container div.left dl dd:nth-child(3) a{
+    font-size: 18px;
+  }
+  /* contents_4 종료 */
+
+
+
+
+  /* contents_5 시작 */
+  #cl05 div.container div.left h5{
+    font-size: 30px;
+  }
+
+  #cl05 div.container div.left p{
+    font-size: 18px;
+  }
+
+  #cl05 div.container div.right h5{
+    font-size: 30px;
+  }
+
+  #cl05 div.container div.right p{
+    font-size: 18px;
+  }
+  /* contents_5 종료 */
+}
+/* life-travel 고해상도 미디어쿼리 종료 */
+
+
+
+
+
+/* life-travel contents_3~4 미디어쿼리 시작 */
+@media all and (min-width: 1600px) and (max-width: 1750px){
+  /* contents_3 시작 */
+  #cl03 div.inner div.container div.right dl dt{
+    /* padding: 40px 0 0 35px; */
+    /* padding: 3.7vh 0 0 2.19vw; */
+    padding: 40px 0 0 2.19vw;
+  }
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  #cl04 div.inner div.container div.left dl dt{
+    /* padding: 25px 0 0 20px; */
+    /* padding: 2.31vh 0 0 1.25vw; */
+    padding: 25px 0 0 1.25vw;
+  }
+  /* contents_4 종료 */
+}
+/* life-travel contents_3~4 미디어쿼리 종료 */
+
+
+
+
+
+/* life-travel text 미디어쿼리 1400~1600 시작 */
+@media all and (min-width: 1400px) and (max-width: 1600px){
+  /* contents_1 시작 */
+  #cl01 div.outer div.inner div.container div.right dl dt{
+    /* font-size: 20px; */
+    font-size: 1.25vw;
+    /* padding: 45px 0 0 35px; */
+    /* padding: 4.17vh 0 0 2.19vw; */
+    padding: 45px 0 0 2.19vw;
+  }
+  
+  #cl01 div.outer div.inner div.container div.right dl dd{
+    /* font-size: 14px; */
+    font-size: 0.85vw;
+    /* padding: 30px 0 0 35px; */
+    /* padding: 2.78vh 0 0 2.19vw; */
+    padding: 30px 0 0 2.19vw;
+  }
+  
+  #cl01 div.outer div.inner div.container div.right dl dd:nth-child(3) a{
+    /* font-size: 16px; */
+    font-size: 1vw;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  
+  #cl02 div.inner div.container div.left dl dt{
+    /* font-size: 20px; */
+    font-size: 1.25vw;
+    /* padding: 45px 0 0 20px; */
+    /* padding: 4.17vh 0 0 1.25vw; */
+    padding: 45px 0 0 1.25vw;
+  }
+  
+  #cl02 div.inner div.container div.left dl dd{
+    /* font-size: 14px; */
+    font-size: 0.85vw;
+    /* padding: 30px 0 0 20px; */
+    /* padding: 2.78vh 0 0 1.25vw; */
+    padding: 30px 0 0 1.25vw;
+  }
+  
+  #cl02 div.inner div.container div.left dl dd:nth-child(3) a{
+    /* font-size: 16px; */
+    font-size: 1vw;
+  }
+  /* contents_2 종료 */
+
+
+
+
+
+  /* contents_3 시작 */
+
+  #cl03 div.inner div.container div.right dl dt{
+    /* font-size: 20px; */
+    font-size: 1.25vw;
+    /* padding: 30px 0 0 35px; */
+    /* padding: 2.78vh 0 0 2.19vw; */
+    padding: 30px 0 0 2.19vw;
+  }
+
+  #cl03 div.inner div.container div.right dl dd{
+    /* font-size: 14px; */
+    font-size: 0.85vw;
+    /* padding: 25px 0 0 35px; */
+    /* padding: 2.31vh 0 0 2.19vw; */
+    padding: 20px 0 0 2.19vw;
+    line-height: 21px;
+  }
+
+  #cl03 div.inner div.container div.right dl dd:nth-child(3) a{
+    /* font-size: 16px; */
+    font-size: 1vw;
+  }
+  
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  #cl04 div.inner div.container div.left dl dt{
+    /* font-size: 20px; */
+    font-size: 1.25vw;
+    /* padding: 25px 0 0 20px; */
+    /* padding: 2.31vh 0 0 1.25vw; */
+    padding: 25px 0 0 1.25vw;
+  }
+
+  #cl04 div.inner div.container div.left dl dd{
+    /* font-size: 14px; */
+    font-size: 0.85vw;
+    /* padding: 30px 0 0 20px; */
+    /* padding: 2.78vh 0 0 1.25vw; */
+    padding: 30px 0 0 1.25vw;
+  }
+
+  #cl04 div.inner div.container div.left dl dd:nth-child(3) a{
+    /* font-size: 16px; */
+    font-size: 1vw;
+  }
+  /* contents_4 종료 */
+}
+/* life-travel text 미디어쿼리 1400~1600 종료 */
+
+
+
+
+
+/* life-travel text 미디어쿼리 1200~1400 시작 */
+@media all and (min-width: 1200px) and (max-width: 1400px){
+  /* contents_1 시작 */
+  #cl01 div.outer div.inner div.container div.right dl dt{
+    /* font-size: 18px; */
+    font-size: 1.29vw;
+    /* padding: 25px 0 0 25px; */
+    /* padding: 2.31vh 0 0 1.79vw; */
+    padding: 25px 0 0 1.79vw;
+  }
+  
+  #cl01 div.outer div.inner div.container div.right dl dd{
+    /* font-size: 12px; */
+    font-size: 0.86vw;
+    /* padding: 30px 0 0 25px; */
+    /* padding: 2.78vh 0 0 1.79vw; */
+    padding: 30px 0 0 1.79vw;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.39vh; */
+  }
+  
+  #cl01 div.outer div.inner div.container div.right dl dd:nth-child(3) a{
+    /* font-size: 14px; */
+    font-size: 1vw;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  
+  #cl02 div.inner div.container div.left dl dt{
+    /* font-size: 18px; */
+    font-size: 1.29vw;
+    /* padding: 30px 0 0 20px; */
+    /* padding: 2.31vh 0 0 1.43vw; */
+    padding: 30px 0 0 1.43vw;
+  }
+  
+  #cl02 div.inner div.container div.left dl dd{
+    /* font-size: 12px; */
+    font-size: 0.86vw;
+    /* padding: 30px 0 0 20px; */
+    /* padding: 2.31vh 0 0 1.43vw; */
+    padding: 30px 0 0 1.43vw;
+  }
+
+  #cl02 div.inner div.container div.left dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.39vh; */
+  }
+  
+  #cl02 div.inner div.container div.left dl dd:nth-child(3) a{
+    /* font-size: 14px; */
+    font-size: 1vw;
+  }
+  /* contents_2 종료 */
+
+
+
+
+
+  /* contents_3 시작 */
+
+  #cl03 div.inner div.container div.right dl dt{
+    /* font-size: 18px; */
+    font-size: 1.29vw;
+    /* padding: 20px 0 0 20px; */
+    /* padding: 1.85vh 0 0 1.43vw; */
+    padding: 20px 0 0 1.43vw;
+  }
+
+  #cl03 div.inner div.container div.right dl dd{
+    /* font-size: 12px; */
+    font-size: 0.86vw;
+    line-height: 20px;
+    /* line-height: 1.85vh; */
+    /* padding: 15px 0 0 20px; */
+    /* padding: 1.39vh 0 0 1.43vw; */
+    padding: 15px 0 0 1.43vw;
+  }
+
+  #cl03 div.inner div.container div.right dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.39vh; */
+  }
+
+  #cl03 div.inner div.container div.right dl dd:nth-child(3) a{
+    /* font-size: 14px; */
+    font-size: 1vw;
+  }
+  
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  #cl04 div.inner div.container div.left dl dt{
+    /* font-size: 18px; */
+    font-size: 1.29vw;
+    /* padding: 20px 0 0 20px; */
+    /* padding: 1.85vh 0 0 1.43vw; */
+    padding: 20px 0 0 1.43vw;
+  }
+
+  #cl04 div.inner div.container div.left dl dd{
+    /* font-size: 12px; */
+    font-size: 0.86vw;
+    /* padding: 20px 0 0 20px; */
+    /* padding: 1.85vh 0 0 1.43vw; */
+    padding: 20px 0 0 1.43vw;
+  }
+
+  #cl04 div.inner div.container div.left dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.39vh; */
+  }
+
+  #cl04 div.inner div.container div.left dl dd:nth-child(3) a{
+    /* font-size: 14px; */
+    font-size: 1vw;
+  }
+  /* contents_4 종료 */
+}
+/* life-travel text 미디어쿼리 1200~1400 종료 */
+
+
+
+
+
+/* life-travel 태블릿 800~1200 시작 */
+@media all and (min-width: 800px) and (max-width: 1200px){
+  /* visual 시작 */
+  #visual-life{
+    border: 0px solid red;
+    width: 100%;
+    min-height: 420px;
+    background: url(../images/life-main/visual_img.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작 */
+  #cl01{
+    border: 0px solid red;
+    margin-top: -75px;
+  }
+
+  #cl01 div.outer{
+    border: 0px solid orange;
+    width: 95%;
+  }
+
+  #cl01 div.outer div.inner{
+    border: 0px solid yellow;
+    width: 91%;
+  }
+
+  #cl01 div.outer div.inner h3{
+    border: 0px solid blue;
+    /* font-size: 60px; */
+    font-size: 5vw;
+    padding-top: 60px;
+    /* padding-top: 7.5vh; */
+  }
+    
+  #cl01 div.outer div.inner p{
+    border: 0px solid purple;
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+  }
+
+  #cl01 div.outer div.inner div.container{
+    border: 0px solid black;
+    padding-top: 50px;
+    /* padding-top: 6.25vh; */
+  }
+
+  #cl01 div.outer div.inner div.container div.left{
+    border: 0px solid red;
+    width: 55%;
+  }
+
+  #cl01 div.outer div.inner div.container div.right{
+    border: 0px solid blue;
+    width: 45%;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dt{
+    border: 0px solid red;
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    /* padding: 25px 0 0 25px; */
+    /* padding: 3.13vh 0 0 2.08vw; */
+    padding: 25px 0 0 2.08vw;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd{
+    border: 0px solid green;
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    line-height: 23px;
+    /* line-height: 2.88vh; */
+    /* padding: 30px 0 0 25px; */
+    /* padding: 3.75vh 0 0 2.08vw; */
+    padding: 20px 0 0 2.08vw;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd:nth-child(3) a{
+    /* font-size: 16px; */
+    font-size: 1.33vw;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  #cl02 div.inner{
+    border: 0px solid orange;
+    width: 87%;
+  }
+  
+  #cl02 div.inner div.container{
+    border: 0px solid red;
+    padding-top: 60px;
+    /* padding-top: 7.5vh; */
+  }
+  
+  #cl02 div.inner div.container div.left{
+    border: 0px solid green;
+    width: 45%;
+  }
+  
+  #cl02 div.inner div.container div.right{
+    border: 0px solid red;
+    width: 55%;
+  }
+  
+  #cl02 div.inner div.container div.left dl dt{
+    border: 0px solid red;
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    /* padding: 50px 0 0 60px; */
+    /* padding: 3.13vh 0 0 5vw; */
+    padding: 30px 0 0 5vw;
+  }
+  
+  #cl02 div.inner div.container div.left dl dd{
+    border: 0px solid green;
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    line-height: 23px;
+    /* line-height: 2.88vh; */
+    /* padding: 30px 0 0 60px; */
+    /* padding: 3.75vh 0 0 5vw; */
+    padding: 20px 0 0 5vw;
+  }
+
+  #cl02 div.inner div.container div.left dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+  
+  #cl02 div.inner div.container div.left dl dd:nth-child(3) a{
+    /* font-size: 16px; */
+    font-size: 1.33vw;
+  }
+  /* contents_2 종료 */
+
+
+
+
+
+  /* contents_3 시작 */
+  #cl03 div.inner{
+    border: 0px solid red;
+    width: 87%;
+  }
+  
+  #cl03 div.inner div.container{
+    border: 0px solid yellow;
+    padding-top: 60px;
+    /* padding-top: 7.5vh; */
+  }
+  
+  #cl03 div.inner div.container div.left{
+    border: 0px solid blue;
+    width: 55%;
+  }
+  
+  #cl03 div.inner div.container div.right{
+    border: 0px solid red;
+    width: 45%;
+  }
+  
+  #cl03 div.inner div.container div.right dl dt{
+    border: 0px solid red;
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    /* padding: 25px 0 0 40px; */
+    /* padding: 3.13vh 0 0 3.33vw; */
+    padding: 25px 0 0 3.33vw;
+  }
+  
+  #cl03 div.inner div.container div.right dl dd{
+    border: 0px solid green;
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    line-height: 20px;
+    /* line-height: 2.88vh; */
+    /* padding: 30px 0 0 40px; */
+    /* padding: 3.75vh 0 0 3.33vw; */
+    padding: 30px 0 0 3.33vw;
+  }
+
+  #cl03 div.inner div.container div.right dl dd span{
+    border: 0px solid red;
+    display: none;
+  }
+
+  #cl03 div.inner div.container div.right dl dd div br:nth-child(1){
+    display: none;
+  }
+
+  #cl03 div.inner div.container div.right dl dd div br:nth-child(4){
+    display: none;
+  }
+
+  #cl03 div.inner div.container div.right dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+  
+  #cl03 div.inner div.container div.right dl dd:nth-child(3) a{
+    /* font-size: 16px; */
+    font-size: 1.33vw;
+  }
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  #cl04{
+    border: 0px solid green;
+    padding-bottom: 70px;
+    /* padding-bottom: 8.75vh; */
+  }
+  
+  #cl04 div.inner{
+    border: 0px solid red;
+    width: 87%;
+  }
+  
+  #cl04 div.inner div.container{
+    border: 0px solid orange;
+    padding-top: 60px;
+    /* padding-top: 7.5vh; */
+  }
+  
+  #cl04 div.inner div.container div.left{
+    border: 0px solid blue;
+    width: 45%;
+  }
+  
+  #cl04 div.inner div.container div.right{
+    border: 0px solid red;
+    width: 55%;
+  }
+  
+  #cl04 div.inner div.container div.left dl dt{
+    border: 0px solid red;
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    /* padding: 30px 0 0 50px; */
+    /* padding: 3.75vh 0 0 4.17vw; */
+    padding: 30px 0 0 4.17vw;
+  }
+  
+  #cl04 div.inner div.container div.left dl dd{
+    border: 0px solid green;
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    line-height: 23px;
+    /* line-height: 2.88vh; */
+    /* padding: 30px 0 0 50px; */
+    /* padding: 3.75vh 0 0 4.17vw; */
+    padding: 30px 0 0 4.17vw;
+  }
+
+  #cl04 div.inner div.container div.left dl dd span:last-child{
+    display: none;
+  }
+
+  #cl04 div.inner div.container div.left dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+  
+  #cl04 div.inner div.container div.left dl dd:nth-child(3) a{
+    /* font-size: 16px; */
+    font-size: 1.33vw;
+  }
+  /* contents_4 종료 */
+
+
+
+
+
+  /* contents_5 시작 */
+  #cl05{
+    border: 0px solid red;
+    max-height: 140px;
+  }
+  
+  #cl05 div.container div.left h5{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    padding-top: 50px;
+    /* padding-top: 6.25vh; */
+  }
+  
+  #cl05 div.container div.left p{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+  
+  #cl05 div.container div.right h5{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    padding-top: 50px;
+    /* padding-top: 6.25vh; */
+  }
+  
+  #cl05 div.container div.right p{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+  /* contents_5 종료 */
+}
+/* life-travel 태블릿 800~1200 종료 */
+
+
+
+
+
+/* life-travel 태블릿 600~800 시작 */
+@media all and (min-width: 600px) and (max-width: 800px){
+  /* visual 시작 */
+  #visual-life{
+    border: 0px solid red;
+    width: 100%;
+    min-height: 280px;
+    background: url(../images/life-main/visual_img.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작 */
+  #cl01{
+    border: 0px solid red;
+    margin-top: -50px;
+  }
+
+  #cl01 div.outer{
+    border: 0px solid orange;
+    width: 95%;
+  }
+
+  #cl01 div.outer div.inner{
+    border: 0px solid yellow;
+    width: 90%;
+  }
+
+  #cl01 div.outer div.inner h3{
+    border: 0px solid blue;
+    /* font-size: 48px; */
+    font-size: 6vw;
+    padding-top: 50px;
+    /* padding-top: 4.17vh; */
+  }
+    
+  #cl01 div.outer div.inner p{
+    border: 0px solid purple;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+  }
+
+  #cl01 div.outer div.inner div.container{
+    border: 0px solid black;
+    padding-top: 40px;
+    /* padding-top: 3.33vh; */
+  }
+
+  #cl01 div.outer div.inner div.container div.left{
+    border: 0px solid red;
+    width: 50%;
+  }
+
+  #cl01 div.outer div.inner div.container div.right{
+    border: 0px solid blue;
+    width: 50%;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dt{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding: 40px 0 0 0;
+    /* padding: 3.33vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd{
+    border: 0px solid green;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    line-height: 18px;
+    /* line-height: 1.5vh; */
+    padding: 15px 0 0 0;
+    /* padding: 1.25vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd span{
+    display: none;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.25vh; */
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd:nth-child(3) a{
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  #cl02 div.inner{
+    border: 0px solid orange;
+    width: 85%;
+  }
+  
+  #cl02 div.inner div.container{
+    border: 0px solid red;
+    padding-top: 40px;
+    /* padding-top: 3.33vw; */
+  }
+  
+  #cl02 div.inner div.container div.left{
+    border: 0px solid green;
+    width: 50%;
+  }
+  
+  #cl02 div.inner div.container div.right{
+    border: 0px solid red;
+    width: 50%;
+  }
+  
+  #cl02 div.inner div.container div.left dl dt{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding: 40px 0 0 0;
+    /* padding: 3.33vh 0 0 0; */
+    text-align: center;
+  }
+  
+  #cl02 div.inner div.container div.left dl dd{
+    border: 0px solid green;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    line-height: 18px;
+    /* line-height: 1.5vh; */
+    padding: 15px 0 0 0;
+    /* padding: 1.25vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cl02 div.inner div.container div.left dl dd span{
+    display: none;
+  }
+
+  #cl02 div.inner div.container div.left dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.25vh; */
+  }
+  
+  #cl02 div.inner div.container div.left dl dd:nth-child(3) a{
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+  }
+  /* contents_2 종료 */
+
+
+
+
+
+  /* contents_3 시작 */
+  #cl03 div.inner{
+    border: 0px solid red;
+    width: 85%;
+  }
+  
+  #cl03 div.inner div.container{
+    border: 0px solid yellow;
+    padding-top: 40px;
+    /* padding-top: 3.33vh; */
+  }
+  
+  #cl03 div.inner div.container div.left{
+    border: 0px solid blue;
+    width: 50%;
+  }
+  
+  #cl03 div.inner div.container div.right{
+    border: 0px solid red;
+    width: 50%;
+  }
+  
+  #cl03 div.inner div.container div.right dl dt{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding: 40px 0 0 0;
+    /* padding: 3.33vh 0 0 0; */
+    text-align: center;
+  }
+  
+  #cl03 div.inner div.container div.right dl dd{
+    border: 0px solid green;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    line-height: 18px;
+    /* line-height: 1.5vh; */
+    padding: 15px 0 0 0;
+    /* padding: 1.25vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cl03 div.inner div.container div.right dl dd span{
+    display: none;
+  }
+
+  #cl03 div.inner div.container div.right dl dd div{
+    display: none;
+  }
+
+  #cl03 div.inner div.container div.right dl dd br:nth-child(7){
+    display: none;
+  }
+
+  #cl03 div.inner div.container div.right dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.25vh; */
+  }
+  
+  #cl03 div.inner div.container div.right dl dd:nth-child(3) a{
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+  }
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  #cl04{
+    border: 0px solid green;
+    padding-bottom: 60px;
+    /* padding-bottom: 5vh; */
+  }
+  
+  #cl04 div.inner{
+    border: 0px solid red;
+    width: 85%;
+  }
+  
+  #cl04 div.inner div.container{
+    border: 0px solid orange;
+    padding-top: 40px;
+    /* padding-top: 3.33vh; */
+  }
+  
+  #cl04 div.inner div.container div.left{
+    border: 0px solid blue;
+    width: 50%;
+  }
+  
+  #cl04 div.inner div.container div.right{
+    border: 0px solid red;
+    width: 50%;
+  }
+  
+  #cl04 div.inner div.container div.left dl dt{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding: 40px 0 0 0;
+    /* padding: 3.33vh 0 0 0; */
+    text-align: center;
+  }
+  
+  #cl04 div.inner div.container div.left dl dd{
+    border: 0px solid green;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    line-height: 18px;
+    /* line-height: 1.5vh; */
+    padding: 15px 0 0 0;
+    /* padding: 1.25vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cl04 div.inner div.container div.left dl dd span{
+    display: none;
+  }
+  
+  #cl04 div.inner div.container div.left dl dd br:nth-child(3){
+    display: none;
+  }
+
+  #cl04 div.inner div.container div.left dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.25vh; */
+  }
+  
+  #cl04 div.inner div.container div.left dl dd:nth-child(3) a{
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+  }
+  /* contents_4 종료 */
+
+
+
+
+
+  /* contents_5 시작 */
+  #cl05{
+    height: 95px;
+    /* height: 11.88vh; */
+  }
+  
+  #cl05 div.container div.left h5{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding-top: 28px;
+    /* padding-top: 3.5vh; */
+  }
+  
+  #cl05 div.container div.left p{
+    border: 0px solid orange;
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+  
+  #cl05 div.container div.right h5{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding-top: 28px;
+    /* padding-top: 3.5vh; */
+  }
+  
+  #cl05 div.container div.right p{
+    border: 0px solid orange;
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+  /* contents_5 종료 */
+}
+/* life-travel 태블릿 600~800 종료 */
+
+
+
+
+
+/* life-travel 태블릿 600~700 시작 */
+@media all and (min-width: 600px) and (max-width: 700px){
+  #cl01 div.outer div.inner div.container div.right dl dt{
+    padding: 35px 0 0 0;
+  }
+
+  #cl02 div.inner div.container div.left dl dt{
+    padding: 35px 0 0 0;
+  }
+
+  #cl03 div.inner div.container div.right dl dt{
+    padding: 35px 0 0 0;
+  }
+
+  #cl04 div.inner div.container div.left dl dt{
+    padding: 35px 0 0 0;
+  }
+
+}
+/* life-travel 태블릿 600~700 종료 */
+
+
+
+
+
+/* life-travel 태블릿 600~650 시작 */
+@media all and (min-width: 600px) and (max-width: 650px){
+  #cl04 div.inner div.container div.left dl dt{
+    padding-top: 20px;
+  }
+
+  #cl04 div.inner div.container div.left dl dd:nth-child(3){
+    padding-top: 0;
+  }
+
+  #cl04 div.inner div.container div.left dl dd br{
+    display: none;
+  }
+}
+/* life-travel 태블릿 600~650 시작 */
+
+
+
+
+
+/* life-travel 모바일 시작 */
+@media all and (max-width: 599px){
+  /* visual 시작 */
+  #visual-life{
+    border: 0px solid red;
+    width: 100%;
+    height: 30%;
+    min-height: 170px;
+    background: url(../images/life-main/visual_img.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작 */
+  #cl01{
+    border: 0px solid red;
+    margin-top: -30px;
+  }
+
+  #cl01 div.outer{
+    border: 0px solid orange;
+    width: 83%;
+  }
+
+  #cl01 div.outer div.inner{
+    border: 0px solid yellow;
+    width: 85%;
+  }
+
+  #cl01 div.outer div.inner h3{
+    border: 0px solid blue;
+    /* font-size: 30px; */
+    font-size: 6.25vw;
+    padding-top: 30px;
+    /* padding-top: 3.75vh; */
+  }
+    
+  #cl01 div.outer div.inner p{
+    border: 0px solid purple;
+    /* font-size: 11px; */
+    font-size: 2.29vw;
+  }
+
+  #cl01 div.outer div.inner div.container{
+    border: 0px solid black;
+    padding-top: 40px;
+    /* padding-top: 3.33vh; */
+  }
+
+  #cl01 div.outer div.inner div.container div.left{
+    width: 100%;
+  }
+
+  #cl01 div.outer div.inner div.container div.right{
+    width: 100%;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dt{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 2.92vw;
+    padding: 25px 0 0 0;
+    /* padding: 3.13vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd{
+    border: 0px solid green;
+    /* font-size: 11px; */
+    font-size: 2.29vw;
+    line-height: 18px;
+    padding: 20px 0 0 0;
+    /* padding: 2.5vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+
+  #cl01 div.outer div.inner div.container div.right dl dd:nth-child(3) a{
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  #cl02 div.inner{
+    border: 0px solid orange;
+    width: 71%;
+  }
+  
+  #cl02 div.inner div.container{
+    border: 0px solid red;
+    padding-top: 60px;
+    /* padding-top: 7.5vh; */
+  }
+  
+  #cl02 div.inner div.container div.left{
+    border: 0px solid green;
+    width: 100%;
+  }
+  
+  #cl02 div.inner div.container div.right{
+    border: 0px solid red;
+    width: 100%;
+  }
+  
+  #cl02 div.inner div.container div.left dl dt{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 2.92vw;
+    padding: 25px 0 0 0;
+    /* padding: 3.13vh 0 0 0; */
+    text-align: center;
+  }
+  
+  #cl02 div.inner div.container div.left dl dd{
+    border: 0px solid green;
+    /* font-size: 11px; */
+    font-size: 2.29vw;
+    line-height: 18px;
+    padding: 20px 0 0 0;
+    /* padding: 2.5vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cl02 div.inner div.container div.left dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+  
+  #cl02 div.inner div.container div.left dl dd:nth-child(3) a{
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+  }
+  /* contents_2 종료 */
+
+
+
+
+
+  /* contents_3 시작 */
+  #cl03 div.inner{
+    border: 0px solid red;
+    width: 71%;
+  }
+  
+  #cl03 div.inner div.container{
+    border: 0px solid yellow;
+    padding-top: 60px;
+    /* padding-top: 7.5vh; */
+  }
+  
+  #cl03 div.inner div.container div.left{
+    border: 0px solid blue;
+    width: 100%;
+  }
+  
+  #cl03 div.inner div.container div.right{
+    border: 0px solid red;
+    width: 100%;
+  }
+  
+  #cl03 div.inner div.container div.right dl dt{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 2.92vw;
+    padding: 25px 0 0 0;
+    /* padding: 3.13vh 0 0 0; */
+    text-align: center;
+  }
+  
+  #cl03 div.inner div.container div.right dl dd{
+    border: 0px solid green;
+    /* font-size: 11px; */
+    font-size: 2.29vw;
+    line-height: 18px;
+    padding: 20px 0 0 0;
+    /* padding: 2.5vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cl03 div.inner div.container div.right dl dd div br:nth-child(1){
+    display: none;
+  }
+
+  #cl03 div.inner div.container div.right dl dd div br:nth-child(5){
+    display: none;
+  }
+
+  #cl03 div.inner div.container div.right dl dd span{
+    display: none;
+  }
+
+  #cl03 div.inner div.container div.right dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+  
+  #cl03 div.inner div.container div.right dl dd:nth-child(3) a{
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+  }
+  /* contents_3 종료 */
+
+
+
+
+
+  /* contents_4 시작 */
+  #cl04{
+    border: 0px solid green;
+    padding-bottom: 60px;
+    /* padding-bottom: 7.5vh; */
+  }
+  
+  #cl04 div.inner{
+    border: 0px solid red;
+    width: 71%;
+  }
+  
+  #cl04 div.inner div.container{
+    border: 0px solid orange;
+    padding-top: 60px;
+    /* padding-top: 7.5vh; */
+  }
+  
+  #cl04 div.inner div.container div.left{
+    border: 0px solid blue;
+    width: 100%;
+  }
+  
+  #cl04 div.inner div.container div.right{
+    border: 0px solid red;
+    width: 100%;
+  }
+  
+  #cl04 div.inner div.container div.left dl dt{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 2.92vw;
+    padding: 25px 0 0 0;
+    /* padding: 3.13vh 0 0 0; */
+    text-align: center;
+  }
+  
+  #cl04 div.inner div.container div.left dl dd{
+    border: 0px solid green;
+    /* font-size: 11px; */
+    font-size: 2.29vw;
+    line-height: 18px;
+    padding: 20px 0 0 0;
+    /* padding: 2.5vh 0 0 0; */
+    text-align: center;
+  }
+
+  #cl04 div.inner div.container div.left dl dd span{
+    display: none;
+  }
+  
+  #cl04 div.inner div.container div.left dl dd br:nth-child(3){
+    display: none;
+  }
+
+  #cl04 div.inner div.container div.left dl dd:nth-child(3){
+    padding-top: 15px;
+    /* padding-top: 1.88vh; */
+  }
+  
+  #cl04 div.inner div.container div.left dl dd:nth-child(3) a{
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+  }
+  /* contents_4 종료 */
+
+
+
+
+
+  /* contents_5 시작 */
+  #cl05{
+    height: 80px;
+    /* height: 7.5vh; */
+  }
+  
+  #cl05 div.container div.left h5{
+    border: 0px solid red;
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    padding-top: 25px;
+  }
+  
+  #cl05 div.container div.left p{
+    border: 0px solid orange;
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    padding-top: 5px;
+  }
+  
+  #cl05 div.container div.right h5{
+    border: 0px solid red;
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    padding-top: 25px;
+  }
+  
+  #cl05 div.container div.right p{
+    border: 0px solid orange;
+    /* font-size: 12px; */
+    font-size: 2.5vw;
+    padding-top: 5px;
+  }
+  /* contents_5 종료 */
+}
+/* life-travel 모바일 종료 */
+
+
+
+
+
+/* life-travel 모바일 320~410 시작 */
+@media all and (min-width: 320px) and (max-width: 410px){
+  #cl01 div.outer div.inner div.container div.right dl br{
+    display: none;
+  }
+
+  #cl02 div.inner div.container div.left dl br{
+    display: none;
+  }
+
+  #cl03 div.inner div.container div.right dl br{
+    display: none;
+  }
+
+  #cl04 div.inner div.container div.left dl br{
+    display: none;
+  }
+}
+/* life-travel 모바일 320~410 종료 */
+
+
+
+
+
+/* video & photo 시작 */
+
+/* visual 시작 */
+#visual-video{
+  border: 0px solid red;
+  width: 100%;
+  height: 46%;
+  min-height: 500px;
+  background: url(../images/video-main/visual_img.png) no-repeat center top;
+  background-size: cover;
+}
+/* visual 종료 */
+
+
+
+
+
+/* contents_1 시작 */
+#cv01{
+  border: 0px solid red;
+  margin-top: -100px;
+}
+
+#cv01 div.outer{
+  border: 0px solid orange;
+  /* width: 74%; */
+  width: 1420px;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#cv01 div.outer div.inner{
+  border: 0px solid yellow;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#cv01 div.outer div.inner h3{
+  border: 0px solid blue;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 80px; */
+  font-size: 4.17vw;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  padding-top: 80px;
+  /* padding-top: 7.41vh; */
+}
+  
+#cv01 div.outer div.inner p{
+  border: 0px solid purple;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #6f6f6f;
+  text-align: center;
+}
+
+#cv01 div.outer div.inner div.container div.first{
+  border: 0px solid red;
+  padding-top: 80px;
+  /* padding-top: 7.41vh; */
+  padding-bottom: 40px;
+}
+
+#cv01 div.outer div.inner div.container div.first img{
+  width: 100%;
+}
+
+
+
+
+
+/* up 시작 */
+#cv01 div.outer div.inner div.container div.up{
+  border: 0px solid green;
+  overflow: hidden;
+}
+
+#cv01 div.outer div.inner div.container div.up:nth-child(1){
+  padding-bottom: 40px;
+}
+
+#cv01 div.outer div.inner div.container div.up:nth-child(3){
+  padding-bottom: 40px;
+}
+
+#cv01 div.outer div.inner div.container div.up dl{
+  border: 0px solid red;
+  width: 31%;
+  margin-right: 3.5%;
+  float: left;
+}
+
+#cv01 div.outer div.inner div.container div.up dl:nth-child(3){
+  margin-right: 0;
+}
+
+#cv01 div.outer div.inner div.container div.up dl dd{
+  border: 0px solid blue;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  font-weight: 500;
+  color: #333;
+}
+
+#cv01 div.outer div.inner div.container div.up dl dd:nth-child(2){
+  /* background: url(../images/video-main/contents1_icon.png) no-repeat 15px 15px; */
+  background: url(../images/video-main/contents1_icon.png) no-repeat 0.78vw 1.39vh;
+  /* background-size: 23px; */
+  /* background-size = 350/23 */
+  background-size: 6.6%;
+  /* padding: 15px 0 0 45px; */
+  padding: 1.39vh 0 0 2.34vw;
+}
+
+#cv01 div.outer div.inner div.container div.up dl dd:nth-child(3){
+  /* padding: 10px 0 0 15px; */
+  padding: 0.93vh 0 0 0.78vw;
+}
+/* up 종료 */
+
+
+
+
+
+/* down 시작 */
+#cv01 div.outer div.inner div.container div.down{
+  overflow: hidden;
+  padding-bottom: 75px;
+}
+
+#cv01 div.outer div.inner div.container div.down:nth-child(4){
+  padding-bottom: 0;
+}
+
+#cv01 div.outer div.inner div.container div.down:nth-child(2){
+  padding-bottom: 40px;
+}
+
+#cv01 div.outer div.inner div.container div.down dl{
+  border: 0px solid red;
+  width: 31%;
+  margin-right: 3.5%;
+  float: left;
+}
+
+#cv01 div.outer div.inner div.container div.down dl:nth-child(3){
+  margin-right: 0;
+}
+
+#cv01 div.outer div.inner div.container div.down dl dd{
+  border: 0px solid blue;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  font-weight: 500;
+  color: #333;
+}
+
+#cv01 div.outer div.inner div.container div.down dl dd:nth-child(2){
+  /* background: url(../images/video-main/contents1_icon.png) no-repeat 15px 15px; */
+  background: url(../images/video-main/contents1_icon.png) no-repeat 0.78vw 1.39vh;
+  /* background-size: 23px; */
+  /* background-size = 350/23 */
+  background-size: 6.6%;
+  /* padding: 15px 0 0 45px; */
+  padding: 1.39vh 0 0 2.34vw;
+}
+
+#cv01 div.outer div.inner div.container div.down dl dd:nth-child(3){
+  /* padding: 10px 0 0 15px; */
+  padding: 0.93vh 0 0 0.78vw;
+}
+/* down 종료 */
+
+
+
+
+
+.js-load {
+  display: none;
+}
+
+.js-load.active {
+  display: inline-block;
+}
+
+.btn-wrap, .lists, .main {
+  display: block;
+}
+
+.main {
+  width: 100%;
+}
+
+
+
+
+
+/* more view */
+.btn-wrap a{
+  border: 2px solid #d3d3d3;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.04vw;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: center;
+
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+}
+
+.btn-wrap a:hover{
+  border: 2px solid #d3d3d3;
+  background-color: grey;
+  color: #fff;
+}
+/* contents_1 종료 */
+
+
+
+
+
+/* contents_2 시작 */
+.container2{
+  border: 0px solid black;
+  overflow: hidden;
+}
+
+
+
+/* up 시작 */
+.container2 div.more:nth-child(1){
+  border: 0px solid red;
+  /* width: 59%; */
+  width: 1130px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 130px;
+  /* padding-top: 12.04vh; */
+}
+
+.container2 div.more:nth-child(3){
+  padding-top: 10px;
+  display: none;
+}
+
+.container2 div.more:nth-child(4){
+  display: none;
+}
+
+.container2 div.more{
+  border: 0px solid red;
+  /* width: 59%; */
+  width: 1130px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container2 div.more div.container{
+  border: 0px solid red;
+  overflow: hidden;
+}
+
+.container2 div.more div.container div.left{
+  border: 0px solid orange;
+  width: 59%;
+  float: left;
+}
+
+.container2 div.more div.container div.left p img{
+  border: 0px solid yellow;
+  /* height: 500px; */
+  height: calc(1080px/500px);
+}
+
+.container2 div.more div.container div.right{
+  border: 0px solid green;
+  width: 40%;
+  float: right;
+}
+
+.container2 div.more div.container div.right div.up{
+  border: 0px solid blue;
+  height: 49%;
+  margin-bottom: 2%;
+  overflow: hidden;
+}
+
+.container2 div.more div.container div.right div.up p{
+  border: 0px solid red;
+  float: left;
+  width: 49%;
+  margin-right: 2%;
+}
+
+.container2 div.more div.container div.right div.up p:nth-child(2){
+  margin-right: 0;
+}
+/* up 시작 */
+
+
+
+/* down 시작 */
+.container2 div.more div.container div.right div.down{
+  border: 0px solid yellow;
+  height: 49%;
+  overflow: hidden;
+}
+
+.container2 div.more div.container div.right div.down p{
+  border: 0px solid red;
+  float: left;
+  width: 49%;
+  margin-right: 2%;
+}
+
+.container2 div.more div.container div.right div.down p:nth-child(2){
+  margin-right: 0;
+}
+/* down 종료 */
+
+
+
+.container2 div.more div.container1{
+  border: 0px solid red;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.container2 div.more div.container1 div.left{
+  border: 0px solid red;
+  width: 24%;
+  float: left;
+}
+
+.container2 div.more div.container1 div.left p img{
+  border: 0px solid yellow;
+  height: calc(1080px/531px);
+}
+
+.container2 div.more div.container1 div.right{
+  border: 0px solid yellow;
+  width: 75%;
+  float: right;
+}
+
+
+
+/* up 시작 */
+.container2 div.more div.container1 div.right div.up{
+  border: 0px solid green;
+  overflow: hidden;
+  height: 49%;
+  margin-bottom: 1%;
+}
+
+.container2 div.more div.container1 div.right div.up p:first-child{
+  border: 0px solid blue;
+  width: 66%;
+  float: left;
+}
+
+.container2 div.more div.container1 div.right div.up p:last-child{
+  border: 0px solid red;
+  width: 33%;
+  float: right;
+}
+/* up 종료 */
+
+
+
+/* down 시작 */
+.container2 div.more div.container1 div.right div.down{
+  border: 0px solid green;
+  overflow: hidden;
+  height: 49%;
+}
+
+.container2 div.more div.container1 div.right div.down p:first-child{
+  border: 0px solid red;
+  width: 33%;
+  float: left;
+}
+
+.container2 div.more div.container1 div.right div.down p:last-child{
+  border: 0px solid blue;
+  width: 66%;
+  float: right;
+}
+/* down 종료 */
+
+.container2 div.more:nth-child(4){
+  padding-bottom: 70px;
+}
+
+
+
+/* more view 시작 */
+.container2 div.in{
+  border: 0px solid red;
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.container2 div.in #loadMore{
+  display: block;
+  border: 2px solid #d3d3d3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.04vw;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: center;
+  margin: 40px 0 70px 0;
+
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+}
+
+.container2 div.in #loadMore:hover{
+  border: 2px solid #d3d3d3;
+  background-color: grey;
+  color: #fff;
+ }
+/* more view 종료 */
+
+/* container2 종료 */
+
+/* video & photo 종료 */
+
+
+
+
+
+/* video & photo 고해상도 미디어쿼리 시작 */
+@media all and (min-width: 1921px) and (max-width: 2560px){
+  /* contenst_1 시작 */
+  #cv01 div.outer div.inner h3{
+    font-size: 80px;
+  }
+    
+  #cv01 div.outer div.inner p{
+    font-size: 18px;
+  }
+  
+  #cv01 div.outer div.inner div.container div.up dl dd{
+    font-size: 16px;
+  }
+  
+  #cv01 div.outer div.inner div.container div.down dl dd{
+    font-size: 16px;
+  }
+
+  .btn-wrap a{
+    font-size: 20px;
+  }
+  /* contenst_1 종료 */
+
+
+
+  /* contenst_2 시작 */
+  .container2 div.in #loadMore{
+    width: 100%;
+    font-size: 20px;
+  }
+  /* contenst_2 종료 */
+}
+/* video & photo 고해상도 미디어쿼리 종료 */
+
+
+
+
+
+/* video & photo 1400~1599 outer, inner 미디어쿼리 시작 */
+@media all and (min-width: 1200px) and (max-width: 1599px){
+  /* contents_1 시작 */
+  #cv01 div.outer{
+    width: 85%;
+  }
+
+  #cv01 div.outer div.inner{
+    width: 90%;
+  }
+
+  .container2 div.more{
+    width: 77%;
+  }
+
+  .container2 div.more:nth-child(1){
+    width: 77%;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl dt img{
+    width: 100%;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl dd:nth-child(2){
+    background: url(../images/video-main/contents1_icon.png) no-repeat 15px 12px;
+    background-size: 6.6%;
+    padding: 15px 0 0 45px;
+  }
+  
+  #cv01 div.outer div.inner div.container div.up dl dd:nth-child(3){
+    padding: 10px 0 0 15px;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl dt img{
+    width: 100%;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl dd:nth-child(2){
+    background: url(../images/video-main/contents1_icon.png) no-repeat 15px 12px;
+    background-size: 6.6%;
+    padding: 15px 0 0 45px;
+  }
+  
+  #cv01 div.outer div.inner div.container div.down dl dd:nth-child(3){
+    padding: 10px 0 0 15px;
+  }
+  
+  .btn-wrap a{
+    font-size: 1.33vw;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contenst_2 시작 */
+  .container2 div.more div.container div.left p img{
+    width: 100%;
+  }
+
+  .container2 div.more div.container div.right img{
+    width: 100%;
+  }
+
+
+
+
+
+  .container2 div.more div.container1 div.left p img{
+    width: 100%;
+  }
+
+  .container2 div.more div.container1 div.right img{
+    width: 100%;
+  }
+
+  .container2 div.in{
+    width: 77%;
+  }
+
+  .container2 div.in #loadMore{
+    /* border: 5px solid red; */
+    width: 100%;
+    margin: 40px 0 70px;
+  }
+
+  .container2 div.moreview a{
+    border: none;
+    font-size: 1.33vw;
+    padding: 0;
+  }
+  /* contenst_2 종료 */
+}
+/* video & photo 1400~1599 outer, inner 미디어쿼리 종료 */
+
+
+
+
+
+/* video & photo 800~1200 시작 */
+@media all and (min-width: 800px) and (max-width: 1200px){
+  /* visual 시작 */
+  #visual-video{
+    border: 0px solid red;
+    width: 100%;
+    min-height: 420px;
+    background: url(../images/video-main/visual_img.png) no-repeat center top;
+    background-size: cover;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작 */
+  #cv01{
+    border: 0px solid red;
+    margin-top: -75px;
+  }
+
+  #cv01 div.outer{
+    border: 0px solid orange;
+    width: 95%;
+  }
+
+  #cv01 div.outer div.inner{
+    border: 0px solid yellow;
+    width: 91%;
+  }
+
+  #cv01 div.outer div.inner h3{
+    /* font-size: 60px; */
+    font-size: 5vw;
+    padding-top: 75px;
+    /* padding-top: 9.38vh; */
+  }
+    
+  #cv01 div.outer div.inner p{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+  }
+
+  #cv01 div.outer div.inner div.container div.first{
+    padding-top: 50px;
+    padding: 50px 0 0 0;
+  }
+
+
+
+
+
+  /* up 시작 */
+  #cv01 div.outer div.inner div.container div.up{
+    border: 0px solid green;
+    padding-top: 35px;
+    /* padding-top: 4.38vh; */
+  }
+
+  #cv01 div.outer div.inner div.container div.up:nth-child(1){
+    padding-bottom: 0;
+  }
+
+  #cv01 div.outer div.inner div.container div.up:nth-child(3){
+    padding-bottom: 0;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl dd{
+    border: 0px solid blue;
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl dd:nth-child(2){
+    /* background: url(../images/video-main/contents1_icon-t.png) no-repeat 15px 15px; */
+    background: url(../images/video-main/contents1_icon-t.png) no-repeat 1.25vw 1.88vh;
+    /* background-size: 21px; */
+    background-size: 6.5%;
+    /* padding: 15px 0 0 45px; */
+    padding: 1.88vh 0 0 3.75vw;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl dd:nth-child(3){
+    /* padding: 5px 0 0 15px; */
+    padding: 0.63vh 0 0 1.25vw;
+  }
+  /* up 종료 */
+
+
+  
+
+
+  /* down 시작 */
+  #cv01 div.outer div.inner div.container div.down{
+    border: 0px solid green;
+    overflow: hidden;
+    padding-top: 35px;
+    /* padding-top: 4.38vh; */
+  }
+
+  #cv01 div.outer div.inner div.container div.down:nth-child(2){
+    padding-bottom: 0;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl dd{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl dd:nth-child(2){
+    /* background: url(../images/video-main/contents1_icon-t.png) no-repeat 15px 15px; */
+    background: url(../images/video-main/contents1_icon-t.png) no-repeat 1.25vw 1.88vh;
+    /* background-size: 21px; */
+    background-size: 6.5%;
+    /* padding: 15px 0 0 45px; */
+    padding: 1.88vh 0 0 3.75vw;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl dd:nth-child(3){
+    /* padding: 5px 0 0 15px; */
+    padding: 0.63vh 0 0 1.25vw;
+  }
+  /* down 종료 */
+
+
+
+
+
+  /* more view */
+  
+  .btn-wrap a{
+    font-size: 1.33vw;
+  }
+  /* contents_1 종료 */
+
+  
+
+
+
+  .container2 div.more div.container1{
+    padding-top: 0;
+  }
+
+
+
+  /* contents_2 시작 */
+  .container2 div.more{
+    border: 0px solid red;
+    width: 87%;
+    /* padding-top: 8px; */
+    padding-top: 1vh;
+  }
+
+  .container2 div.more:nth-child(1){
+    border: 0px solid red;
+    width: 87%;
+  }
+  /* contents_3 종료 */
+
+
+
+
+
+  .container2 div.in{
+    width: 87%;
+  }
+
+  .container2 div.in #loadMore{
+    margin: 35px 0 60px 0;
+    font-size: 1.33vw;
+  }
+  
+  .container2 div.in #loadMore a{
+    border: none;
+    font-size: 1.33vw;
+    padding: 0;
+  }
+  /* contents_2 종료 */
+}
+/* video & photo 800~1200 종료 */
+
+
+
+
+
+/* video & photo 태블릿 600~800 시작 */
+@media all and (min-width: 600px) and (max-width: 800px){
+  /* visual 시작 */
+  #visual-video{
+    border: 0px solid red;
+    width: 100%;
+    min-height: 280px;
+    background: url(../images/video-main/visual_img.png) no-repeat center top;
+    background-size: cover;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작 */
+  #cv01{
+    border: 0px solid red;
+    margin-top: -50px;
+  }
+
+  #cv01 div.outer{
+    border: 0px solid orange;
+    width: 95%;
+  }
+
+  #cv01 div.outer div.inner{
+    border: 0px solid yellow;
+    width: 89%;
+  }
+
+  #cv01 div.outer div.inner h3{
+    /* font-size: 48px; */
+    font-size: 6vw;
+    padding-top: 50px;
+    /* padding-top: 4.17vh; */
+  }
+    
+  #cv01 div.outer div.inner p{
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+  }
+
+  #cv01 div.outer div.inner div.container div.first{
+    padding: 40px 0 0 0;
+  }
+
+
+
+
+
+  /* up 시작 */
+  #cv01 div.outer div.inner div.container div.up{
+    border: 0px solid green;
+    padding-top: 25px;
+    /* padding-top: 2.08vh; */
+  }
+
+  #cv01 div.outer div.inner div.container div.up:nth-child(1){
+    padding-bottom: 0;
+  }
+
+  #cv01 div.outer div.inner div.container div.up:nth-child(3){
+    padding-bottom: 0;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl dd{
+    border: 0px solid blue;
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl dd:nth-child(2){
+    background: url(../images/video-main/contents1_icon-t.png) no-repeat 10px 10px;
+    /* background-size: 21px; */
+    background-size: 6.5%;
+    /* padding: 10px 0 0 28px; */
+    padding: 0.83vh 0 0 3.5vw;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl dd:nth-child(3){
+    /* padding: 5px 0 0 10px; */
+    padding: 0.42vh 0 0 1.25vw;
+  }
+  /* up 종료 */
+
+
+
+
+
+  /* down 시작 */
+  #cv01 div.outer div.inner div.container div.down{
+    border: 0px solid green;
+    overflow: hidden;
+    padding-top: 25px;
+    /* padding-top: 2.08vh; */
+  }
+
+  #cv01 div.outer div.inner div.container div.down:nth-child(2){
+    padding-bottom: 0;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl dd{
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl dd:nth-child(2){
+    background: url(../images/video-main/contents1_icon-t.png) no-repeat 10px 10px;
+    /* background-size: 21px; */
+    background-size: 6.5%;
+    /* padding: 10px 0 0 28px; */
+    padding: 0.83vh 0 0 3.5vw;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl dd:nth-child(3){
+    /* padding: 5px 0 0 10px; */
+    padding: 0.42vh 0 0 1.25vw;
+  }
+  /* down 종료 */
+
+
+
+
+
+  /* more view */
+  .btn-wrap a{
+    font-size: 1.38vw;
+    line-height: 30px;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  .container2 div.more{
+    border: 0px solid red;
+    width: 85%;
+  }
+
+  .container2 div.more:nth-child(1){
+    width: 85%;
+  }
+  
+
+
+
+
+
+  /* more view */
+  .container2 div.in{
+    width: 85%;
+  }
+  .container2 div.in #loadMore{
+    margin: 25px 0 50px 0;
+    font-size: 1.38vw;
+    line-height: 30px;
+  }
+  /* contents_2 종료 */
+}
+/* video & photo 태블릿 600~800 종료 */
+
+
+
+
+
+/* video & photo 모바일 시작 */
+@media all and (max-width: 599px){
+  /* visual 시작 */
+  #visual-video{
+    border: 0px solid red;
+    width: 100%;
+    height: 30%;
+    min-height: 170px;
+    background: url(../images/video-main/visual_img.png) no-repeat center top;
+    background-size: cover;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작 */
+  #cv01{
+    border: 0px solid red;
+    margin-top: -30px;
+  }
+
+  #cv01 div.outer{
+    border: 0px solid orange;
+    width: 83%;
+  }
+
+  #cv01 div.outer div.inner{
+    border: 0px solid yellow;
+    width: 85%;
+  }
+
+  #cv01 div.outer div.inner h3{
+    /* font-size: 30px; */
+    font-size: 6.67vw;
+    padding-top: 30px;
+    /* padding-top: 3.75vh; */
+  }
+    
+  #cv01 div.outer div.inner p{
+    /* font-size: 11px; */
+    font-size: 2.44vw;
+  }
+
+  #cv01 div.outer div.inner div.container div.first{
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+
+
+
+
+  /* up 시작 */
+  #cv01 div.outer div.inner div.container div.up{
+    padding-bottom: 20px;
+  }
+
+  #cv01 div.outer div.inner div.container div.up img{
+    width: 100%;
+  }
+
+  #cv01 div.outer div.inner div.container div.up:nth-child(1){
+    padding-bottom: 20px;
+  }
+
+  #cv01 div.outer div.inner div.container div.up:nth-child(3){
+    /* border: 5px solid red; */
+    padding-bottom: 20px;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl:nth-child(1){
+    width: 100%;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl:nth-child(2){
+    display: none;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl:nth-child(3){
+    display: none;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl dd:nth-child(2){
+    display: none;
+  }
+
+  #cv01 div.outer div.inner div.container div.up dl dd:nth-child(3){
+    /* font-size: 11px; */
+    font-size: 2.44vw;
+  }
+  /* up 종료 */
+
+
+
+
+
+  /* down 시작 */
+  #cv01 div.outer div.inner div.container div.down{
+    padding-bottom: 20px;
+  }
+
+  #cv01 div.outer div.inner div.container div.down img{
+    width: 100%;
+  }
+
+  #cv01 div.outer div.inner div.container div.down:nth-child(2){
+    padding-bottom: 20px;
+  }
+
+  #cv01 div.outer div.inner div.container div.down:nth-child(4){
+    padding-bottom: 0;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl:nth-child(1){
+    width: 100%;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl:nth-child(2){
+    display: none;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl:nth-child(3){
+    display: none;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl dd:nth-child(2){
+    display: none;
+  }
+
+  #cv01 div.outer div.inner div.container div.down dl dd:nth-child(3){
+    /* font-size: 11px; */
+    font-size: 2.44vw;
+  }
+  /* down 종료 */
+
+
+
+
+
+  /* more view */
+
+  .btn-wrap a{
+    font-size: 14px;
+    line-height: 25px;
+  }
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  .container2 div.more{
+    border: 0px solid red;
+    width: 71%;
+    padding-top: 60px;
+    /* padding-top: 7.5vh; */
+  }
+
+  .container2 div.more:nth-child(1){
+    width: 71%;
+    padding-top: 100px;
+  }
+
+  .container2 div.more div.container div.left{
+    width: 100%;
+  }
+
+  .container2 div.more div.container div.right{
+    width: 100%;
+    padding-top: 6px;
+  }
+
+  .container2 div.more{
+    border: 0px solid red;
+    width: 71%;
+    padding-top: 6px;
+  }
+
+  .container2 div.more div.container1{
+    padding-top: 0;
+  }
+
+  .container2 div.more div.container1 div.left{
+    display: none;
+  }
+
+  .container2 div.more div.container1 div.right{
+    width: 100%;
+  }
+
+  .container2 div.more div.container1 div.right div.up{
+    margin-bottom: 0;
+  }
+
+  .container2 div.more div.container1 div.right div.up p:first-child{
+    width: 100%;
+  }
+
+  .container2 div.more div.container1 div.right div.up p:last-child{
+    display: none;
+  }
+
+  .container2 div.more div.container1 div.right div.down{
+    display: none;
+  }
+  /* contents_2 종료 */
+
+
+
+
+
+  /* more view */
+  .container2 div.in{
+    width: 71%;
+  }
+
+  .container2 div.in #loadMore{
+    margin: 20px 0 50px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  /* contents_3 종료 */
+}
+/* video & photo 모바일 종료 */
+
+
+
+
+
+/* global-story 시작 */
+
+/* visual 시작 */
+#visual-story{
+  border: 0px solid red;
+  width: 100%;
+  height: 46%;
+  min-height: 500px;
+  background: url(../images/story-main/visual_img.png) no-repeat center center;
+  background-size: cover;
+}
+/* visual 종료 */
+
+
+
+
+/* contents_1 시작 */
+#cs01{
+  border: 0px solid red;
+  margin-top: -100px;
+}
+
+#cs01 div.outer{
+  border: 0px solid orange;
+  width: 79%;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#cs01 div.outer div.inner{
+  border: 0px solid yellow;
+  width: 93%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#cs01 div.outer div.inner h3{
+  border: 0px solid blue;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 80px; */
+  font-size: 4.17vw;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  padding-top: 80px;
+  /* padding-top: 7.41vh; */
+}
+  
+#cs01 div.outer div.inner p{
+  border: 0px solid purple;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #6f6f6f;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+
+
+
+/* up 시작 */
+#cs01 div.outer div.inner .swiper-container3.gallery-top3{
+  border: 0px solid red;
+  overflow: hidden;
+  padding-top: 60px;
+  /* padding-top: 5.56vh; */
+}
+
+#cs01 div.outer div.inner .swiper-container3.gallery-top3 .swiper-wrapper{
+  border: 0px solid orange;
+  width: 50%;
+  float: left;
+  padding-bottom: 0;
+}
+
+#cs01 div.outer div.inner .swiper-container3.gallery-top3 .swiper-wrapper .swiper-slide{
+  padding-top: 0;
+}
+
+#cs01 div.outer div.inner .swiper-container3.gallery-top3 .swiper-wrapper .swiper-slide img{
+  float: left;
+  width: 50%;
+}
+
+#cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right{
+  width: 50%;
+  float: right;
+}
+
+#cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article h4{
+  border: 0px solid blue;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 24px; */
+  font-size: 1.25vw;
+  font-weight: 700;
+  color: #333;
+  /* padding: 50px 0 0 60px; */
+  /* padding: 4.63vh 0 0 3.13vw; */
+  padding: 50px 0 0 3.13vw;
+}
+
+#cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article h4 span{
+  color: #e61d2b;
+}
+
+#cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p{
+  border: px solid yellow;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 16px; */
+  font-size: 0.83vw;
+  font-weight: 500;
+  color: #333;
+  line-height: 23px;
+  /* line-height: 2.13vh; */
+  text-align: left;
+  /* padding: 50px 0 0 60px; */
+  /* padding: 4.63vh 0 0 3.13vw; */
+  padding: 30px 0 0 3.13vw;
+}
+
+#cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p:nth-child(3){
+  border: 0px solid red;
+  text-align: center;
+  padding: 40px 0 0 0;
+  /* padding: 3.7vh 0 0 0; */
+}
+
+#cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p a{
+  border: 0px solid black;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #a2a2a2;
+  line-height: 0;
+}
+/* up 종료 */
+
+
+
+.swiper-container3 {
+  width: 100%;
+  height: 300px;
+}
+.gallery-top3 {
+  height: 80%;
+  width: 100%;
+}
+.gallery-thumbs3 {
+  height: 20%;
+  padding: 10px 0;
+}
+.gallery-thumbs3 .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.5;
+}
+.gallery-thumbs3 .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+/* contents_1 종료 */
+
+
+
+
+
+/* contents_2 시작 */
+#cs02{
+  border: 0px solid red;
+}
+
+#cs02 div.inner{
+  border: 0px solid yellow;
+  width: 74%;
+  margin: 0 auto;
+  overflow: hidden;
+  /* padding-bottom: 100px; */
+  /* padding-bottom: 9.26vh; */
+}
+
+#cs02 div.inner h3{
+  border: 0px solid blue;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 80px; */
+  font-size: 4.17vw;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  padding-top: 200px;
+  /* padding-top: 18.52vh; */
+}
+
+#cs02 div.inner p{
+  border: 0px solid purple;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* font-size: 18px; */
+  font-size: 0.94vw;
+  font-weight: 500;
+  color: #6f6f6f;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+
+
+
+/* box01 시작 */
+#cs02 div.inner div.container3 div.more{
+  border: 0px solid red;
+  overflow: hidden;
+  padding-top: 80px;
+  /* padding-top: 7.41vh; */
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.left{
+  border: 0px solid orange;
+  width: 49%;
+  float: left;
+  position: relative;
+  
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.left dl{
+  width: 100%;
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.left dl dt{
+  overflow: hidden;
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.left dl dt img{
+  transition: all 0.2s linear;
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.left dl dt img:hover{
+  transform: scale(1.05);
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.left dl dd{
+  border: 0px solid green;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 72px; */
+  font-size: 3.75vw;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.right{
+  border: 0px solid red;
+  width: 49%;
+  float: right;
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.right dl{
+  position: relative;
+  margin-bottom: 3%;
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.right dl:nth-child(1){
+  border: 0px solid red;
+  width: 100%;
+  height: 48.5%;
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.right dl:nth-child(1) dt{
+  overflow: hidden;
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.right dl:nth-child(1) dt img{
+  border: 0px solid red;
+  transition: all 0.2s linear;
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.right dl:nth-child(1) dt img:hover{
+  transform: scale(1.05);
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.right dl:nth-child(2){
+  margin-bottom: 0;
+  width: 100%;
+  height: 48.5%;
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.right dl:nth-child(2) dt{
+  overflow: hidden;
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.right dl:nth-child(2) dt img{
+  border: 0px solid red;
+  transition: all 0.2s linear;
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.right dl:nth-child(2) dt img:hover{
+  transform: scale(1.05);
+}
+
+#cs02 div.inner div.container3 div.more:nth-child(1) div.right dl dd{
+  border: 0px solid green;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 72px; */
+  font-size: 3.75vw;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* box02 종료 */
+
+
+
+
+
+/* box02 시작 */
+#cs02 div.inner div.container3 div.more{
+  border: 0px solid red;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+#cs02 div.inner div.container3 div.more dl{
+  border: 0px solid orange;
+  width: 49%;
+  margin-right: 2%;
+  position: relative;
+}
+
+#cs02 div.inner div.container3 div.more dl:nth-child(1){
+  float: left;
+}
+
+#cs02 div.inner div.container3 div.more dl:nth-child(1) dt{
+  overflow: hidden;
+}
+
+#cs02 div.inner div.container3 div.more dl:nth-child(1) dt img{
+  border: 0px solid red;
+  transition: all 0.2s linear;
+}
+
+#cs02 div.inner div.container3 div.more dl:nth-child(1) dt img:hover{
+  transform: scale(1.05);
+}
+
+#cs02 div.inner div.container3 div.more dl:nth-child(2){
+  float: left;
+  margin-right: 0;
+}
+
+#cs02 div.inner div.container3 div.more dl:nth-child(2) dt{
+  overflow: hidden;
+}
+
+#cs02 div.inner div.container3 div.more dl:nth-child(2) dt img{
+  border: 0px solid red;
+  transition: all 0.2s linear;
+}
+
+#cs02 div.inner div.container3 div.more dl:nth-child(2) dt img:hover{
+  transform: scale(1.05);
+}
+
+#cs02 div.inner div.container3 div.more dl dd{
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 72px; */
+  font-size: 3.75vw;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* box02 종료 */
+
+
+
+
+
+#cs02 div.inner div.more:nth-child(3){
+  display: none;
+}
+
+#cs02 div.inner div.more:nth-child(4){
+  display: none;
+  margin-bottom: 120px;
+}
+
+
+
+
+
+/* more view 시작 */
+div.container3 #loadMore{
+  border: 5px solid red;
+  display: block;
+  border: 2px solid #d3d3d3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.04vw;
+  font-weight: 400;
+  color: #a2a2a2;
+  line-height: 46px;
+  text-align: center;
+  margin: 40px 0 70px 0;
+
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+}
+
+div.container3 #loadMore:hover{
+  border: 2px solid #d3d3d3;
+  background-color: grey;
+  color: #fff;
+ }
+/* more view 종료 */
+
+/* global-story 종료 */
+
+
+
+
+
+/* global-story 고해상도 미디어쿼리 시작 */
+@media all and (min-width: 1921px) and (max-width: 2560px){
+  #cs01 div.outer div.inner{
+    width: 1420px;
+  }
+
+  #cs02 div.inner{
+    width: 1420px;
+  }
+
+  #cs01 div.outer div.inner h3{
+    font-size: 80px;
+  }
+    
+  #cs01 div.outer div.inner p{
+    font-size: 18px;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article h4{
+    font-size: 24px;
+    padding: 50px 0 0 60px;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p{
+    font-size: 16px;
+    padding: 30px 0 0 60px;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p a{
+    font-size: 18px;
+  }
+  
+  
+  
+  #cs02 div.inner h3{
+    font-size: 80px;
+  }
+  
+  #cs02 div.inner p{
+    font-size: 18px;
+  }
+
+  #cs02 div.inner div.container3 div.more:nth-child(1) div.left dl dd{
+    font-size: 72px;
+  }
+
+  #cs02 div.inner div.container3 div.more:nth-child(1) div.right dl dd{
+    font-size: 72px;
+  }
+  
+  #cs02 div.inner div.container3 div.more dl dd{
+    font-size: 72px;
+  }
+  
+  #cs02 div.inner div.container3 div.more dl dd{
+    font-size: 72px;
+  }
+  
+  div.container3 #loadMore{
+    font-size: 20px;
+  }
+}
+/* global-story 고해상도 미디어쿼리 종료 */
+
+
+
+
+
+/* global-story 1500~1750 시작 */
+@media all and (min-width: 1500px) and (max-width: 1750px){
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article h4{
+    padding: 30px 0 0 60px;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p{
+    padding: 30px 0 0 60px;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p:nth-child(3){
+    padding: 20px 0 0 0;
+  }
+}
+/* global-story 1500~1750 종료 */
+
+
+
+
+
+/* global-story 1300~1500 시작 */
+@media all and (min-width: 1200px) and (max-width: 1500px){
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article h4{
+    padding: 30px 0 0 60px;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p{
+    padding: 30px 0 0 60px;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p:nth-child(3){
+    padding: 30px 0 0 0;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p br:nth-child(7){
+    display: none;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p span{
+    display: none;
+  }
+}
+/* global-story 1300~1500 종료 */
+
+
+
+
+
+/* global-story 1200~1300 시작 */
+@media all and (min-width: 1200px) and (max-width: 1300px){
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article h4{
+    padding: 20px 0 0 40px;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p{
+    padding: 20px 0 0 40px;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p:nth-child(3){
+    padding: 30px 0 0 0;
+  }
+}
+/* global-story 1200~1300 종료 */
+
+
+
+
+
+/* global-story 태블릿 800~1200 시작 */
+@media all and (min-width:800px) and (max-width: 1200px){
+  /* visual 시작 */
+  #visual-story{
+    border: 0px solid red;
+    width: 100%;
+    min-height: 420px;
+    background: url(../images/story-main/visual_img.png) no-repeat center center;
+    background-size: cover;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작 */
+  #cs01{
+    margin-top: -75px;
+  }
+
+  #cs01 div.outer{
+    border: 0px solid red;
+    width: 95%;
+  }
+
+  #cs01 div.outer div.inner{
+    border: 0px solid orange;
+    width: 91%;
+  }
+
+  #cs01 div.outer div.inner h3{
+    /* font-size: 60px; */
+    font-size: 5vw;
+    padding-top: 75px;
+    /* padding-top: 9.38vh; */
+  }
+    
+  #cs01 div.outer div.inner p{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+  
+  
+  
+  
+  
+  /* up 시작 */
+  #cs01 div.outer div.inner div.up{
+    padding-top: 50px;
+    /* padding-top: 6.25vh; */
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article h4{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    /* padding: 40px 0 0 18px; */
+    /* padding: 5vh 0 0 1.5vw; */
+    padding: 20px 0 0 1.5vw;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p{
+    /* font-size: 14px; */
+    font-size: 1.17vw;
+    line-height: 23px;
+    /* line-height: 2.88vh; */
+    /* padding: 20px 0 0 18px; */
+    /* padding: 2.5vh 0 0 1.5vw; */
+    padding: 20px 0 0 1.5vw;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p span{
+    display: none;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p br:nth-child(7){
+    display: none;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p:nth-child(3){
+    padding: 30px 0 0 0;
+    /* padding: 3.75vh 0 0 0; */
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p a{
+    /* font-size: 16px; */
+    font-size: 1.33vw;
+  }
+  /* up 종료 */
+
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  #cs02 div.inner{
+    width: 87%;
+    padding-bottom: 45px;
+    /* padding-bottom: 5.63vh; */
+  }
+
+  #cs02 div.inner h3{
+    /* font-size: 60px; */
+    font-size: 5vw;
+    padding-top: 120px;
+    /* padding-top: 15vh; */
+  }
+
+  #cs02 div.inner p{
+    /* font-size: 18px; */
+    font-size: 1.5vw;
+    padding-top: 10px;
+    /* padding-top: 1.25vh; */
+  }
+
+
+
+
+
+  #cs02 div.inner div.container3{
+    padding-top: 40px;
+  }
+
+  #cs02 div.inner div.container3 div.more:nth-child(1) div.left dl dd{
+    /* font-size: 50px; */
+    font-size: 4.17vw;
+  }
+
+  #cs02 div.inner div.container3 div.more:nth-child(1) div.right dl dd{
+    /* font-size: 50px; */
+    font-size: 4.17vw;
+  }
+  
+  #cs02 div.inner div.container3 div.more dl dd{
+    /* font-size: 50px; */
+    font-size: 4.17vw;
+  }
+  
+  #cs02 div.inner div.container3 div.more dl dd{
+    /* font-size: 50px; */
+    font-size: 4.17vw;
+  }
+
+
+
+
+
+  /* more view */
+  div.container3 #loadMore{
+    /* font-size: 16px; */
+    font-size: 1.33vw;
+  }
+  /* contents_2 종료 */
+}
+/* global-story 태블릿 800~1200 종료 */
+
+
+
+
+
+/* global-story 태블릿 600~800 시작 */
+@media all and (min-width: 600px) and (max-width: 800px){
+  /* visual 시작 */
+  #visual-story{
+    border: 0px solid red;
+    width: 100%;
+    min-height: 280px;
+    background: url(../images/story-main/visual_img.png) no-repeat center center;
+    background-size: cover;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작 */
+  #cs01{
+    margin-top: -50px;
+  }
+
+  #cs01 div.outer{
+    width: 95%;
+  }
+
+  #cs01 div.outer div.inner{
+    width: 90%;
+  }
+
+  #cs01 div.outer div.inner h3{
+    /* font-size: 48px; */
+    font-size: 6vw;
+    padding-top: 50px;
+    /* padding-top: 4.17vh; */
+  }
+    
+  #cs01 div.outer div.inner p{
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    padding-top: 5px;
+    /* padding-top: 0.42vh; */
+  }
+  
+  
+  
+  
+  
+  /* up 시작 */
+  #cs01 div.outer div.inner div.up{
+    padding-top: 40px;
+    /* padding-top: 3.33vh; */
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article h4{
+    border: 0px solid red;
+    /* font-size: 14px; */
+    font-size: 1.75vw;
+    /* padding: 10px 0 0 15px; */
+    /* padding: 0.83vh 0 0 1.88vw; */
+    padding: 10px 0 0 1.88vw;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p{
+    /* font-size: 11px; */
+    font-size: 1.38vw;
+    line-height: 18px;
+    padding: 10px 0 0 15px;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p br{
+    display: none;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p span{
+    display: none;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p br:nth-child(7){
+    display: none;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p:nth-child(3){
+    padding: 15px 0 0 0;
+    /* padding: 1.25vh 0 0 0; */
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p a{
+    /* font-size: 12px; */
+    font-size: 1.5vw;
+  }
+  /* up 종료 */
+
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  #cs02 div.inner{
+    width: 85%;
+    padding-bottom: 70px;
+  }
+
+  #cs02 div.inner h3{
+    /* font-size: 48px; */
+    font-size: 6vw;
+    padding-top: 80px;
+  }
+
+  #cs02 div.inner p{
+    /* font-size: 18px; */
+    font-size: 2.25vw;
+    padding-top: 5px;
+  }
+
+
+
+
+
+  #cs02 div.inner div.container3{
+    padding-top: 40px;
+  }
+
+  #cs02 div.inner div.container3 div.more:nth-child(2){
+    padding-top: 10px;
+  }
+
+  #cs02 div.inner div.container3 div.more:nth-child(1) div.left dl dd{
+    /* font-size: 35px; */
+    font-size: 4.38vw;
+  }
+
+  #cs02 div.inner div.container3 div.more:nth-child(1) div.right dl dd{
+    /* font-size: 35px; */
+    font-size: 4.38vw;
+  }
+  
+  #cs02 div.inner div.container3 div.more dl dd{
+    /* font-size: 35px; */
+    font-size: 4.38vw;
+  }
+  
+  #cs02 div.inner div.container3 div.more dl dd{
+    /* font-size: 35px; */
+    font-size: 4.38vw;
+  }
+
+
+
+
+
+  /* more view */
+
+  div.container3 #loadMore{
+    line-height: 30px;
+    font-size: 12px;
+  }
+  /* contents_2 종료 */
+}
+/* global-story 태블릿 600~800 종료 */
+
+
+
+
+
+/* global-story 모바일 ~599 시작 */
+@media all and (max-width: 599px){
+  /* visual 시작 */
+  #visual-story{
+    border: 0px solid red;
+    width: 100%;
+    height: 30%;
+    min-height: 170px;
+    background: url(../images/story-main/visual_img.png) no-repeat center center;
+    background-size: cover;
+  }
+  /* visual 종료 */
+
+
+
+
+
+  /* contents_1 시작 */
+  #cs01{
+    margin-top: -30px;
+  }
+
+  #cs01 div.outer{
+    width: 83%;
+  }
+
+  #cs01 div.outer div.inner{
+    width: 100%;
+  }
+
+  #cs01 div.outer div.inner h3{
+    /* font-size: 30px; */
+    font-size: 6.67vw;
+    padding-top: 30px;
+    /* padding-top: 6.67vh; */
+  }
+    
+  #cs01 div.outer div.inner p{
+    /* font-size: 11px; */
+    font-size: 2.44vw;
+    padding-top: 3px;
+    /* padding-top: 0.38vh; */
+  }
+  
+  
+  
+  
+  
+  /* up 시작 */
+  #cs01 div.outer div.inner div.up{
+    padding-top: 40px;
+    /* padding-top: 3.33vh; */
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 .swiper-wrapper .swiper-slide img{
+    float: none;
+    width: 100%;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right{
+    width: 100%;
+    float: none;
+    padding-top: 50vw;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article{
+    text-align: center;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article h4{
+    font-size: 14px;
+    padding: 10px 0 0 0px;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p{
+    font-size: 11px;
+    line-height: 18px;
+    padding: 15px 0 0 0;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p br{
+    display: none;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p span{
+    display: none;
+  }
+
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p br:nth-child(7){
+    display: none;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p:nth-child(3){
+    padding: 15px 0 0 0;
+  }
+  
+  #cs01 div.outer div.inner .swiper-container3.gallery-top3 div.right article p a{
+    font-size: 12px;
+  }
+  /* up 종료 */
+
+
+
+  .swiper-container3.gallery-thumbs3{
+    display: none;
+  }
+
+  /* contents_1 종료 */
+
+
+
+
+
+  /* contents_2 시작 */
+  #cs02 div.inner{
+    width: 83%;
+    padding-bottom: 40px;
+  }
+
+  #cs02 div.inner h3{
+    /* font-size: 30px; */
+    font-size: 6.67vw;
+    padding-top: 30px;
+    /* padding-top: 6.67vh; */
+  }
+
+  #cs02 div.inner p{
+    /* font-size: 11px; */
+    font-size: 2.44vw;
+    padding-top: 3px;
+    /* padding-top: 0.38vh; */
+  }
+
+
+
+
+
+  /* box01 시작 */
+  #cs02 div.inner div.box01{
+    padding-top: 30px;
+  }
+
+  #cs02 div.inner div.container3 div.more{
+    padding-top: 10px;
+  }
+
+  #cs02 div.inner div.more:nth-child(4){
+    margin-bottom: 0;
+  }
+
+  #cs02 div.inner div.container3 div.more:nth-child(1) div.left{
+    width: 100%;
+  }
+  
+  #cs02 div.inner div.container3 div.more:nth-child(1) div.right{
+    border: 5px solid red;
+    display: none;
+  }
+
+  #cs02 div.inner div.container3 div.more:nth-child(1) div.left dl dd{
+    /* border: 5px solid red; */
+    font-size: 30px;
+  }
+
+  #cs02 div.inner div.container3 div.more dl dd{
+    /* border: 5px solid red; */
+    font-size: 20px;
+  }
+
+
+
+
+
+  /* more view */
+  div.container3 #loadMore{
+    font-size: 12px;
+    line-height: 25px;
+    margin: 30px 0 0 0;
+  }
+  /* contents_2 종료 */
+}
+/* global-story 모바일 ~599 종료 */

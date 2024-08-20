@@ -1,0 +1,919 @@
+#home {
+    height: 100vh;
+    position: relative;
+}
+
+#about,
+#contact {
+    background: #f7f9ff;
+}
+
+#about{
+    height: auto;
+}
+
+#project {
+    height: auto;
+}
+
+#contact {
+    height: auto;
+    position: relative;
+}
+
+#home h2 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#about .inner {
+    display: flex;
+    align-items: center;
+}
+
+#about .profile {
+    display: flex;
+}
+
+#about .profile .profileImg {
+    background: #fff;
+    border-radius: 24px;
+    width: 400px;
+    height: 550px;
+    overflow: hidden;
+}
+
+#about .profile .profileImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#about .profile .profileInfo {
+    flex: 1;
+    padding-top: 35px;
+    margin-left: 70px;
+}
+
+#about .profile .profileInfo .name {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+#about .profile .profileInfo .info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+#about .profile .profileInfo .info li {
+    font-size: 15px;
+}
+
+#about .profile .profileInfo .info li.mail {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#about .profile .profileInfo .info li.phone {
+    padding-right: 9px;
+    position: relative;
+}
+
+#about .profile .profileInfo .info li.phone::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: rgb(228, 228, 228);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+#about .profile .profileInfo .info li::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: text-bottom;
+    margin: 0 8px;
+}
+
+#about .profile .profileInfo .info li.mail::before {
+    background: url('/images/mail_icon.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .info li.phone::before {
+    background: url('/images/phone_icon.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .info li.birthYear::before {
+    background: url('/images/calendar_icon.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .introduction {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    word-break: keep-all;
+    margin-top: 24px;
+}
+
+#about .profile .profileInfo > dl {
+    margin-top: 60px;
+}
+
+#about .profile .profileInfo > dl > dt {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#about .profile .profileInfo > dl > dt span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+    margin-left: 2px;
+}
+
+#about .profile .profileInfo > dl > dd {
+    border-top: 1px solid rgb(34, 34, 34);
+    padding: 15px 0;
+    margin-top: 15px;
+}
+
+#about .profile .profileInfo .skill .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .profile .profileInfo .skill .list li {
+    width: 35px;
+    height: 35px;
+}
+
+#about .profile .profileInfo .skill .list li.html {
+    background: url('/images/skill/html5.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.css {
+    background: url('/images/skill/css3.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.javascript {
+    background: url('/images/skill/javascript.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.jquery {
+    background: url('/images/skill/jquery.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.photoshop {
+    background: url('/images/skill/adobephotoshop.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.illustrator {
+    background: url('/images/skill/adobeillustrator.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.figma {
+    background: url('/images/skill/figma.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.vscode {
+    background: url('/images/skill/visualstudiocode.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.intelliJ {
+    background: url('/images/skill/intellijidea.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.eclipse {
+    background: url('/images/skill/eclipse.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.spring {
+    background: url('/images/skill/spring.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.git {
+    background: url('/images/skill/git.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.github {
+    background: url('/images/skill/github.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.gitlab {
+    background: url('/images/skill/gitlab.png') no-repeat;
+    background-size: 100%;
+}
+
+#about .profile .profileInfo .career .list li {
+    display: flex;
+}
+
+#about .profile .profileInfo .career .list > li + li {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#about .profile .profileInfo .career .list .careerPeriod {
+    position: relative;
+    padding-left: 20px;
+}
+
+#about .profile .profileInfo .career .list .careerPeriod::before {
+    content: '';
+    display: inline-block;
+    border: 2px solid #111;
+    border-radius: 100%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+
+#about .profile .profileInfo .career .list .careerPeriod dt {
+    font-weight: 500;
+}
+
+#about .profile .profileInfo .career .list .careerPeriod dd {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+}
+
+#about .profile .profileInfo .career .list .careerInfo {
+    flex: 1;
+    margin-left: 90px;
+}
+
+#about .profile .profileInfo .career .list .careerInfo .company dt {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#about .profile .profileInfo .career .list .careerInfo .company dt::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('/images/certi.png') no-repeat;
+    background-size: 100%;
+    margin-left: 8px;
+}
+
+#about .profile .profileInfo .career .list .careerInfo .company dd {
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+#about .profile .profileInfo .career .list .careerInfo .workTxt {
+    margin-top: 16px;
+}
+
+#about .profile .profileInfo .career .list .careerInfo .workTxt li {
+    line-height: 24px;
+    word-break: keep-all;
+    padding-left: 12px;
+    position: relative;
+}
+
+#about .profile .profileInfo .career .list .careerInfo .workTxt li::before {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background: #666;
+    border-radius: 100%;
+    position: absolute;
+    top: 11px;
+    left: 4px;
+}
+
+#about .profile .profileInfo .career .list .careerInfo .workTxt li + li {
+    margin-top: 8px;
+}
+
+#about .profile .profileInfo .resume {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+#about .profile .profileInfo .resume a {
+    width: 105px;
+    font-size: 18px;
+    color: #666;
+    position: relative;
+    text-align: right;
+}
+
+#about .profile .profileInfo .resume a::after {
+    content: '';
+    display: block;
+    border-bottom: solid 2px #999;
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    margin-top: 5px;
+}
+
+#about .profile .profileInfo .resume a:hover::after {
+    transform: scaleX(1);
+}
+
+#about .profile .profileInfo .resume .arrow {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url('/images/resumeArrow_icon.png') no-repeat 50%;
+    background-size: 100%;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+#project .inner {
+    padding-top: 50px;
+}
+
+#project .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#project .list li {
+    box-shadow: 0px 3px 24px 0px #0000000A;
+    background: #FAFAFA;
+    border-radius: 16px;
+    width: 384px;
+    height: 340px;
+}
+
+#project .list li + li {
+    margin-left: 24px;
+}
+
+#project .list li:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+#project .list li:nth-child(n+4) {
+    margin-top: 24px;
+}
+
+#project .list li:hover {
+    box-shadow: 0px 4px 50px 0px #00000026;
+    background: #fff;
+    transition: all .3s;
+}
+
+#project .list li > a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#project .list li .projectLogo {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+}
+
+#project .list li .projectLogo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+#project .list li .projecInfo {
+    width: 100%;
+    height: 164px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #666;
+    margin-top: 20px;
+    
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    word-break: keep-all;
+    transition: all .3s;
+}
+
+#project .list li:hover .projecInfo {
+    color: #111;
+}
+
+#project .list li .projecInfo span {
+    font-size: 16px;
+}
+
+#project .list li .link {
+    display: inline-block;
+    font-size: 16px;
+    color: #999;
+    margin-top: auto;
+}
+
+#project .list li .link::after {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url('/images/linkArrow_icon.svg') no-repeat;
+    background-size: 100%;
+    margin-left: 5px;
+}
+
+#contact .snsId {
+    color: #CFDEFF;
+    position: absolute;
+    top: 45%;
+    left: -120px;
+    transform: rotate(-90deg);
+}
+
+#contact .snsId::before {
+    content: '';
+    display: inline-block;
+    width: 287px;
+    height: 1px;
+    background: #CFDEFF;
+    position: absolute;
+    top: 9px;
+    left: -285px;
+}
+
+#contact .snsId a {
+    color: #CFDEFF;
+}
+
+#contact .snsId a + a {
+    margin-left: 20px;
+}
+
+#contact .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .inner .communication dt {
+    font-size: 22px;
+    color: #999;
+    transition: all .5s;
+}
+
+#contact .inner .communication dd {
+    color: #999;
+    margin-top: 20px;
+    transition: all .5s;
+}
+
+#contact .inner .communication dd a {
+    font-size: 50px;
+    font-weight: 500;
+    color: #999;
+    transition: all .5s;
+    position: relative;
+}
+
+#contact .inner .communication dd a:hover {
+    color: #111;
+}
+
+#contact .inner .communication dt.on,
+#contact .inner .communication dd.on,
+#contact .inner .communication dd.on a {
+    color: #111;
+}
+
+#contact .inner .communication dd a::after {
+    content: '';
+    display: block;
+    border-bottom: solid 2px #111;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 450ms ease-in-out;
+    margin-top: 12px;
+}
+
+#contact .inner .communication dd a.on::after {
+    transform: scaleX(1);
+}
+
+#contact .inner .communication dd a.on:hover::after {
+    transform-origin: center;
+    transform: scaleX(0);
+}
+
+#contact .inner .communication dd:last-child {
+    font-size: 14px;
+    color: #999;
+    margin-top: 15px;
+}
+
+#contact .contactWrap .emailWrap,
+#contact .contactWrap .messageWrap {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contactWrap .messageWrap {
+    margin-top: 30px;
+}
+
+#contact .contactWrap label {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+}
+
+#contact .contactWrap input,
+#contact .contactWrap textarea {
+    margin-top: 16px;
+}
+
+#contact .contactWrap .submitBtn {
+    background: #CFDEFF;
+    border-radius: 4px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0 22px;
+    margin-top: 20px;
+    transition: all .3s;
+}
+
+#contact .contactWrap .submitBtn.on,
+#contact .contactWrap .submitBtn:hover {
+    background: #7777ff;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    #home {
+        height: 95vh;
+        overflow: hidden;
+    }
+
+    #home::before {
+        content: '';
+        display: inline-block;
+        width: 120vw;
+        height: 120vw;
+        background: url("/images/cursor.png") no-repeat;
+        background-size: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 1s ease-out;
+        opacity: 1;
+        animation: orbit 6s linear infinite;
+    }
+
+    @keyframes orbit {
+        0% {
+            transform: translate(-50%, -50%) translate(50px, 0);
+        }
+        25% {
+            transform: translate(-50%, -50%) translate(0, 50px);
+        }
+        50% {
+            transform: translate(-50%, -50%) translate(-50px, 0);
+        }
+        75% {
+            transform: translate(-50%, -50%) translate(0, -50px);
+        }
+        100% {
+            transform: translate(-50%, -50%) translate(50px, 0);
+        }
+    }
+
+    #home.hidden::before {
+        opacity: 0;
+    }
+
+    #home h2 {
+        width: 100%;
+        font-size: 3.8vw;
+        line-height: 5.3vw;
+        top: 50%;
+    }
+
+    #about .profile {
+        flex-direction: column;
+    }
+
+    #about .profile .profileImg {
+        border-radius: 3.8vw;
+        width: 54.7vw;
+        height: 70.3vw;
+    }
+    
+    #about .profile .profileInfo {
+        padding-top: 6.3vw;
+        margin-left: 0;
+    }
+    
+    #about .profile .profileInfo .name {
+        font-size: 4.7vw;
+    }
+    
+    #about .profile .profileInfo .info {
+        margin-top: 4.7vw;
+    }
+    
+    #about .profile .profileInfo .info li {
+        font-size: 2.8vw;
+        padding-left: 4.7vw;
+        position: relative;
+    }
+    
+    #about .profile .profileInfo .info li.mail {
+        margin-bottom: 2.5vw;
+    }
+    
+    #about .profile .profileInfo .info li.phone {
+        padding-right: 2.5vw;
+        margin-right: 2.5vw;
+    }
+    
+    #about .profile .profileInfo .info li.phone::after {
+        width: 1px;
+        height: 3.1vw;
+    }
+    
+    #about .profile .profileInfo .info li::before {
+        width: 3.1vw;
+        height: 3.1vw;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    #about .profile .profileInfo .introduction {
+        font-size: 2.8vw;
+        line-height: 4.7vw;
+        letter-spacing: -0.03em;
+        margin-top: 4.7vw;
+    }
+    
+    #about .profile .profileInfo > dl {
+        margin-top: 7.8vw;
+    }
+    
+    #about .profile .profileInfo > dl > dt {
+        font-size: 3.1vw;
+    }
+    
+    #about .profile .profileInfo > dl > dt span {
+        font-size: 2.2vw;
+        margin-left: 0.3vw;
+    }
+    
+    #about .profile .profileInfo > dl > dd {
+        padding: 3.1vw 0;
+        margin-top: 3.1vw;
+    }
+    
+    #about .profile .profileInfo .skill .list.mobile {
+        display: flex !important;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    #about .profile .profileInfo .skill .list li {
+        width: 5.5vw;
+        height: 5.5vw;
+    }
+    
+    #about .profile .profileInfo .skill .list li + li {
+        margin-left: 3.9vw;
+    }
+
+    #about .profile .profileInfo .skill .list li:nth-child(11) {
+        margin-left: 0;
+    }
+
+    #about .profile .profileInfo .skill .list li:nth-child(n+11) {
+        margin-top: 3.9vw;
+    }
+    
+    #about .profile .profileInfo .career .list > li + li {
+        padding-top: 3.1vw;
+        margin-top: 3.1vw;
+    }
+    
+    #about .profile .profileInfo .career .list .careerPeriod {
+        padding-left: 3.1vw;
+    }
+    
+    #about .profile .profileInfo .career .list .careerPeriod::before {
+        border: 0.3vw solid #111;
+        width: 0.8vw;
+        height: 0.8vw;
+        top: 0.8vw;
+        left: 0.6vw;
+    }
+    
+    #about .profile .profileInfo .career .list .careerPeriod dd {
+        font-size: 2.2vw;
+        margin-top: 1.6vw;
+    }
+    
+    #about .profile .profileInfo .career .list .careerInfo {
+        margin-left: 16.6vw;
+    }
+    
+    #about .profile .profileInfo .career .list .careerInfo .company dt {
+        font-size: 3.1vw;
+    }
+
+    #about .profile .profileInfo .career .list .careerInfo .company dt::after {
+        width: 3.1vw;
+        height: 3.1vw;
+        margin-left: 1.3vw;
+    }
+    
+    #about .profile .profileInfo .career .list .careerInfo .company dd {
+        font-size: 2.2vw;
+        margin-top: 1.6vw;
+    }
+    
+    #about .profile .profileInfo .career .list .careerInfo .workTxt {
+        margin-top: 3.1vw;
+    }
+    
+    #about .profile .profileInfo .career .list .careerInfo .workTxt li {
+        font-size: 2.5vw;
+        line-height: 4.4vw;
+        padding-left: 1.9vw;
+    }
+    
+    #about .profile .profileInfo .career .list .careerInfo .workTxt li::before {
+        width: 0.5vw;
+        height: 0.5vw;
+        top: 1.9vw;
+        left: 0.6vw;
+    }
+    
+    #about .profile .profileInfo .career .list .careerInfo .workTxt li + li {
+        margin-top: 1.6vw;
+    }
+    
+    #about .profile .profileInfo .resume {
+        margin-top: 3.1vw;
+    }
+    
+    #about .profile .profileInfo .resume a {
+        width: 15.3vw;
+        font-size: 2.5vw;
+    }
+    
+    #about .profile .profileInfo .resume a::after {
+        display: none;
+    }
+    
+    #about .profile .profileInfo .resume .arrow {
+        width: 2.8vw;
+        height: 2.8vw;
+        top: 0;
+    }
+    
+    #project .inner {
+        padding-top: 0;
+    }
+    
+    #project .list li {
+        box-shadow: 0px 0.6vw 3.9vw 0px #00000026;
+        border-radius: 2.5vw;
+        width: 43.8vw;
+        height: 42.2vw;
+    }
+    
+    #project .list li + li,
+    #project .list li:nth-child(3n+1) {
+        margin-left: 0;
+    }
+
+    #project .list li:nth-child(2n) {
+        margin-left: 3vw;
+    }
+    
+    #project .list li:nth-child(n+3) {
+        margin-top: 3.1vw;
+    }
+    
+    #project .list li:hover {
+        box-shadow: none;
+    }
+    
+    #project .list li > a {
+        padding: 3.9vw 3.9vw 4.7vw;
+    }
+    
+    #project .list li .projectLogo {
+        width: 20.3vw;
+        height: 6.3vw;
+    }
+    
+    #project .list li .projecInfo {
+        height: 13.6vw;
+        font-size: 2.8vw;
+        line-height: 4.4vw;
+        margin-top: 3.1vw;
+        -webkit-line-clamp: 3;
+    }
+    
+    #project .list li .link {
+        font-size: 2.5vw;
+    }
+    
+    #project .list li .link::after {
+        width: 1.9vw;
+        height: 1.9vw;
+    }
+
+    #contact {
+        height: 65vw;
+        padding-top: 0;
+    }
+
+    #contact .inner {
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+    }
+    
+    #contact .snsId {
+        display: none;
+    }
+    
+    #contact .inner .communication dt {
+        font-size: 2.8vw;
+    }
+    
+    #contact .inner .communication dd {
+        margin-top: 3.1vw;
+    }
+    
+    #contact .inner .communication dd a {
+        font-size: 4.7vw;
+    }
+    
+    #contact .inner .communication dd a::after {
+        border-bottom: solid 0.3vw #111;
+        margin-top: 1.6vw;
+    }
+    
+    #contact .inner .communication dd:last-child {
+        font-size: 2.2vw;
+        margin-top: 3.1vw;
+    }
+
+    #contact .contactWrap {
+        display: none;
+    }
+}
