@@ -233,12 +233,17 @@ document.addEventListener('contextmenu', function (e) {
     alert('개발자 도구를 사용할 수 없습니다.');
 }, false);
 
-// F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U 키 방지
+// 개발자도구 접근 키 방지
 document.addEventListener('keydown', function (e) {
-    if (e.keyCode == 123 || (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 74)) || (e.ctrlKey && e.keyCode == 85)) {
-        e.preventDefault();
-        alert('개발자 도구를 사용할 수 없습니다.');
-    }
+  if (e.keyCode == 123 || 
+      (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 74 || e.keyCode == 67)) || 
+      (e.ctrlKey && e.keyCode == 85) || 
+      (e.metaKey && e.altKey && e.keyCode == 73) ||  // Command + Option + I
+      (e.metaKey && e.shiftKey && e.keyCode == 67) ||  // Command + Shift + C
+      (e.metaKey && e.keyCode == 85)) {  // Command + U
+      e.preventDefault();
+      alert('개발자 도구를 사용할 수 없습니다.');
+  }
 }, false);
 
 
