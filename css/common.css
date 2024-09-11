@@ -1,148 +1,149 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body,
 html {
-    font: 16px/1 "Noto Sans KR", sans-serif;
-    font-weight: 400;
-    color: #111;
-    letter-spacing: -0.03em;
+  font: 16px/1 "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  color: #111;
+  letter-spacing: -0.03em;
 }
 
 body {
-    min-width: 1200px;
+  min-width: 1200px;
 }
 
 body::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 a {
-    color: #222;
-    text-decoration: none;
+  color: #222;
+  text-decoration: none;
 }
 
 button {
-    padding: 0;
-    background: none;
-    border: none;
-    cursor: pointer;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 input {
-    border: 1px solid #d2d2d2;
-    border-radius: 5px;
-    width: 500px;
-    height: 40px;
-    padding: 0 10px;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  width: 500px;
+  height: 40px;
+  padding: 0 10px;
 }
 
 textarea {
-    border: 1px solid #d2d2d2;
-    border-radius: 5px;
-    width: 500px;
-    height: 300px;
-    padding: 10px;
-    resize: none;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+  resize: none;
 }
 
 input::placeholder,
 textarea::placeholder {
-    font-weight: 300;
-    color: #999;
+  font-weight: 300;
+  color: #999;
 }
 
 input:focus,
 textarea:focus {
-    border: 1px solid #CFDEFF;
-    outline: none;
+  border: 1px solid #CFDEFF;
+  outline: none;
 }
 
 
 
 /* scroll custom */
 .scroll-bg {
-    width: 100%;
-    height: 2px;
+  width: 100%;
+  height: 2px;
 }
 
 .scroll-bg .scroll-bar {
-    width: 0;
-    height: 2px;
-    background: #3333ff;
-    transition: all .3s ease-out;
+  width: 0;
+  height: 2px;
+  background: #3333ff;
+  transition: all .3s ease-out;
 }
 
 /* intro */
 .intro {
-    width: 100%;
-    height: 100%;
-    background: #CFDEFF;
-    opacity: 1;
-    transition: opacity 1.5s ease;
-    position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #CFDEFF;
+  opacity: 1;
+  transition: opacity 1.5s ease;
+  position: fixed;
 }
 
 .intro h2 {
-    font-size: 50px;
-    font-weight: 500;
-    color: #fff;
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hidden {
-    opacity: 0;
-    transition: opacity 1.2s ease;
+  opacity: 0;
+  transition: opacity 1.2s ease;
 }
 
 .cursor {
-    width: 78.1vw;
-    height: 78.1vw;
-    background: url("/images/cursor.png") no-repeat 50%;
-    background-size: 100%;
-    position: absolute;
-    transition: all 1s ease-out;
-    opacity: 1;
+  width: 78.1vw;
+  height: 78.1vw;
+  background: url("/images/cursor.png") no-repeat 50%;
+  background-size: 100%;
+  position: absolute;
+  transition: all 1s ease-out;
+  opacity: 1;
 }
 
 .cursor.hidden {
-    opacity: 0;
-    pointer-events: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 /* drag */
 ::-moz-selection {
-    background-color: #CFDEFF;
+  background-color: #CFDEFF;
 }
 
 ::selection {
-    background-color: #CFDEFF;
+  background-color: #CFDEFF;
 }
 
 
 
 @media only screen and (max-width: 640px) {
-    body,
-    html {
-        font: 2.5vw/1 "Noto Sans KR", sans-serif;
-    }
 
-    body {
-        min-width: auto;
-    }
+  body,
+  html {
+    font: 2.5vw/1 "Noto Sans KR", sans-serif;
+  }
 
-    .cursor {
-        display: none;
-    }
+  body {
+    min-width: auto;
+  }
 
-    .intro h2 {
-        font-size: 6.3vw;
-        top: 50%;
-    }
+  .cursor {
+    display: none;
+  }
+
+  .intro h2 {
+    font-size: 6.3vw;
+    top: 50%;
+  }
 }
