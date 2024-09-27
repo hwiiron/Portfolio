@@ -1,0 +1,9 @@
+{
+  "search.useGlobalIgnoreFiles": false,
+
+  // 태그 자동 완성 기능
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  }
+}
