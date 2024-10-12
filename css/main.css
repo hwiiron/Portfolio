@@ -110,17 +110,17 @@
 }
 
 #about .profile .profileInfo .info li.mail::before {
-  background: url("./images/mail_icon.png") no-repeat;
+  background: url("../images/mail_icon.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .info li.phone::before {
-  background: url("./images/phone_icon.png") no-repeat;
+  background: url("../images/phone_icon.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .info li.birthYear::before {
-  background: url("./images/calendar_icon.png") no-repeat;
+  background: url("../images/calendar_icon.png") no-repeat;
   background-size: 100%;
 }
 
@@ -165,72 +165,72 @@
 }
 
 #about .profile .profileInfo .skill .list li.html {
-  background: url("./images/skill/html5.png") no-repeat;
+  background: url("../images/skill/html5.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.css {
-  background: url("./images/skill/css3.png") no-repeat;
+  background: url("../images/skill/css3.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.javascript {
-  background: url("./images/skill/javascript.png") no-repeat;
+  background: url("../images/skill/javascript.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.jquery {
-  background: url("./images/skill/jquery.png") no-repeat;
+  background: url("../images/skill/jquery.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.photoshop {
-  background: url("./images/skill/adobephotoshop.png") no-repeat;
+  background: url("../images/skill/adobephotoshop.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.illustrator {
-  background: url("./images/skill/adobeillustrator.png") no-repeat;
+  background: url("../images/skill/adobeillustrator.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.figma {
-  background: url("./images/skill/figma.png") no-repeat;
+  background: url("../images/skill/figma.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.vscode {
-  background: url("./images/skill/visualstudiocode.png") no-repeat;
+  background: url("../images/skill/visualstudiocode.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.intelliJ {
-  background: url("./images/skill/intellijidea.png") no-repeat;
+  background: url("../images/skill/intellijidea.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.eclipse {
-  background: url("./images/skill/eclipse.png") no-repeat;
+  background: url("../images/skill/eclipse.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.spring {
-  background: url("./images/skill/spring.png") no-repeat;
+  background: url("../images/skill/spring.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.git {
-  background: url("./images/skill/git.png") no-repeat;
+  background: url("../images/skill/git.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.github {
-  background: url("./images/skill/github.png") no-repeat;
+  background: url("../images/skill/github.png") no-repeat;
   background-size: 100%;
 }
 
 #about .profile .profileInfo .skill .list li.gitlab {
-  background: url("./images/skill/gitlab.png") no-repeat;
+  background: url("../images/skill/gitlab.png") no-repeat;
   background-size: 100%;
 }
 
@@ -288,7 +288,7 @@
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url("./images/certi.png") no-repeat;
+  background: url("../images/certi.png") no-repeat;
   background-size: 100%;
   margin-left: 8px;
 }
@@ -357,7 +357,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background: url("./images/resumeArrow_icon.png") no-repeat 50%;
+  background: url("../images/resumeArrow_icon.png") no-repeat 50%;
   background-size: 100%;
   position: absolute;
   top: 1px;
@@ -457,7 +457,7 @@
   display: inline-block;
   width: 13px;
   height: 13px;
-  background: url("./images/linkArrow_icon.svg") no-repeat;
+  background: url("../images/linkArrow_icon.svg") no-repeat;
   background-size: 100%;
   margin-left: 5px;
 }
@@ -599,7 +599,7 @@
     display: inline-block;
     width: 120vw;
     height: 120vw;
-    background: url("./images/cursor.png") no-repeat;
+    background: url("../images/cursor.png") no-repeat;
     background-size: 100%;
     position: absolute;
     top: 50%;
