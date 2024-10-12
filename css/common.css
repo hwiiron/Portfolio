@@ -57,11 +57,9 @@ textarea::placeholder {
 
 input:focus,
 textarea:focus {
-  border: 1px solid #CFDEFF;
+  border: 1px solid #cfdeff;
   outline: none;
 }
-
-
 
 /* scroll custom */
 .scroll-bg {
@@ -73,14 +71,14 @@ textarea:focus {
   width: 0;
   height: 2px;
   background: #3333ff;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 /* intro */
 .intro {
   width: 100%;
   height: 100%;
-  background: #CFDEFF;
+  background: #cfdeff;
   opacity: 1;
   transition: opacity 1.5s ease;
   position: fixed;
@@ -104,7 +102,7 @@ textarea:focus {
 .cursor {
   width: 78.1vw;
   height: 78.1vw;
-  background: url("/images/cursor.png") no-repeat 50%;
+  background: url("./images/cursor.png") no-repeat 50%;
   background-size: 100%;
   position: absolute;
   transition: all 1s ease-out;
@@ -118,17 +116,14 @@ textarea:focus {
 
 /* drag */
 ::-moz-selection {
-  background-color: #CFDEFF;
+  background-color: #cfdeff;
 }
 
 ::selection {
-  background-color: #CFDEFF;
+  background-color: #cfdeff;
 }
 
-
-
 @media only screen and (max-width: 640px) {
-
   body,
   html {
     font: 2.5vw/1 "Noto Sans KR", sans-serif;
