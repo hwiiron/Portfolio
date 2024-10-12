@@ -1,593 +1,1013 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Q67SL7DB06"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q67SL7DB06"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      gtag("config", "G-Q67SL7DB06");
+    </script>
 
-    gtag('config', 'G-Q67SL7DB06');
-  </script>
-  
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- <meta name="robots" content="index, follow" /> -->
-  <meta name="description" content="탄탄한 코드 위에 감각적인 디자인을 그리는 웹 퍼블리셔 신휘철입니다.">
-  <meta name="keywords" content="웹 퍼블리셔, 경력 웹 퍼블리셔, 포트폴리오, 웹 퍼블리셔 포트폴리오, 웹 디자인, UI 디자이너, UX 디자이너, UI, UX">
-  <meta name="Reply-To" content="shinhwiiron@gmail.com">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="hwiiron.com">
-  <meta property="og:site_name" content="hwiiron | 웹 포트폴리오">
-  <meta property="og:title" content="hwiiron | 웹 포트폴리오">
-  <meta property="og:description" content="탄탄한 코드 위에 감각적인 디자인을 그리는 웹 퍼블리셔 신휘철입니다.">
-  <meta property="og:image" content="/images/thumbnail.png?v=20240821">
+    <!-- <meta name="robots" content="index, follow" /> -->
+    <meta
+      name="description"
+      content="탄탄한 코드 위에 감각적인 디자인을 그리는 웹 퍼블리셔 신휘철입니다."
+    />
+    <meta
+      name="keywords"
+      content="웹 퍼블리셔, 경력 웹 퍼블리셔, 포트폴리오, 웹 퍼블리셔 포트폴리오, 웹 디자인, UI 디자이너, UX 디자이너, UI, UX"
+    />
+    <meta name="Reply-To" content="shinhwiiron@gmail.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="hwiiron.com" />
+    <meta property="og:site_name" content="hwiiron | 웹 포트폴리오" />
+    <meta property="og:title" content="hwiiron | 웹 포트폴리오" />
+    <meta
+      property="og:description"
+      content="탄탄한 코드 위에 감각적인 디자인을 그리는 웹 퍼블리셔 신휘철입니다."
+    />
+    <meta property="og:image" content="/images/thumbnail.png?v=20240821" />
 
-  <!-- twitter -->
-  <meta name="twitter:title" content="hwiiron | 웹 포트폴리오" />
-  <meta name="twitter:description" content="탄탄한 코드 위에 감각적인 디자인을 그리는 웹 퍼블리셔 신휘철입니다." />
-  <meta name="twitter:image" content="/images/thumbnail.png?v=20240821" />
+    <!-- twitter -->
+    <meta name="twitter:title" content="hwiiron | 웹 포트폴리오" />
+    <meta
+      name="twitter:description"
+      content="탄탄한 코드 위에 감각적인 디자인을 그리는 웹 퍼블리셔 신휘철입니다."
+    />
+    <meta name="twitter:image" content="/images/thumbnail.png?v=20240821" />
 
-  <title>hwiiron | 웹 포트폴리오</title>
+    <title>hwiiron | 웹 포트폴리오</title>
 
-  <!-- favicon -->
-  <link rel="shortcut icon" href="/images/common/favicon.ico">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/images/common/favicon.ico" />
 
-  <!-- PWA -->
-  <link rel="manifest" href="manifest.json">
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json" />
 
-  <!-- Noto Sans font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Noto Sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css2?family=Micro+5&family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Micro+5&family=Noto+Sans+KR:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- css -->
-  <link href="./css/style.css?v=20240821" rel="stylesheet" />
+    <!-- css -->
+    <link href="./css/style.css?v=20240821" rel="stylesheet" />
 
-  <!-- jquery -->
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- typeIt -->
+    <script src="https://cdn.jsdelivr.net/npm/typeit@6.0.0/dist/typeit.min.js"></script>
+
+    <!-- EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "vxg2lGJva8v1f_OVz",
+        });
+      })();
+    </script>
+  </head>
+
+  <body>
+    <!-- intro -->
+    <div class="intro">
+      <h2 id="typeIt"></h2>
+    </div>
+
+    <!-- <div> -->
+    <div id="container" class="hidden">
+      <header>
+        <div class="inner">
+          <h1>
+            <a href="/" id="hwiiron">hwiiron</a>
+          </h1>
+
+          <nav>
+            <ul>
+              <li>
+                <a href="#home" class="active">HOME</a>
+              </li>
+
+              <li>
+                <a href="#about">ABOUT ME</a>
+              </li>
+
+              <li>
+                <a href="#project">PROJECT</a>
+              </li>
+
+              <li>
+                <a href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- //inner -->
+
+        <div class="scroll-bg">
+          <div class="scroll-bar"></div>
+        </div>
+        <!-- //scroll-bg -->
+      </header>
+
+      <main>
+        <section id="home" class="content">
+          <div class="inner">
+            <h2 class="pc">
+              탄탄한 코드 위에 감각적인 디자인을 그리는 웹 퍼블리셔입니다.<br />
+              사용하기 쉬운 UI와 기억에 남는 UX를 위해 노력하며,<br />
+              오늘도 더 나은 웹 퍼블리싱을 향해 노력하고 있습니다.
+            </h2>
+
+            <h2 class="mobile">
+              코드 위에 감각적인 디자인을 그리고<br />
+              쉬운 UI와 기억에 남는 UX를 위해 노력하며,<br />
+              더 나은 퍼블리싱을 향해 노력하고 있습니다.
+            </h2>
+          </div>
+          <!-- //inner -->
+
+          <div class="cursor"></div>
+        </section>
+        <!-- //home -->
+
+        <section id="about" class="content">
+          <div class="inner">
+            <div class="profile">
+              <div
+                class="profileImg"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="0"
+              >
+                <img
+                  src="/portfolio/images/profileImg.jpg?v=20240821"
+                  alt="프로필 이미지"
+                />
+              </div>
+              <!-- //profileImg -->
+
+              <div class="profileInfo">
+                <h4
+                  class="name"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                >
+                  신휘철
+                </h4>
+
+                <ul
+                  class="info"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="450"
+                >
+                  <li class="mail">
+                    <a href="mailto:shinhwiiron@gmail.com"
+                      >shinhwiiron@gmail.com</a
+                    >
+                  </li>
+                  <li class="phone">
+                    <a href="tel:010-7773-7765">+82 1077737765</a>
+                  </li>
+                  <li class="birthYear">1998년생</li>
+                </ul>
+                <!-- //info -->
+
+                <p
+                  class="introduction"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="500"
+                >
+                  웹 표준을 준수하고 다양한 플랫폼과 브라우저에서 웹 사이트의
+                  성능과 시각적 디자인을 최적화하는데 노력합니다.<br />
+                  또한 팀내외에서 원활한 커뮤니케이션과 문제 해결 역량을
+                  바탕으로 협력하며 변화하는 웹 환경에 대응하여 지속적으로 더
+                  나은 웹을 만들기 위해 사용자 중심의 웹 경험을 제공하는 것을
+                  목표로 하고 있습니다.
+                </p>
+                <!-- //introduction -->
+
+                <dl
+                  class="skill"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="550"
+                >
+                  <dt>기술 스택 <span>(업무 툴 / 스킬)</span></dt>
+                  <dd>
+                    <ul class="list pc">
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="html"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="200"
+                        class="css"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="300"
+                        class="javascript"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="400"
+                        class="jquery"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="500"
+                        class="photoshop"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="600"
+                        class="illustrator"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="700"
+                        class="figma"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="800"
+                        class="vscode"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="900"
+                        class="intelliJ"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="1000"
+                        class="eclipse"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="1100"
+                        class="spring"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="1200"
+                        class="git"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="1300"
+                        class="github"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="1400"
+                        class="gitlab"
+                      ></li>
+                    </ul>
+                    <!-- //list -->
+
+                    <ul class="list mobile">
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="html"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="css"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="javascript"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="jquery"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="photoshop"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="illustrator"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="figma"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="vscode"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="intelliJ"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="eclipse"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="200"
+                        class="spring"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="200"
+                        class="git"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="200"
+                        class="github"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="200"
+                        class="gitlab"
+                      ></li>
+                    </ul>
+                    <!-- //list -->
+                  </dd>
+                </dl>
+                <!-- //skill -->
+
+                <dl
+                  class="career"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="650"
+                >
+                  <dt>경력 <span>(업무경험)</span></dt>
+                  <dd>
+                    <ul
+                      class="list"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                      data-aos-delay="800"
+                    >
+                      <li>
+                        <dl class="careerPeriod">
+                          <dt>2022.04 - 2024.07</dt>
+                          <dd>2년 3개월</dd>
+                        </dl>
+                        <!-- //careerPeriod -->
+
+                        <div class="careerInfo">
+                          <dl class="company">
+                            <dt>크림하우스</dt>
+                            <!-- <dd>UI개발팀 / 주임</dd> -->
+                            <dd>UI개발팀 / Publisher</dd>
+                          </dl>
+                          <!-- //company -->
+
+                          <ul class="workTxt">
+                            <li>
+                              웹 표준 및 웹 접근성 가이드라인을 준수하여
+                              웹사이트의 품질과 접근성을 개선
+                            </li>
+                            <li>
+                              모바일 기기 및 다양한 화면 크기에 대응하여 반응형
+                              웹사이트 제작
+                            </li>
+                            <li>
+                              기존 웹사이트의 일상적인 유지 보수를 수행하여
+                              콘텐츠 업데이트, 버그 수정 등을 통해 웹사이트의
+                              안정성을 유지
+                            </li>
+                            <li>
+                              최신 웹 퍼블리싱 도구 및 기술을 활용하여
+                              웹사이트의 기능성과 시각적 요소를 개선
+                            </li>
+                          </ul>
+                          <!-- //workTxt -->
+                        </div>
+                        <!-- //careerInfo -->
+                      </li>
+                    </ul>
+                    <!-- //list -->
+                  </dd>
+                </dl>
+                <!-- //career -->
+
+                <div
+                  class="resume"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="650"
+                >
+                  <a href="/PDF/portfolio.pdf?v=20240821" target="_blank">
+                    자세히보기
+                    <i class="arrow"></i>
+                  </a>
+                </div>
+                <!-- //resume -->
+              </div>
+              <!-- profileInfo -->
+            </div>
+            <!-- //profile -->
+          </div>
+          <!-- //inner -->
+        </section>
+        <!-- //about -->
+
+        <section id="project" class="content">
+          <div class="inner">
+            <ul class="list">
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a
+                  href="https://www.sksports.net/sks_index.asp"
+                  target="_blank"
+                >
+                  <div class="projectLogo">
+                    <img src="/images/logo/skSports-logo.png" alt="SK Sports" />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile 반응형 신규 페이지 구축, 운영(유지 보수) 및
+                    기능 개선을 담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">SK Sports</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a
+                  href="https://www.sksports.net/Knights/main.asp"
+                  target="_blank"
+                >
+                  <div class="projectLogo">
+                    <img src="/images/logo/skKnight-logo.png" alt="SK나이츠" />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile 반응형 신규 페이지 구축 및 운영(유지 보수)을
+                    담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">SK나이츠</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://golf.sktelecom.com/" target="_blank">
+                  <div class="projectLogo">
+                    <img
+                      src="/images/logo/skGolf-logo.png"
+                      alt="SK텔레콤 오픈"
+                    />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile 반응형 신규 페이지 구축 및 운영(유지 보수)을
+                    담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">SK텔레콤 오픈</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.skroaming.com/" target="_blank">
+                  <div class="projectLogo">
+                    <img src="/images/logo/skRoaming-logo.png" alt="SKT로밍" />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile 반응형 신규 페이지 구축 및 운영(유지 보수)을
+                    담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">SKT로밍</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.rainbowyouth.or.kr/" target="_blank">
+                  <div class="projectLogo">
+                    <img
+                      src="/images/logo/rainbowyouth-logo.png"
+                      alt="이주배경청소년지원재단"
+                    />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile 운영(유지 보수)을 담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">이주배경청소년지원재단</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.fcseoul.com/" target="_blank">
+                  <div class="projectLogo">
+                    <img src="/images/logo/fcSeoul-logo.png" alt="FC서울" />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile & App(Web View) 반응형 신규 페이지 구축 및
+                    운영(유지 보수)을 담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">FC서울</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.gsvolleyball.com/" target="_blank">
+                  <div class="projectLogo">
+                    <img
+                      src="/images/logo/gsVolleyball-logo.png"
+                      alt="GS칼텍스서울Kixx배구단"
+                    />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile & App(Web View) 반응형 신규 페이지 구축 및
+                    운영(유지 보수)을 담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">GS칼텍스서울Kixx배구단</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://devocean.sk.com/" target="_blank">
+                  <div class="projectLogo">
+                    <img src="/images/logo/devocean-logo.png" alt="DEVOCEAN" />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile & App(Web View) 반응형 신규 페이지 구축 및
+                    운영(유지 보수)을 담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">DEVOCEAN</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.kywa.or.kr/main/main.jsp" target="_blank">
+                  <div class="projectLogo">
+                    <img
+                      src="/images/logo/kywa-logo.png"
+                      alt="KYWA 청소년활동진흥원"
+                    />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile 운영(유지 보수)을 담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">KYWA 청소년활동진흥원</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a
+                  href="https://www.lgtwins.com/service/html.ncd?view=/pc_twins/twins_main/twins_main"
+                  target="_blank"
+                >
+                  <div class="projectLogo">
+                    <img src="/images/logo/lgTwins-logo.png" alt="LG트윈스" />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile & App(Web View) 반응형 신규 페이지 구축 및
+                    운영(유지 보수)을 담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">LG트윈스</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a class="noLink" data-target="#restart">
+                  <div class="projectLogo">
+                    <img
+                      src="/images/logo/restart-logo.png"
+                      alt="Restart 민간청소년수련시설"
+                    />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile 반응형 전체 페이지 구축 및 운영(유지 보수)을
+                    담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">Restart 민간청소년수련시설</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a class="noLink" data-target="#datamarketplace">
+                  <div class="projectLogo">
+                    <img
+                      src="/images/logo/datamarketplace-logo.png"
+                      alt="Data Marketplace"
+                    />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">Web 신규 페이지 구축을 담당했습니다.</p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">Data Marketplace</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="http://www.sovargen.com/main" target="_blank">
+                  <div class="projectLogo">
+                    <img src="/images/logo/sovargen-logo.png" alt="Sovargen" />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile 전체 페이지 운영(유지 보수) 및 기능 개선을
+                    담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">Sovargen</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a
+                  href="https://www.jeju-utd.com/jejushop/main"
+                  target="_blank"
+                >
+                  <div class="projectLogo">
+                    <img
+                      src="/images/logo/jeju-logo.png"
+                      alt="제주유나이티드 FC"
+                    />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile & App(Web View) 반응형 전체 페이지 구축 및
+                    운영(유지 보수)을 담당했습니다.<br />
+                    <span>(메인, 마이페이지 제외)</span>
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">제주유나이티드 FC</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://www.jeju-utd.com/" target="_blank">
+                  <div class="projectLogo">
+                    <img
+                      src="/images/logo/jejuShop-logo.png"
+                      alt="제주유나이티드 FC 쇼핑몰"
+                    />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile & App(Web View) 반응형 전체 페이지 구축 및
+                    운영(유지 보수)을 담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">제주유나이티드 FC 쇼핑몰</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://udbs.unikorea.go.kr/" target="_blank">
+                  <div class="projectLogo">
+                    <img src="/images/logo/udbs-logo.png" alt="통일연구 DB" />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Main 페이지 리뉴얼 퍼블리싱을 담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">통일연구 DB</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a class="noLink" data-target="#lgAsset">
+                  <div class="projectLogo">
+                    <img
+                      src="/images/logo/lgAsset-logo.png"
+                      alt="LG자산관리시스템"
+                    />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    Web / Mobile 구축 프로젝트로 전체 페이지 퍼블리싱
+                    담당하였습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">LG자산관리시스템</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="/cocacola/index.html" target="_blank">
+                  <div class="projectLogo">
+                    <img src="/images/logo/cocacola-logo.png" alt="코카콜라" />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    신입 포트폴리오로 전체 페이지 퍼블리싱 및 디자인을
+                    작업했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">코카콜라</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- //inner -->
+        </section>
+        <!-- //project -->
+
+        <section id="contact" class="content">
+          <div class="inner">
+            <dl class="communication">
+              <dt
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                함께 일할 사람을 찾고 계신가요? : &#41;
+              </dt>
+              <dd
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <a href="mailto:shinhwiiron@gmail.com">shinhwiiron@gmail.com</a>
+              </dd>
+              <dd
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+                class="pc"
+              >
+                회신이 필요한 메일일 경우 반드시 이메일 주소를 정확하게
+                작성해주세요.
+              </dd>
+
+              <dd
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+                class="mobile"
+              >
+                메일주시면 빠른 시일 내에 답변드리겠습니다. 감사합니다.
+              </dd>
+            </dl>
+            <!-- //communication -->
+
+            <form id="contactForm">
+              <div class="contactWrap">
+                <div
+                  class="emailWrap"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="400"
+                >
+                  <label for="email">이메일</label>
+                  <input
+                    type="text"
+                    name="user_email"
+                    id="email"
+                    placeholder="이메일을 입력해주세요."
+                    autocomplete="off"
+                  />
+                </div>
+                <!-- //emailWrap -->
+
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="500"
+                >
+                  <div class="messageWrap">
+                    <label for="message">문의사항</label>
+                    <textarea
+                      name="message"
+                      id="message"
+                      placeholder="문의 내용을 입력해 주세요."
+                    ></textarea>
+                  </div>
+                  <!-- //messageWrap -->
+
+                  <button type="submit" class="submitBtn">문의하기</button>
+                </div>
+              </div>
+              <!-- //contactWrap -->
+            </form>
+          </div>
+          <!-- //inner -->
+
+          <span
+            class="snsId"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <a
+              href="http://qr.kakao.com/talk/eif3dZYqF5ozFlwTu2lmzs74.8U-"
+              target="_blank"
+              class="kakao"
+              >Kakao. shinhwichul</a
+            >
+            <a href="https://www.instagram.com/98.1106/" target="_blank"
+              >Instagram. 98.1106</a
+            > </span
+          ><!-- //snsId -->
+        </section>
+        <!-- //contact -->
+
+        <footer>
+          <p>Copyright 2024. hwiiron. All rights reserved</p>
+        </footer>
+      </main>
+    </div>
+    <!-- //container -->
+
+    <!-- 접근 불가 프로젝트 -->
+    <div class="popupBg" id="lgAsset">
+      <div class="popup">
+        <div class="head">
+          <button type="button" class="close red"></button>
+          <button type="button" class="close yellow"></button>
+          <button type="button" class="close green"></button>
+        </div>
+        <!-- //head -->
+
+        <div class="body">
+          <img src="/images/project/lgAsset/main.png" alt="LG자산관리시스템" />
+        </div>
+        <!-- //body -->
+      </div>
+      <!-- //popup -->
+    </div>
+    <!-- //popupBg -->
+
+    <div class="popupBg" id="datamarketplace">
+      <div class="popup">
+        <div class="head">
+          <button type="button" class="close red"></button>
+          <button type="button" class="close yellow"></button>
+          <button type="button" class="close green"></button>
+        </div>
+        <!-- //head -->
+
+        <div class="body">
+          <img
+            src="/images/project/datamarketplace/main.png"
+            alt="Data Marketplace"
+          />
+        </div>
+        <!-- //body -->
+      </div>
+      <!-- //popup -->
+    </div>
+    <!-- //popupBg -->
+
+    <div class="popupBg" id="restart">
+      <div class="popup">
+        <div class="head">
+          <button type="button" class="close red"></button>
+          <button type="button" class="close yellow"></button>
+          <button type="button" class="close green"></button>
+        </div>
+        <!-- //head -->
+
+        <div class="body">
+          <img
+            src="/images/project/restart/main.png"
+            alt="Restart 민간청소년수련시설"
+          />
+        </div>
+        <!-- //body -->
+      </div>
+      <!-- //popup -->
+    </div>
+    <!-- //popupBg -->
+  </body>
+
+  <!-- js -->
+  <script type="text/javascript" src="./js/main.js?v=20240821"></script>
 
   <!-- AOS -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-  <!-- typeIt -->
-  <script src="https://cdn.jsdelivr.net/npm/typeit@6.0.0/dist/typeit.min.js"></script>
-
-  <!-- EmailJS -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init({
-        publicKey: "vxg2lGJva8v1f_OVz",
-      });
-    })();
+  <script>
+    // AOS
+    AOS.init({
+      once: true,
+    });
   </script>
-</head>
-
-<body>
-  <!-- intro -->
-  <div class="intro">
-    <h2 id="typeIt"></h2>
-  </div>
-
-  <!-- <div> -->
-  <div id="container" class="hidden">
-    <header>
-      <div class="inner">
-        <h1>
-          <a href="/" id="hwiiron">hwiiron</a>
-        </h1>
-
-        <nav>
-          <ul>
-            <li>
-              <a href="#home" class="active">HOME</a>
-            </li>
-
-            <li>
-              <a href="#about">ABOUT ME</a>
-            </li>
-
-            <li>
-              <a href="#project">PROJECT</a>
-            </li>
-
-            <li>
-              <a href="#contact">CONTACT</a>
-            </li>
-          </ul>
-        </nav>
-      </div><!-- //inner -->
-
-      <div class="scroll-bg">
-        <div class="scroll-bar"></div>
-      </div><!-- //scroll-bg -->
-    </header>
-
-    <main>
-      <section id="home" class="content">
-        <div class="inner">
-          <h2 class="pc">
-            탄탄한 코드 위에 감각적인 디자인을 그리는 웹 퍼블리셔입니다.<br>
-            사용하기 쉬운 UI와 기억에 남는 UX를 위해 노력하며,<br>
-            오늘도 더 나은 웹 퍼블리싱을 향해 노력하고 있습니다.
-          </h2>
-
-          <h2 class="mobile">
-            코드 위에 감각적인 디자인을 그리고<br>
-            쉬운 UI와 기억에 남는 UX를 위해 노력하며,<br>
-            더 나은 퍼블리싱을 향해 노력하고 있습니다.
-          </h2>
-        </div><!-- //inner -->
-
-        <div class="cursor"></div>
-      </section><!-- //home -->
-
-      <section id="about" class="content">
-        <div class="inner">
-          <div class="profile">
-            <div class="profileImg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
-              <img src="/images/profileImg.jpg?v=20240821" alt="프로필 이미지">
-            </div><!-- //profileImg -->
-
-            <div class="profileInfo">
-              <h4 class="name" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">신휘철</h4>
-
-              <ul class="info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="450">
-                <li class="mail">
-                  <a href="mailto:shinhwiiron@gmail.com">shinhwiiron@gmail.com</a>
-                </li>
-                <li class="phone">
-                  <a href="tel:010-7773-7765">+82 1077737765</a>
-                </li>
-                <li class="birthYear">1998년생</li>
-              </ul><!-- //info -->
-
-              <p class="introduction" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                웹 표준을 준수하고 다양한 플랫폼과 브라우저에서 웹 사이트의 성능과 시각적 디자인을 최적화하는데 노력합니다.<br>
-                또한 팀내외에서 원활한 커뮤니케이션과 문제 해결 역량을 바탕으로 협력하며 변화하는 웹 환경에 대응하여 지속적으로 더 나은 웹을 만들기 위해
-                사용자 중심의 웹 경험을 제공하는 것을 목표로 하고 있습니다.
-              </p><!-- //introduction -->
-
-              <dl class="skill" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="550">
-                <dt>기술 스택 <span>(업무 툴 / 스킬)</span></dt>
-                <dd>
-                  <ul class="list pc">
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="html"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="css"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="javascript"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="jquery"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="photoshop"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="illustrator"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700" class="figma"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" class="vscode"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900" class="intelliJ"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" class="eclipse"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100" class="spring"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200" class="git"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300" class="github"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400" class="gitlab"></li>
-                  </ul><!-- //list -->
-
-                  <ul class="list mobile">
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="html"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="css"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="javascript"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="jquery"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="photoshop"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="illustrator"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="figma"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="vscode"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="intelliJ"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="eclipse"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="spring"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="git"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="github"></li>
-                    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" class="gitlab"></li>
-                  </ul><!-- //list -->
-                </dd>
-              </dl><!-- //skill -->
-
-              <dl class="career" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="650">
-                <dt>경력 <span>(업무경험)</span></dt>
-                <dd>
-                  <ul class="list" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-                    <li>
-                      <dl class="careerPeriod">
-                        <dt>2022.04 - 2024.07</dt>
-                        <dd>2년 3개월</dd>
-                      </dl><!-- //careerPeriod -->
-
-                      <div class="careerInfo">
-                        <dl class="company">
-                          <dt>크림하우스</dt>
-                          <!-- <dd>UI개발팀 / 주임</dd> -->
-                          <dd>UI개발팀 / Publisher</dd>
-                        </dl><!-- //company -->
-
-                        <ul class="workTxt">
-                          <li>웹 표준 및 웹 접근성 가이드라인을 준수하여 웹사이트의 품질과 접근성을 개선</li>
-                          <li>모바일 기기 및 다양한 화면 크기에 대응하여 반응형 웹사이트 제작</li>
-                          <li>기존 웹사이트의 일상적인 유지 보수를 수행하여 콘텐츠 업데이트, 버그 수정 등을 통해 웹사이트의 안정성을 유지</li>
-                          <li>최신 웹 퍼블리싱 도구 및 기술을 활용하여 웹사이트의 기능성과 시각적 요소를 개선</li>
-                        </ul><!-- //workTxt -->
-                      </div><!-- //careerInfo -->
-                    </li>
-                  </ul><!-- //list -->
-                </dd>
-              </dl><!-- //career -->
-
-              <div class="resume" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="650">
-                <a href="/PDF/portfolio.pdf?v=20240821" target="_blank">
-                  자세히보기
-                  <i class="arrow"></i>
-                </a>
-              </div><!-- //resume -->
-            </div><!-- profileInfo -->
-          </div><!-- //profile -->
-        </div><!-- //inner -->
-      </section><!-- //about -->
-
-      <section id="project" class="content">
-        <div class="inner">
-          <ul class="list">
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://www.sksports.net/sks_index.asp" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/skSports-logo.png" alt="SK Sports">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile 반응형 신규 페이지 구축, 운영(유지 보수) 및 기능 개선을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">SK Sports</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://www.sksports.net/Knights/main.asp" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/skKnight-logo.png" alt="SK나이츠">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile 반응형 신규 페이지 구축 및 운영(유지 보수)을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">SK나이츠</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://golf.sktelecom.com/" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/skGolf-logo.png" alt="SK텔레콤 오픈">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile 반응형 신규 페이지 구축 및 운영(유지 보수)을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">SK텔레콤 오픈</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://www.skroaming.com/" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/skRoaming-logo.png" alt="SKT로밍">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile 반응형 신규 페이지 구축 및 운영(유지 보수)을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">SKT로밍</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://www.rainbowyouth.or.kr/" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/rainbowyouth-logo.png" alt="이주배경청소년지원재단">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile 운영(유지 보수)을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">이주배경청소년지원재단</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://www.fcseoul.com/" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/fcSeoul-logo.png" alt="FC서울">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile & App(Web View) 반응형 신규 페이지 구축 및 운영(유지 보수)을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">FC서울</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://www.gsvolleyball.com/" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/gsVolleyball-logo.png" alt="GS칼텍스서울Kixx배구단">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile & App(Web View) 반응형 신규 페이지 구축 및 운영(유지 보수)을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">GS칼텍스서울Kixx배구단</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://devocean.sk.com/" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/devocean-logo.png" alt="DEVOCEAN">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile & App(Web View) 반응형 신규 페이지 구축 및 운영(유지 보수)을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">DEVOCEAN</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://www.kywa.or.kr/main/main.jsp" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/kywa-logo.png" alt="KYWA 청소년활동진흥원">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile 운영(유지 보수)을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">KYWA 청소년활동진흥원</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://www.lgtwins.com/service/html.ncd?view=/pc_twins/twins_main/twins_main" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/lgTwins-logo.png" alt="LG트윈스">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile & App(Web View) 반응형 신규 페이지 구축 및 운영(유지 보수)을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">LG트윈스</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a class="noLink" data-target="#restart">
-                <div class="projectLogo">
-                  <img src="/images/logo/restart-logo.png" alt="Restart 민간청소년수련시설">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile 반응형 전체 페이지 구축 및 운영(유지 보수)을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">Restart 민간청소년수련시설</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a class="noLink" data-target="#datamarketplace">
-                <div class="projectLogo">
-                  <img src="/images/logo/datamarketplace-logo.png" alt="Data Marketplace">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web 신규 페이지 구축을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">Data Marketplace</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="http://www.sovargen.com/main" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/sovargen-logo.png" alt="Sovargen">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile 전체 페이지 운영(유지 보수) 및 기능 개선을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">Sovargen</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://www.jeju-utd.com/jejushop/main" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/jeju-logo.png" alt="제주유나이티드 FC">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile & App(Web View) 반응형 전체 페이지 구축 및 운영(유지 보수)을 담당했습니다.<br>
-                  <span>(메인, 마이페이지 제외)</span>
-                </p><!-- //projectInfo -->
-
-                <span class="link">제주유나이티드 FC</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://www.jeju-utd.com/" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/jejuShop-logo.png" alt="제주유나이티드 FC 쇼핑몰">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile & App(Web View) 반응형 전체 페이지 구축 및 운영(유지 보수)을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">제주유나이티드 FC 쇼핑몰</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="https://udbs.unikorea.go.kr/" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/udbs-logo.png" alt="통일연구 DB">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Main 페이지 리뉴얼 퍼블리싱을 담당했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">통일연구 DB</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a class="noLink" data-target="#lgAsset">
-                <div class="projectLogo">
-                  <img src="/images/logo/lgAsset-logo.png" alt="LG자산관리시스템">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  Web / Mobile 구축 프로젝트로 전체 페이지 퍼블리싱 담당하였습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">LG자산관리시스템</span>
-              </a>
-            </li>
-
-            <li data-aos="fade-up" data-aos-duration="1000">
-              <a href="/cocacola/index.html" target="_blank">
-                <div class="projectLogo">
-                  <img src="/images/logo/cocacola-logo.png" alt="코카콜라">
-                </div><!-- //projectLogo -->
-
-                <p class="projecInfo">
-                  신입 포트폴리오로 전체 페이지 퍼블리싱 및 디자인을 작업했습니다.
-                </p><!-- //projectInfo -->
-
-                <span class="link">코카콜라</span>
-              </a>
-            </li>
-          </ul>
-        </div><!-- //inner -->
-      </section><!-- //project -->
-
-      <section id="contact" class="content">
-        <div class="inner">
-          <dl class="communication">
-            <dt data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">함께 일할 사람을 찾고 계신가요? : &#41;</dt>
-            <dd data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-              <a href="mailto:shinhwiiron@gmail.com">shinhwiiron@gmail.com</a>
-            </dd>
-            <dd data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="pc">회신이 필요한 메일일 경우 반드시 이메일 주소를 정확하게 작성해주세요.</dd>
-
-            <dd data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="mobile">메일주시면 빠른 시일 내에 답변드리겠습니다. 감사합니다.</dd>
-          </dl><!-- //communication -->
-
-          <form id="contactForm">
-            <div class="contactWrap">
-              <div class="emailWrap" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                <label for="email">이메일</label>
-                <input type="text" name="user_email" id="email" placeholder="이메일을 입력해주세요." autocomplete='off'>
-              </div><!-- //emailWrap -->
-
-              <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                <div class="messageWrap">
-                  <label for="message">문의사항</label>
-                  <textarea name="message" id="message" placeholder="문의 내용을 입력해 주세요."></textarea>
-                </div><!-- //messageWrap -->
-
-                <button type="submit" class="submitBtn">문의하기</button>
-              </div>
-            </div><!-- //contactWrap -->
-          </form>
-        </div><!-- //inner -->
-
-        <span class="snsId" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-          <a href="http://qr.kakao.com/talk/eif3dZYqF5ozFlwTu2lmzs74.8U-" target="_blank" class="kakao">Kakao. shinhwichul</a>
-          <a href="https://www.instagram.com/98.1106/" target="_blank">Instagram. 98.1106</a>
-        </span><!-- //snsId -->
-      </section><!-- //contact -->
-
-      <footer>
-        <p>Copyright 2024. hwiiron. All rights reserved</p>
-      </footer>
-    </main>
-  </div><!-- //container -->
-
-  <!-- 접근 불가 프로젝트 -->
-  <div class="popupBg" id="lgAsset">
-    <div class="popup">
-      <div class="head">
-        <button type="button" class="close red"></button>
-        <button type="button" class="close yellow"></button>
-        <button type="button" class="close green"></button>
-      </div><!-- //head -->
-
-      <div class="body">
-        <img src="/images/project/lgAsset/main.png" alt="LG자산관리시스템">
-      </div><!-- //body -->
-    </div><!-- //popup -->
-  </div><!-- //popupBg -->
-
-  <div class="popupBg" id="datamarketplace">
-    <div class="popup">
-      <div class="head">
-        <button type="button" class="close red"></button>
-        <button type="button" class="close yellow"></button>
-        <button type="button" class="close green"></button>
-      </div><!-- //head -->
-
-      <div class="body">
-        <img src="/images/project/datamarketplace/main.png" alt="Data Marketplace">
-      </div><!-- //body -->
-    </div><!-- //popup -->
-  </div><!-- //popupBg -->
-
-  <div class="popupBg" id="restart">
-    <div class="popup">
-      <div class="head">
-        <button type="button" class="close red"></button>
-        <button type="button" class="close yellow"></button>
-        <button type="button" class="close green"></button>
-      </div><!-- //head -->
-
-      <div class="body">
-        <img src="/images/project/restart/main.png" alt="Restart 민간청소년수련시설">
-      </div><!-- //body -->
-    </div><!-- //popup -->
-  </div><!-- //popupBg -->
-</body>
-
-<!-- js -->
-<script type="text/javascript" src="./js/main.js?v=20240821"></script>
-
-<!-- AOS -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script>
-  // AOS
-  AOS.init({
-    once: true
-  });
-</script>
+</html>
