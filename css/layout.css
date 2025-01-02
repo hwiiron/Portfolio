@@ -50,7 +50,7 @@ nav ul li a.active {
 
 section.content {
   width: 100%;
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 section.content .inner {
