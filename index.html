@@ -96,12 +96,12 @@
 
   <body>
     <!-- intro -->
-    <div class="intro">
+    <!-- <div class="intro">
       <h2 id="typeIt"></h2>
-    </div>
+    </div> -->
 
-    <!-- <div> -->
-    <div id="container" class="hidden">
+    <div>
+      <!-- <div id="container" class="hidden"> -->
       <header>
         <div class="inner">
           <h1>
@@ -140,15 +140,16 @@
         <section id="home" class="content">
           <div class="inner">
             <h2 class="pc">
-              탄탄한 코드 위에 감각적인 디자인을 그리는 웹 퍼블리셔입니다.<br />
+              탄탄한 코드 위에 감각적인 사용자 경험을 설계하는 프론트엔드
+              개발자입니다.<br />
               사용하기 쉬운 UI와 기억에 남는 UX를 위해 노력하며,<br />
-              오늘도 더 나은 웹 퍼블리싱을 향해 노력하고 있습니다.
+              오늘도 더 나은 웹 서비스를 향해 노력하고 있습니다.
             </h2>
 
             <h2 class="mobile">
               코드 위에 감각적인 디자인을 그리고<br />
               쉬운 UI와 기억에 남는 UX를 위해 노력하며,<br />
-              더 나은 퍼블리싱을 향해 노력하고 있습니다.
+              더 나은 웹 서비스를 향해 노력하고 있습니다.
             </h2>
           </div>
           <!-- //inner -->
@@ -253,60 +254,54 @@
                         data-aos="fade-up"
                         data-aos-duration="1000"
                         data-aos-delay="500"
-                        class="photoshop"
+                        class="react"
                       ></li>
                       <li
                         data-aos="fade-up"
                         data-aos-duration="1000"
                         data-aos-delay="600"
-                        class="illustrator"
+                        class="next"
                       ></li>
                       <li
                         data-aos="fade-up"
                         data-aos-duration="1000"
                         data-aos-delay="700"
-                        class="figma"
+                        class="typescript"
                       ></li>
                       <li
                         data-aos="fade-up"
                         data-aos-duration="1000"
                         data-aos-delay="800"
-                        class="vscode"
+                        class="photoshop"
                       ></li>
                       <li
                         data-aos="fade-up"
                         data-aos-duration="1000"
                         data-aos-delay="900"
-                        class="intelliJ"
+                        class="illustrator"
                       ></li>
                       <li
                         data-aos="fade-up"
                         data-aos-duration="1000"
                         data-aos-delay="1000"
-                        class="eclipse"
+                        class="figma"
                       ></li>
                       <li
                         data-aos="fade-up"
                         data-aos-duration="1000"
                         data-aos-delay="1100"
-                        class="spring"
-                      ></li>
-                      <li
-                        data-aos="fade-up"
-                        data-aos-duration="1000"
-                        data-aos-delay="1200"
                         class="git"
                       ></li>
                       <li
                         data-aos="fade-up"
                         data-aos-duration="1000"
-                        data-aos-delay="1300"
+                        data-aos-delay="1200"
                         class="github"
                       ></li>
                       <li
                         data-aos="fade-up"
                         data-aos-duration="1000"
-                        data-aos-delay="1400"
+                        data-aos-delay="1300"
                         class="gitlab"
                       ></li>
                     </ul>
@@ -336,6 +331,24 @@
                         data-aos-duration="1000"
                         data-aos-delay="100"
                         class="jquery"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="react"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="next"
+                      ></li>
+                      <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        class="typescript"
                       ></li>
                       <li
                         data-aos="fade-up"
@@ -435,7 +448,7 @@
                           <ul class="workTxt">
                             <li>
                               웹 표준 및 웹 접근성 가이드라인을 준수하여
-                              웹사이트의 품질과 접근성을 개선
+                              웹사이트의 품질과 <br class="pc" />접근성을 개선
                             </li>
                             <li>
                               모바일 기기 및 다양한 화면 크기에 대응하여 반응형
@@ -443,8 +456,8 @@
                             </li>
                             <li>
                               기존 웹사이트의 일상적인 유지 보수를 수행하여
-                              콘텐츠 업데이트, 버그 수정 등을 통해 웹사이트의
-                              안정성을 유지
+                              콘텐츠 업데이트, <br class="pc" />버그 수정 등을
+                              통해 웹사이트의 안정성을 유지
                             </li>
                             <li>
                               최신 웹 퍼블리싱 도구 및 기술을 활용하여
@@ -484,7 +497,16 @@
 
         <section id="project" class="content">
           <div class="inner">
-            <ul class="list">
+            <ul class="tab" data-aos="fade-up" data-aos-duration="1000">
+              <li>
+                <a class="tab-link active" data-tab="publisher">Publisher</a>
+              </li>
+              <li>
+                <a class="tab-link" data-tab="front-end">Front-End</a>
+              </li>
+            </ul>
+
+            <ul id="publisher" class="list">
               <li data-aos="fade-up" data-aos-duration="1000">
                 <a
                   href="https://www.sksports.net/sks_index.asp"
@@ -825,6 +847,46 @@
                   <!-- //projectInfo -->
 
                   <span class="link">코카콜라</span>
+                </a>
+              </li>
+            </ul>
+
+            <ul id="front-end" class="list" style="display: none">
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a
+                  href="https://team2-rolling-live.netlify.app/"
+                  target="_blank"
+                >
+                  <div class="projectLogo">
+                    <img src="./images/logo/taskify-logo.svg" alt="Taskify" />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    프로젝트 초기 세팅, CI/CD, 로그인/회원가입, Navbar, 스크롤
+                    애니메이션 등을 담당했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">Taskify</span>
+                </a>
+              </li>
+
+              <li data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://main-taskify.netlify.app/" target="_blank">
+                  <div class="projectLogo">
+                    <img src="./images/logo/rolling-logo.svg" alt="Rolling" />
+                  </div>
+                  <!-- //projectLogo -->
+
+                  <p class="projecInfo">
+                    롤링 페이퍼, 메시지 생성 페이지(POST 요청), 매시지 수정
+                    페이지(PATCH 요청), 로컬 스토리지를 활용한 다크모드 등을
+                    담담했습니다.
+                  </p>
+                  <!-- //projectInfo -->
+
+                  <span class="link">Rolling</span>
                 </a>
               </li>
             </ul>

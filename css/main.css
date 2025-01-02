@@ -184,6 +184,21 @@
   background-size: 100%;
 }
 
+#about .profile .profileInfo .skill .list li.react {
+  background: url("../images/skill/react.png") no-repeat;
+  background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.next {
+  background: url("../images/skill/next.js.png") no-repeat;
+  background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.typescript {
+  background: url("../images/skill/typescript.png") no-repeat;
+  background-size: 100%;
+}
+
 #about .profile .profileInfo .skill .list li.photoshop {
   background: url("../images/skill/adobephotoshop.png") no-repeat;
   background-size: 100%;
@@ -366,6 +381,29 @@
 
 #project .inner {
   padding-top: 50px;
+}
+
+#project .tab {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+#project .tab-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  color: gray;
+  cursor: pointer;
+}
+
+#project .tab-link.active {
+  border: 2px solid blue;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #3333ff;
 }
 
 #project .list {
@@ -826,6 +864,21 @@
 
   #project .inner {
     padding-top: 0;
+  }
+
+  #project .tab {
+    margin-bottom: 40px;
+  }
+
+  #project .tab-link {
+    width: 100px;
+    height: 40px;
+    font-size: 2.5vw;
+  }
+
+  #project .tab-link.active {
+    border: 2px solid blue;
+    border-radius: 6px;
   }
 
   #project .list li {
