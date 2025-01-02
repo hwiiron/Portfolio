@@ -385,25 +385,36 @@
 
 #project .tab {
   display: flex;
+  gap: 4px;
   margin-bottom: 40px;
 }
 
 #project .tab-link {
+  border: 2px solid #3333ff;
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 120px;
   height: 40px;
   font-size: 18px;
-  color: gray;
+  color: #3333ff;
   cursor: pointer;
 }
 
+#project .tab-link:hover {
+  border: 2px solid #3333ff;
+  color: #3333ff;
+  transition: 0.3s;
+}
+
 #project .tab-link.active {
-  border: 2px solid blue;
+  border: 2px solid #3333ff;
+  background: #3333ff;
   border-radius: 8px;
   font-weight: 500;
-  color: #3333ff;
+  color: #fff;
+  transition: 0.3s;
 }
 
 #project .list {
@@ -871,13 +882,15 @@
   }
 
   #project .tab-link {
-    width: 100px;
-    height: 40px;
+    border: 1px solid #3333ff;
+    border-radius: 6px;
+    width: 90px;
+    height: 35px;
     font-size: 2.5vw;
   }
 
   #project .tab-link.active {
-    border: 2px solid blue;
+    border: 1px solid #3333ff;
     border-radius: 6px;
   }
 
