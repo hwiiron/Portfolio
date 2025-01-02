@@ -108,6 +108,35 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// 프로젝트 Tab
+document.addEventListener("DOMContentLoaded", () => {
+  const tabLinks = document.querySelectorAll(".tab-link");
+  const tabs = document.querySelectorAll("#project .list");
+
+  tabLinks.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const targetTabId = link.getAttribute("data-tab");
+
+      tabLinks.forEach((tabLink) => {
+        tabLink.classList.remove("active");
+      });
+
+      link.classList.add("active");
+
+      tabs.forEach((tab) => {
+        tab.style.display = "none";
+      });
+
+      // Show the selected tab
+      const targetTab = document.getElementById(targetTabId);
+      if (targetTab) {
+        targetTab.style.display = "flex";
+      }
+    });
+  });
+});
+
 // project data-aos-delay
 window.addEventListener("resize", function () {
   var listItem = document.querySelectorAll("#project .list li");
@@ -163,58 +192,58 @@ $(window).on("scroll", function () {
 });
 
 // EmailJS
-window.onload = function () {
-  var contactForm = document.getElementById("contactForm");
-  var emailInput = document.getElementById("email");
-  var messageInput = document.getElementById("message");
-  var submitButton = contactForm.querySelector('button[type="submit"]');
+// window.onload = function () {
+//   var contactForm = document.getElementById("contactForm");
+//   var emailInput = document.getElementById("email");
+//   var messageInput = document.getElementById("message");
+//   var submitButton = contactForm.querySelector('button[type="submit"]');
 
-  function checkInputs() {
-    var userEmail = emailInput.value.trim();
-    var message = messageInput.value.trim();
+//   function checkInputs() {
+//     var userEmail = emailInput.value.trim();
+//     var message = messageInput.value.trim();
 
-    if (userEmail !== "" && message !== "") {
-      submitButton.classList.add("on");
-    } else {
-      submitButton.classList.remove("on");
-    }
-  }
+//     if (userEmail !== "" && message !== "") {
+//       submitButton.classList.add("on");
+//     } else {
+//       submitButton.classList.remove("on");
+//     }
+//   }
 
-  emailInput.addEventListener("input", checkInputs);
-  messageInput.addEventListener("input", checkInputs);
+//   emailInput.addEventListener("input", checkInputs);
+//   messageInput.addEventListener("input", checkInputs);
 
-  contactForm.addEventListener("submit", function (event) {
-    event.preventDefault();
+//   contactForm.addEventListener("submit", function (event) {
+//     event.preventDefault();
 
-    var userEmail = emailInput.value.trim();
-    var message = messageInput.value.trim();
+//     var userEmail = emailInput.value.trim();
+//     var message = messageInput.value.trim();
 
-    if (userEmail === "") {
-      alert("이메일을 입력해주세요.");
-      emailInput.focus();
-      return;
-    }
+//     if (userEmail === "") {
+//       alert("이메일을 입력해주세요.");
+//       emailInput.focus();
+//       return;
+//     }
 
-    if (message === "") {
-      alert("문의 내용을 입력해주세요.");
-      messageInput.focus();
-      return;
-    }
+//     if (message === "") {
+//       alert("문의 내용을 입력해주세요.");
+//       messageInput.focus();
+//       return;
+//     }
 
-    emailjs
-      .sendForm("shinhwiiron", "template_si4igcg", this)
-      .then(() => {
-        console.log("SUCCESS!");
-        alert("빠른 시일 내에 답변드리겠습니다. 감사합니다.");
-        emailInput.value = "";
-        messageInput.value = "";
-        submitButton.classList.remove("on");
-      })
-      .catch((error) => {
-        console.log("FAILED...", error);
-      });
-  });
-};
+//     emailjs
+//       .sendForm("shinhwiiron", "template_si4igcg", this)
+//       .then(() => {
+//         console.log("SUCCESS!");
+//         alert("빠른 시일 내에 답변드리겠습니다. 감사합니다.");
+//         emailInput.value = "";
+//         messageInput.value = "";
+//         submitButton.classList.remove("on");
+//       })
+//       .catch((error) => {
+//         console.log("FAILED...", error);
+//       });
+//   });
+// };
 
 // popup
 $(".noLink").click(function (event) {
@@ -269,32 +298,3 @@ $(".popup .close, .popupBg").click(function (event) {
 //     alert("PC로 접속해주세요.");
 //     window.close();
 // }
-
-// 프로젝트 Tab
-document.addEventListener("DOMContentLoaded", () => {
-  const tabLinks = document.querySelectorAll(".tab-link");
-  const tabs = document.querySelectorAll("#project .list");
-
-  tabLinks.forEach((link) => {
-    link.addEventListener("click", (event) => {
-      event.preventDefault();
-      const targetTabId = link.getAttribute("data-tab");
-
-      tabLinks.forEach((tabLink) => {
-        tabLink.classList.remove("active");
-      });
-
-      link.classList.add("active");
-
-      tabs.forEach((tab) => {
-        tab.style.display = "none";
-      });
-
-      // Show the selected tab
-      const targetTab = document.getElementById(targetTabId);
-      if (targetTab) {
-        targetTab.style.display = "flex";
-      }
-    });
-  });
-});

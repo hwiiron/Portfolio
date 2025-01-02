@@ -522,20 +522,25 @@
 #contact .snsId::before {
   content: "";
   display: inline-block;
-  width: 287px;
+  width: 145px;
   height: 1px;
   background: #cfdeff;
   position: absolute;
   top: 9px;
-  left: -285px;
+  left: -147px;
 }
 
 #contact .snsId a {
   color: #cfdeff;
+  transition: 0.3s;
+}
+
+#contact .snsId a:hover {
+  color: #3333ff;
 }
 
 #contact .snsId a + a {
-  margin-left: 20px;
+  margin-left: 12px;
 }
 
 #contact .inner {

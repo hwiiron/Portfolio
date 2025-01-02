@@ -21,36 +21,36 @@ header h1 a {
   font-family: "Micro 5", sans-serif;
   font-size: 50px;
   font-weight: 400;
-  color: #CFDEFF;
-  transition: all .3s;
+  color: #cfdeff;
+  transition: all 0.3s;
 }
 
 header h1 a.on {
   color: #3333ff;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 nav ul {
   display: flex;
 }
 
-nav ul li+li {
+nav ul li + li {
   margin-left: 25px;
 }
 
 nav ul li a {
-  color: #CFDEFF;
+  color: #cfdeff;
 }
 
 nav ul li a.active {
   font-weight: 500;
   color: #3333ff;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 section.content {
   width: 100%;
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 section.content .inner {
@@ -67,7 +67,7 @@ footer {
 
 footer p {
   font-size: 13px;
-  color: #AEAEAE;
+  color: #aeaeae;
 }
 
 /* popup */
@@ -92,16 +92,11 @@ footer p {
   transform: translate(-50%, -50%);
   overflow: hidden;
 
-  box-shadow: 0 0px 1.2px rgba(0, 0, 0, 0.021),
-    0 0px 2.7px rgba(0, 0, 0, 0.031),
-    0 0px 4.6px rgba(0, 0, 0, 0.038),
-    0 0px 6.9px rgba(0, 0, 0, 0.044),
-    0 0px 10px rgba(0, 0, 0, 0.05),
-    0 0px 14.2px rgba(0, 0, 0, 0.056),
-    0 0px 20.1px rgba(0, 0, 0, 0.062),
-    0 0px 29.2px rgba(0, 0, 0, 0.069),
-    0 0px 45px rgba(0, 0, 0, 0.079),
-    0 0px 80px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 1.2px rgba(0, 0, 0, 0.021), 0 0px 2.7px rgba(0, 0, 0, 0.031),
+    0 0px 4.6px rgba(0, 0, 0, 0.038), 0 0px 6.9px rgba(0, 0, 0, 0.044),
+    0 0px 10px rgba(0, 0, 0, 0.05), 0 0px 14.2px rgba(0, 0, 0, 0.056),
+    0 0px 20.1px rgba(0, 0, 0, 0.062), 0 0px 29.2px rgba(0, 0, 0, 0.069),
+    0 0px 45px rgba(0, 0, 0, 0.079), 0 0px 80px rgba(0, 0, 0, 0.1);
 }
 
 .popupBg .popup .head {
@@ -116,7 +111,7 @@ footer p {
   border-radius: 100%;
 }
 
-.popupBg .popup .head button+button {
+.popupBg .popup .head button + button {
   margin-left: 8px;
 }
 
@@ -147,15 +142,13 @@ footer p {
 }
 
 .popupBg .popup .body::-webkit-scrollbar-thumb {
-  background: #D3D3D3;
+  background: #d3d3d3;
   border-radius: 50px;
 }
 
 .mobile {
   display: none !important;
 }
-
-
 
 @media only screen and (max-width: 640px) {
   .inner {
