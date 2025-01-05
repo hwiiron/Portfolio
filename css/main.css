@@ -19,6 +19,7 @@
 #contact {
   height: auto;
   position: relative;
+  padding-bottom: 100px;
 }
 
 #home h2 {
@@ -952,7 +953,7 @@
 
   #contact {
     height: 65vw;
-    padding-top: 0;
+    padding: 0;
   }
 
   #contact .inner {
