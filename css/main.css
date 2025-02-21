@@ -157,7 +157,8 @@
 
 #about .profile .profileInfo .skill .list {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 18px;
 }
 
 #about .profile .profileInfo .skill .list li {
@@ -247,6 +248,26 @@
 
 #about .profile .profileInfo .skill .list li.gitlab {
   background: url("../images/skill/gitlab.png") no-repeat;
+  background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.reactquery {
+  background: url("../images/skill/reactquery.png") no-repeat;
+  background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.styledComponents {
+  background: url("../images/skill/styledComponents.png") no-repeat;
+  background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.storybook {
+  background: url("../images/skill/storybook.png") no-repeat;
+  background-size: 100%;
+}
+
+#about .profile .profileInfo .skill .list li.tailwind {
+  background: url("../images/skill/tailwind.png") no-repeat;
   background-size: 100%;
 }
 
@@ -780,6 +801,7 @@
     display: flex !important;
     justify-content: flex-start;
     flex-wrap: wrap;
+    gap: 0;
   }
 
   #about .profile .profileInfo .skill .list li {
@@ -791,7 +813,8 @@
     margin-left: 3.9vw;
   }
 
-  #about .profile .profileInfo .skill .list li:nth-child(11) {
+  #about .profile .profileInfo .skill .list li:nth-child(11),
+  #about .profile .profileInfo .skill .list li:nth-child(21) {
     margin-left: 0;
   }
 
